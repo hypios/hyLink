@@ -11,4 +11,4 @@ ML=$(MISC_SRC)
 
 all: byte
 
-include ../../Makefile.rules
+include ../../../Makefile.rules

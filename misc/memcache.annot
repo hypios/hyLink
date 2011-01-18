@@ -1,0 +1,1924 @@
+"memcache.ml" 26 851 855 "memcache.ml" 26 851 860
+type(
+  'a Lwt.t -> ('a -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  def >>= "memcache.ml" 27 872 872 --
+)
+"memcache.ml" 26 851 863 "memcache.ml" 26 851 871
+type(
+  'a Lwt.t -> ('a -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.bind
+)
+"memcache.ml" 27 872 876 "memcache.ml" 27 872 882
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  def return "memcache.ml" 29 897 897 --
+)
+"memcache.ml" 27 872 885 "memcache.ml" 27 872 895
+type(
+  'a -> 'a Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"memcache.ml" 30 951 987 "memcache.ml" 30 951 991
+type(
+  'a -> int
+)
+ident(
+  def hash "memcache.ml" 31 1007 1039 "memcache.ml" 32 1056 1084
+)
+"memcache.ml" 30 951 994 "memcache.ml" 30 951 1006
+type(
+  'a -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"memcache.ml" 31 1007 1043 "memcache.ml" 31 1007 1048
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def equal "memcache.ml" 31 1007 1055 "memcache.ml" 32 1056 1084
+)
+"memcache.ml" 31 1007 1051 "memcache.ml" 31 1007 1055
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"memcache.ml" 29 897 912 "memcache.ml" 32 1056 1085
+call(
+  stack
+)
+"memcache.ml" 34 1087 1091 "memcache.ml" 34 1087 1100
+type(
+  Weak.t
+)
+ident(
+  def clear_all "memcache.ml" 44 1229 1229 --
+)
+"memcache.ml" 34 1087 1103 "memcache.ml" 34 1087 1114
+type(
+  int -> Weak.t
+)
+ident(
+  ext_ref Weak.create
+)
+"memcache.ml" 34 1087 1115 "memcache.ml" 34 1087 1117
+type(
+  int
+)
+"memcache.ml" 34 1087 1103 "memcache.ml" 34 1087 1117
+call(
+  stack
+)
+type(
+  Weak.t
+)
+"memcache.ml" 54 1685 1691 "memcache.ml" 54 1685 1702
+type(
+  ('a, 'b) cache -> unit
+)
+ident(
+  def cache_clear "memcache.ml" 59 1847 1849 --
+)
+"memcache.ml" 54 1685 1703 "memcache.ml" 54 1685 1708
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 55 1711 1715 "memcache.ml" 57 1807 1845
+)
+"memcache.ml" 55 1711 1719 "memcache.ml" 55 1711 1723
+type(
+  int
+)
+"memcache.ml" 55 1711 1726 "memcache.ml" 55 1711 1739
+type(
+  'a DList.t -> int
+)
+ident(
+  ext_ref DList.maxsize
+)
+"memcache.ml" 55 1711 1740 "memcache.ml" 55 1711 1745
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 54 1685 1703 "memcache.ml" 54 1685 1708
+)
+"memcache.ml" 55 1711 1740 "memcache.ml" 55 1711 1754
+type(
+  'a DList.t
+)
+"memcache.ml" 55 1711 1726 "memcache.ml" 55 1711 1754
+call(
+  stack
+)
+type(
+  int
+)
+"memcache.ml" 56 1758 1762 "memcache.ml" 56 1758 1767
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 54 1685 1703 "memcache.ml" 54 1685 1708
+)
+"memcache.ml" 56 1758 1780 "memcache.ml" 56 1758 1800
+type(
+  int -> 'a DList.t
+)
+ident(
+  ext_ref DList.create_bounded
+)
+"memcache.ml" 56 1758 1801 "memcache.ml" 56 1758 1805
+type(
+  int
+)
+ident(
+  int_ref size "memcache.ml" 55 1711 1719 "memcache.ml" 55 1711 1723
+)
+"memcache.ml" 56 1758 1780 "memcache.ml" 56 1758 1805
+call(
+  stack
+)
+type(
+  'a DList.t
+)
+"memcache.ml" 56 1758 1762 "memcache.ml" 56 1758 1805
+type(
+  unit
+)
+"memcache.ml" 57 1807 1811 "memcache.ml" 57 1807 1816
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 54 1685 1703 "memcache.ml" 54 1685 1708
+)
+"memcache.ml" 57 1807 1826 "memcache.ml" 57 1807 1840
+type(
+  int -> ('a, 'b * 'a DList.node) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"memcache.ml" 57 1807 1841 "memcache.ml" 57 1807 1845
+type(
+  int
+)
+ident(
+  int_ref size "memcache.ml" 55 1711 1719 "memcache.ml" 55 1711 1723
+)
+"memcache.ml" 57 1807 1826 "memcache.ml" 57 1807 1845
+call(
+  stack
+)
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 57 1807 1811 "memcache.ml" 57 1807 1845
+type(
+  unit
+)
+"memcache.ml" 56 1758 1762 "memcache.ml" 57 1807 1845
+type(
+  unit
+)
+"memcache.ml" 55 1711 1715 "memcache.ml" 57 1807 1845
+type(
+  unit
+)
+"memcache.ml" 54 1685 1703 "memcache.ml" 57 1807 1845
+type(
+  ('a, 'b) cache -> unit
+)
+"memcache.ml" 59 1847 1853 "memcache.ml" 59 1847 1865
+type(
+  int -> ('a -> 'b Lwt.t) -> ('a, 'b) cache
+)
+ident(
+  def cache_create "memcache.ml" 71 2196 2198 --
+)
+"memcache.ml" 59 1847 1866 "memcache.ml" 59 1847 1870
+type(
+  int
+)
+ident(
+  def size "memcache.ml" 59 1847 1871 "memcache.ml" 68 2164 2173
+)
+"memcache.ml" 59 1847 1871 "memcache.ml" 59 1847 1872
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  def f "memcache.ml" 60 1875 1879 "memcache.ml" 68 2164 2173
+)
+"memcache.ml" 60 1875 1887 "memcache.ml" 60 1875 1892
+type(
+  ('a, 'b) cache
+)
+"memcache.ml" 60 1875 1907 "memcache.ml" 60 1875 1927
+type(
+  int -> 'a DList.t
+)
+ident(
+  ext_ref DList.create_bounded
+)
+"memcache.ml" 60 1875 1928 "memcache.ml" 60 1875 1932
+type(
+  int
+)
+ident(
+  int_ref size "memcache.ml" 59 1847 1866 "memcache.ml" 59 1847 1870
+)
+"memcache.ml" 60 1875 1907 "memcache.ml" 60 1875 1932
+call(
+  stack
+)
+type(
+  'a DList.t
+)
+"memcache.ml" 61 1934 1963 "memcache.ml" 61 1934 1977
+type(
+  int -> ('a, 'b * 'a DList.node) Hashtbl.t
+)
+ident(
+  ext_ref Hashtbl.create
+)
+"memcache.ml" 61 1934 1978 "memcache.ml" 61 1934 1982
+type(
+  int
+)
+ident(
+  int_ref size "memcache.ml" 59 1847 1866 "memcache.ml" 59 1847 1870
+)
+"memcache.ml" 61 1934 1963 "memcache.ml" 61 1934 1982
+call(
+  stack
+)
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 62 1984 2014 "memcache.ml" 62 1984 2015
+type(
+  'a -> 'b Lwt.t
+)
+ident(
+  int_ref f "memcache.ml" 59 1847 1871 "memcache.ml" 59 1847 1872
+)
+"memcache.ml" 63 2017 2046 "memcache.ml" 63 2017 2053
+type(
+  unit -> unit
+)
+ident(
+  int_ref f_clear "memcache.ml" 65 2077 2085 "memcache.ml" 65 2077 2092
+)
+"memcache.ml" 60 1875 1895 "memcache.ml" 64 2055 2076
+type(
+  ('a, 'b) cache
+)
+"memcache.ml" 65 2077 2085 "memcache.ml" 65 2077 2092
+type(
+  unit -> unit
+)
+"memcache.ml" 65 2077 2100 "memcache.ml" 65 2077 2102
+type(
+  unit
+)
+"memcache.ml" 65 2077 2106 "memcache.ml" 65 2077 2117
+type(
+  ('a, 'b) cache -> unit
+)
+ident(
+  int_ref cache_clear "memcache.ml" 54 1685 1691 "memcache.ml" 54 1685 1702
+)
+"memcache.ml" 65 2077 2118 "memcache.ml" 65 2077 2123
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 60 1875 1887 "memcache.ml" 60 1875 1892
+)
+"memcache.ml" 65 2077 2106 "memcache.ml" 65 2077 2123
+call(
+  tail
+)
+type(
+  unit
+)
+"memcache.ml" 65 2077 2100 "memcache.ml" 65 2077 2123
+type(
+  unit -> unit
+)
+"memcache.ml" 67 2132 2136 "memcache.ml" 67 2132 2144
+type(
+  Weak.t -> Weak.data -> unit
+)
+ident(
+  ext_ref Weak.add
+)
+"memcache.ml" 67 2132 2145 "memcache.ml" 67 2132 2154
+type(
+  Weak.t
+)
+ident(
+  int_ref clear_all "memcache.ml" 34 1087 1091 "memcache.ml" 34 1087 1100
+)
+"memcache.ml" 67 2132 2155 "memcache.ml" 67 2132 2162
+type(
+  Weak.data
+)
+ident(
+  int_ref f_clear "memcache.ml" 65 2077 2085 "memcache.ml" 65 2077 2092
+)
+"memcache.ml" 67 2132 2136 "memcache.ml" 67 2132 2162
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 68 2164 2168 "memcache.ml" 68 2164 2173
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 60 1875 1887 "memcache.ml" 60 1875 1892
+)
+"memcache.ml" 67 2132 2136 "memcache.ml" 68 2164 2173
+type(
+  ('a, 'b) cache
+)
+"memcache.ml" 60 1875 1879 "memcache.ml" 68 2164 2173
+type(
+  ('a, 'b) cache
+)
+"memcache.ml" 59 1847 1871 "memcache.ml" 68 2164 2173
+type(
+  ('a -> 'b Lwt.t) -> ('a, 'b) cache
+)
+"memcache.ml" 59 1847 1866 "memcache.ml" 68 2164 2173
+type(
+  int -> ('a -> 'b Lwt.t) -> ('a, 'b) cache
+)
+"memcache.ml" 71 2196 2202 "memcache.ml" 71 2196 2206
+type(
+  ('a, 'b) cache -> 'a DList.node -> unit
+)
+ident(
+  def poke "memcache.ml" 76 2345 2347 --
+)
+"memcache.ml" 71 2196 2207 "memcache.ml" 71 2196 2212
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 71 2196 2213 "memcache.ml" 74 2326 2343
+)
+"memcache.ml" 71 2196 2213 "memcache.ml" 71 2196 2217
+type(
+  'a DList.node
+)
+ident(
+  def node "memcache.ml" 72 2220 2224 "memcache.ml" 74 2326 2343
+)
+"memcache.ml" 72 2220 2238 "memcache.ml" 72 2220 2251
+type(
+  'a DList.node -> 'a DList.t option
+)
+ident(
+  ext_ref DList.list_of
+)
+"memcache.ml" 72 2220 2252 "memcache.ml" 72 2220 2256
+type(
+  'a DList.node
+)
+ident(
+  int_ref node "memcache.ml" 71 2196 2213 "memcache.ml" 71 2196 2217
+)
+"memcache.ml" 72 2220 2238 "memcache.ml" 72 2220 2256
+call(
+  stack
+)
+type(
+  'a DList.t option
+)
+"memcache.ml" 73 2262 2278 "memcache.ml" 73 2262 2282
+type(
+  'a DList.t option
+)
+"memcache.ml" 73 2262 2286 "memcache.ml" 73 2262 2291
+type(
+  bool
+)
+"memcache.ml" 73 2262 2299 "memcache.ml" 73 2262 2300
+type(
+  'a DList.t
+)
+ident(
+  def l "memcache.ml" 73 2262 2304 "memcache.ml" 73 2262 2323
+)
+"memcache.ml" 73 2262 2294 "memcache.ml" 73 2262 2300
+type(
+  'a DList.t option
+)
+"memcache.ml" 73 2262 2304 "memcache.ml" 73 2262 2309
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 71 2196 2207 "memcache.ml" 71 2196 2212
+)
+"memcache.ml" 73 2262 2304 "memcache.ml" 73 2262 2318
+type(
+  'a DList.t
+)
+"memcache.ml" 73 2262 2319 "memcache.ml" 73 2262 2321
+type(
+  'a DList.t -> 'a DList.t -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"memcache.ml" 73 2262 2322 "memcache.ml" 73 2262 2323
+type(
+  'a DList.t
+)
+ident(
+  int_ref l "memcache.ml" 73 2262 2299 "memcache.ml" 73 2262 2300
+)
+"memcache.ml" 73 2262 2304 "memcache.ml" 73 2262 2323
+type(
+  bool
+)
+"memcache.ml" 72 2220 2232 "memcache.ml" 73 2262 2323
+type(
+  bool
+)
+"memcache.ml" 72 2220 2224 "memcache.ml" 73 2262 2324
+type(
+  unit
+)
+"memcache.ml" 74 2326 2330 "memcache.ml" 74 2326 2338
+type(
+  'a DList.node -> unit
+)
+ident(
+  ext_ref DList.up
+)
+"memcache.ml" 74 2326 2339 "memcache.ml" 74 2326 2343
+type(
+  'a DList.node
+)
+ident(
+  int_ref node "memcache.ml" 71 2196 2213 "memcache.ml" 71 2196 2217
+)
+"memcache.ml" 74 2326 2330 "memcache.ml" 74 2326 2343
+call(
+  tail
+)
+type(
+  unit
+)
+"memcache.ml" 72 2220 2224 "memcache.ml" 74 2326 2343
+type(
+  unit
+)
+"memcache.ml" 71 2196 2213 "memcache.ml" 74 2326 2343
+type(
+  'a DList.node -> unit
+)
+"memcache.ml" 71 2196 2207 "memcache.ml" 74 2326 2343
+type(
+  ('a, 'b) cache -> 'a DList.node -> unit
+)
+"memcache.ml" 76 2345 2351 "memcache.ml" 76 2345 2364
+type(
+  ('a, 'b) cache -> 'a -> 'b
+)
+ident(
+  def find_in_cache "memcache.ml" 81 2453 2455 --
+)
+"memcache.ml" 76 2345 2365 "memcache.ml" 76 2345 2370
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 76 2345 2371 "memcache.ml" 79 2446 2451
+)
+"memcache.ml" 76 2345 2371 "memcache.ml" 76 2345 2372
+type(
+  'a
+)
+ident(
+  def k "memcache.ml" 77 2375 2379 "memcache.ml" 79 2446 2451
+)
+"memcache.ml" 77 2375 2384 "memcache.ml" 77 2375 2385
+type(
+  'b
+)
+"memcache.ml" 77 2375 2387 "memcache.ml" 77 2375 2391
+type(
+  'a DList.node
+)
+"memcache.ml" 77 2375 2384 "memcache.ml" 77 2375 2391
+type(
+  'b * 'a DList.node
+)
+"memcache.ml" 77 2375 2395 "memcache.ml" 77 2375 2407
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t -> 'a -> 'b * 'a DList.node
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"memcache.ml" 77 2375 2408 "memcache.ml" 77 2375 2413
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 76 2345 2365 "memcache.ml" 76 2345 2370
+)
+"memcache.ml" 77 2375 2408 "memcache.ml" 77 2375 2419
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 77 2375 2420 "memcache.ml" 77 2375 2421
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 76 2345 2371 "memcache.ml" 76 2345 2372
+)
+"memcache.ml" 77 2375 2395 "memcache.ml" 77 2375 2421
+call(
+  stack
+)
+type(
+  'b * 'a DList.node
+)
+"memcache.ml" 78 2425 2429 "memcache.ml" 78 2425 2433
+type(
+  ('a, 'b) cache -> 'a DList.node -> unit
+)
+ident(
+  int_ref poke "memcache.ml" 71 2196 2202 "memcache.ml" 71 2196 2206
+)
+"memcache.ml" 78 2425 2434 "memcache.ml" 78 2425 2439
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 76 2345 2365 "memcache.ml" 76 2345 2370
+)
+"memcache.ml" 78 2425 2440 "memcache.ml" 78 2425 2444
+type(
+  'a DList.node
+)
+ident(
+  int_ref node "memcache.ml" 77 2375 2387 "memcache.ml" 77 2375 2391
+)
+"memcache.ml" 78 2425 2429 "memcache.ml" 78 2425 2444
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 79 2446 2450 "memcache.ml" 79 2446 2451
+type(
+  'b
+)
+ident(
+  int_ref v "memcache.ml" 77 2375 2384 "memcache.ml" 77 2375 2385
+)
+"memcache.ml" 78 2425 2429 "memcache.ml" 79 2446 2451
+type(
+  'b
+)
+"memcache.ml" 77 2375 2379 "memcache.ml" 79 2446 2451
+type(
+  'b
+)
+"memcache.ml" 76 2345 2371 "memcache.ml" 79 2446 2451
+type(
+  'a -> 'b
+)
+"memcache.ml" 76 2345 2365 "memcache.ml" 79 2446 2451
+type(
+  ('a, 'b) cache -> 'a -> 'b
+)
+"memcache.ml" 81 2453 2459 "memcache.ml" 81 2453 2471
+type(
+  ('a, 'b) cache -> 'a -> unit
+)
+ident(
+  def cache_remove "memcache.ml" 92 2832 2834 --
+)
+"memcache.ml" 81 2453 2472 "memcache.ml" 81 2453 2477
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 81 2453 2478 "memcache.ml" 88 2713 2737
+)
+"memcache.ml" 81 2453 2478 "memcache.ml" 81 2453 2479
+type(
+  'a
+)
+ident(
+  def k "memcache.ml" 82 2482 2486 "memcache.ml" 88 2713 2737
+)
+"memcache.ml" 83 2490 2501 "memcache.ml" 83 2490 2503
+type(
+  'b
+)
+ident(
+  def _v "memcache.ml" 84 2543 2549 "memcache.ml" 87 2689 2712
+)
+"memcache.ml" 83 2490 2505 "memcache.ml" 83 2490 2509
+type(
+  'a DList.node
+)
+ident(
+  def node "memcache.ml" 84 2543 2549 "memcache.ml" 87 2689 2712
+)
+"memcache.ml" 83 2490 2501 "memcache.ml" 83 2490 2509
+type(
+  'b * 'a DList.node
+)
+"memcache.ml" 83 2490 2513 "memcache.ml" 83 2490 2525
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t -> 'a -> 'b * 'a DList.node
+)
+ident(
+  ext_ref Hashtbl.find
+)
+"memcache.ml" 83 2490 2526 "memcache.ml" 83 2490 2531
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 81 2453 2472 "memcache.ml" 81 2453 2477
+)
+"memcache.ml" 83 2490 2526 "memcache.ml" 83 2490 2537
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 83 2490 2538 "memcache.ml" 83 2490 2539
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 81 2453 2478 "memcache.ml" 81 2453 2479
+)
+"memcache.ml" 83 2490 2513 "memcache.ml" 83 2490 2539
+call(
+  stack
+)
+type(
+  'b * 'a DList.node
+)
+"memcache.ml" 84 2543 2549 "memcache.ml" 84 2543 2563
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"memcache.ml" 84 2543 2564 "memcache.ml" 84 2543 2569
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 81 2453 2472 "memcache.ml" 81 2453 2477
+)
+"memcache.ml" 84 2543 2564 "memcache.ml" 84 2543 2575
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 84 2543 2576 "memcache.ml" 84 2543 2577
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 81 2453 2478 "memcache.ml" 81 2453 2479
+)
+"memcache.ml" 84 2543 2549 "memcache.ml" 84 2543 2577
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 85 2579 2599 "memcache.ml" 85 2579 2612
+type(
+  'a DList.node -> 'a DList.t option
+)
+ident(
+  ext_ref DList.list_of
+)
+"memcache.ml" 85 2579 2613 "memcache.ml" 85 2579 2617
+type(
+  'a DList.node
+)
+ident(
+  int_ref node "memcache.ml" 83 2490 2505 "memcache.ml" 83 2490 2509
+)
+"memcache.ml" 85 2579 2599 "memcache.ml" 85 2579 2617
+call(
+  stack
+)
+type(
+  'a DList.t option
+)
+"memcache.ml" 86 2623 2641 "memcache.ml" 86 2623 2645
+type(
+  'a DList.t option
+)
+"memcache.ml" 86 2623 2649 "memcache.ml" 86 2623 2654
+type(
+  bool
+)
+"memcache.ml" 86 2623 2662 "memcache.ml" 86 2623 2663
+type(
+  'a DList.t
+)
+ident(
+  def l "memcache.ml" 86 2623 2667 "memcache.ml" 86 2623 2686
+)
+"memcache.ml" 86 2623 2657 "memcache.ml" 86 2623 2663
+type(
+  'a DList.t option
+)
+"memcache.ml" 86 2623 2667 "memcache.ml" 86 2623 2672
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 81 2453 2472 "memcache.ml" 81 2453 2477
+)
+"memcache.ml" 86 2623 2667 "memcache.ml" 86 2623 2681
+type(
+  'a DList.t
+)
+"memcache.ml" 86 2623 2682 "memcache.ml" 86 2623 2684
+type(
+  'a DList.t -> 'a DList.t -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"memcache.ml" 86 2623 2685 "memcache.ml" 86 2623 2686
+type(
+  'a DList.t
+)
+ident(
+  int_ref l "memcache.ml" 86 2623 2662 "memcache.ml" 86 2623 2663
+)
+"memcache.ml" 86 2623 2667 "memcache.ml" 86 2623 2686
+type(
+  bool
+)
+"memcache.ml" 85 2579 2593 "memcache.ml" 86 2623 2686
+type(
+  bool
+)
+"memcache.ml" 85 2579 2585 "memcache.ml" 86 2623 2687
+type(
+  unit
+)
+"memcache.ml" 87 2689 2695 "memcache.ml" 87 2689 2707
+type(
+  'a DList.node -> unit
+)
+ident(
+  ext_ref DList.remove
+)
+"memcache.ml" 87 2689 2708 "memcache.ml" 87 2689 2712
+type(
+  'a DList.node
+)
+ident(
+  int_ref node "memcache.ml" 83 2490 2505 "memcache.ml" 83 2490 2509
+)
+"memcache.ml" 87 2689 2695 "memcache.ml" 87 2689 2712
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 85 2579 2585 "memcache.ml" 87 2689 2712
+type(
+  unit
+)
+"memcache.ml" 84 2543 2549 "memcache.ml" 87 2689 2712
+type(
+  unit
+)
+"memcache.ml" 83 2490 2496 "memcache.ml" 87 2689 2712
+type(
+  unit
+)
+"memcache.ml" 88 2713 2722 "memcache.ml" 88 2713 2731
+type(
+  exn
+)
+"memcache.ml" 88 2713 2735 "memcache.ml" 88 2713 2737
+type(
+  unit
+)
+"memcache.ml" 82 2482 2486 "memcache.ml" 88 2713 2737
+type(
+  unit
+)
+"memcache.ml" 81 2453 2478 "memcache.ml" 88 2713 2737
+type(
+  'a -> unit
+)
+"memcache.ml" 81 2453 2472 "memcache.ml" 88 2713 2737
+type(
+  ('a, 'b) cache -> 'a -> unit
+)
+"memcache.ml" 92 2832 2838 "memcache.ml" 92 2832 2857
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+ident(
+  def cache_add_no_remove "memcache.ml" 101 3110 3112 --
+)
+"memcache.ml" 92 2832 2858 "memcache.ml" 92 2832 2863
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 92 2832 2864 "memcache.ml" 99 3058 3108
+)
+"memcache.ml" 92 2832 2864 "memcache.ml" 92 2832 2865
+type(
+  'a
+)
+ident(
+  def k "memcache.ml" 92 2832 2866 "memcache.ml" 99 3058 3108
+)
+"memcache.ml" 92 2832 2866 "memcache.ml" 92 2832 2867
+type(
+  'b
+)
+ident(
+  def v "memcache.ml" 93 2870 2875 "memcache.ml" 99 3058 3108
+)
+"memcache.ml" 93 2870 2881 "memcache.ml" 93 2870 2890
+type(
+  'a -> 'a DList.t -> 'a option
+)
+ident(
+  ext_ref DList.add
+)
+"memcache.ml" 93 2870 2891 "memcache.ml" 93 2870 2892
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 92 2832 2864 "memcache.ml" 92 2832 2865
+)
+"memcache.ml" 93 2870 2893 "memcache.ml" 93 2870 2898
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 92 2832 2858 "memcache.ml" 92 2832 2863
+)
+"memcache.ml" 93 2870 2893 "memcache.ml" 93 2870 2907
+type(
+  'a DList.t
+)
+"memcache.ml" 93 2870 2881 "memcache.ml" 93 2870 2907
+call(
+  stack
+)
+type(
+  'a option
+)
+"memcache.ml" 94 2913 2921 "memcache.ml" 94 2913 2925
+type(
+  'a option
+)
+"memcache.ml" 94 2913 2929 "memcache.ml" 94 2913 2931
+type(
+  unit
+)
+"memcache.ml" 95 2932 2945 "memcache.ml" 95 2932 2946
+type(
+  'a
+)
+ident(
+  def v "memcache.ml" 95 2932 2950 "memcache.ml" 95 2932 2978
+)
+"memcache.ml" 95 2932 2940 "memcache.ml" 95 2932 2946
+type(
+  'a option
+)
+"memcache.ml" 95 2932 2950 "memcache.ml" 95 2932 2964
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t -> 'a -> unit
+)
+ident(
+  ext_ref Hashtbl.remove
+)
+"memcache.ml" 95 2932 2965 "memcache.ml" 95 2932 2970
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 92 2832 2858 "memcache.ml" 92 2832 2863
+)
+"memcache.ml" 95 2932 2965 "memcache.ml" 95 2932 2976
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 95 2932 2977 "memcache.ml" 95 2932 2978
+type(
+  'a
+)
+ident(
+  int_ref v "memcache.ml" 95 2932 2945 "memcache.ml" 95 2932 2946
+)
+"memcache.ml" 95 2932 2950 "memcache.ml" 95 2932 2978
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 93 2870 2875 "memcache.ml" 95 2932 2978
+type(
+  unit
+)
+"memcache.ml" 97 2986 2996 "memcache.ml" 97 2986 3008
+type(
+  'a DList.t -> 'a DList.node option
+)
+ident(
+  ext_ref DList.newest
+)
+"memcache.ml" 97 2986 3009 "memcache.ml" 97 2986 3014
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 92 2832 2858 "memcache.ml" 92 2832 2863
+)
+"memcache.ml" 97 2986 3009 "memcache.ml" 97 2986 3023
+type(
+  'a DList.t
+)
+"memcache.ml" 97 2986 2996 "memcache.ml" 97 2986 3023
+call(
+  stack
+)
+type(
+  'a DList.node option
+)
+"memcache.ml" 98 3029 3037 "memcache.ml" 98 3029 3041
+type(
+  'a DList.node option
+)
+"memcache.ml" 98 3029 3045 "memcache.ml" 98 3029 3057
+type(
+  unit
+)
+"memcache.ml" 99 3058 3071 "memcache.ml" 99 3058 3072
+type(
+  'a DList.node
+)
+ident(
+  def n "memcache.ml" 99 3058 3076 "memcache.ml" 99 3058 3108
+)
+"memcache.ml" 99 3058 3066 "memcache.ml" 99 3058 3072
+type(
+  'a DList.node option
+)
+"memcache.ml" 99 3058 3076 "memcache.ml" 99 3058 3087
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t -> 'a -> 'b * 'a DList.node -> unit
+)
+ident(
+  ext_ref Hashtbl.add
+)
+"memcache.ml" 99 3058 3088 "memcache.ml" 99 3058 3093
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 92 2832 2858 "memcache.ml" 92 2832 2863
+)
+"memcache.ml" 99 3058 3088 "memcache.ml" 99 3058 3099
+type(
+  ('a, 'b * 'a DList.node) Hashtbl.t
+)
+"memcache.ml" 99 3058 3100 "memcache.ml" 99 3058 3101
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 92 2832 2864 "memcache.ml" 92 2832 2865
+)
+"memcache.ml" 99 3058 3103 "memcache.ml" 99 3058 3104
+type(
+  'b
+)
+ident(
+  int_ref v "memcache.ml" 92 2832 2866 "memcache.ml" 92 2832 2867
+)
+"memcache.ml" 99 3058 3106 "memcache.ml" 99 3058 3107
+type(
+  'a DList.node
+)
+ident(
+  int_ref n "memcache.ml" 99 3058 3071 "memcache.ml" 99 3058 3072
+)
+"memcache.ml" 99 3058 3103 "memcache.ml" 99 3058 3107
+type(
+  'b * 'a DList.node
+)
+"memcache.ml" 99 3058 3076 "memcache.ml" 99 3058 3108
+call(
+  tail
+)
+type(
+  unit
+)
+"memcache.ml" 97 2986 2990 "memcache.ml" 99 3058 3108
+type(
+  unit
+)
+"memcache.ml" 93 2870 2875 "memcache.ml" 99 3058 3108
+type(
+  unit
+)
+"memcache.ml" 92 2832 2866 "memcache.ml" 99 3058 3108
+type(
+  'b -> unit
+)
+"memcache.ml" 92 2832 2864 "memcache.ml" 99 3058 3108
+type(
+  'a -> 'b -> unit
+)
+"memcache.ml" 92 2832 2858 "memcache.ml" 99 3058 3108
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+"memcache.ml" 101 3110 3116 "memcache.ml" 101 3110 3125
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+ident(
+  def cache_add "memcache.ml" 105 3199 3201 --
+)
+"memcache.ml" 101 3110 3126 "memcache.ml" 101 3110 3131
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 101 3110 3132 "memcache.ml" 103 3164 3197
+)
+"memcache.ml" 101 3110 3132 "memcache.ml" 101 3110 3133
+type(
+  'a
+)
+ident(
+  def k "memcache.ml" 101 3110 3134 "memcache.ml" 103 3164 3197
+)
+"memcache.ml" 101 3110 3134 "memcache.ml" 101 3110 3135
+type(
+  'b
+)
+ident(
+  def v "memcache.ml" 102 3138 3142 "memcache.ml" 103 3164 3197
+)
+"memcache.ml" 102 3138 3142 "memcache.ml" 102 3138 3154
+type(
+  ('a, 'b) cache -> 'a -> unit
+)
+ident(
+  int_ref cache_remove "memcache.ml" 81 2453 2459 "memcache.ml" 81 2453 2471
+)
+"memcache.ml" 102 3138 3155 "memcache.ml" 102 3138 3160
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 101 3110 3126 "memcache.ml" 101 3110 3131
+)
+"memcache.ml" 102 3138 3161 "memcache.ml" 102 3138 3162
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 101 3110 3132 "memcache.ml" 101 3110 3133
+)
+"memcache.ml" 102 3138 3142 "memcache.ml" 102 3138 3162
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 103 3164 3168 "memcache.ml" 103 3164 3187
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+ident(
+  int_ref cache_add_no_remove "memcache.ml" 92 2832 2838 "memcache.ml" 92 2832 2857
+)
+"memcache.ml" 103 3164 3188 "memcache.ml" 103 3164 3193
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 101 3110 3126 "memcache.ml" 101 3110 3131
+)
+"memcache.ml" 103 3164 3194 "memcache.ml" 103 3164 3195
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 101 3110 3132 "memcache.ml" 101 3110 3133
+)
+"memcache.ml" 103 3164 3196 "memcache.ml" 103 3164 3197
+type(
+  'b
+)
+ident(
+  int_ref v "memcache.ml" 101 3110 3134 "memcache.ml" 101 3110 3135
+)
+"memcache.ml" 103 3164 3168 "memcache.ml" 103 3164 3197
+call(
+  tail
+)
+type(
+  unit
+)
+"memcache.ml" 102 3138 3142 "memcache.ml" 103 3164 3197
+type(
+  unit
+)
+"memcache.ml" 101 3110 3134 "memcache.ml" 103 3164 3197
+type(
+  'b -> unit
+)
+"memcache.ml" 101 3110 3132 "memcache.ml" 103 3164 3197
+type(
+  'a -> 'b -> unit
+)
+"memcache.ml" 101 3110 3126 "memcache.ml" 103 3164 3197
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+"memcache.ml" 105 3199 3205 "memcache.ml" 105 3199 3215
+type(
+  ('a, 'b) cache -> int
+)
+ident(
+  def cache_size "memcache.ml" 108 3247 3249 --
+)
+"memcache.ml" 105 3199 3216 "memcache.ml" 105 3199 3217
+type(
+  ('a, 'b) cache
+)
+ident(
+  def c "memcache.ml" 106 3220 3224 "memcache.ml" 106 3220 3245
+)
+"memcache.ml" 106 3220 3224 "memcache.ml" 106 3220 3234
+type(
+  'a DList.t -> int
+)
+ident(
+  ext_ref DList.size
+)
+"memcache.ml" 106 3220 3235 "memcache.ml" 106 3220 3236
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref c "memcache.ml" 105 3199 3216 "memcache.ml" 105 3199 3217
+)
+"memcache.ml" 106 3220 3235 "memcache.ml" 106 3220 3245
+type(
+  'a DList.t
+)
+"memcache.ml" 106 3220 3224 "memcache.ml" 106 3220 3245
+call(
+  tail
+)
+type(
+  int
+)
+"memcache.ml" 105 3199 3216 "memcache.ml" 106 3220 3245
+type(
+  ('a, 'b) cache -> int
+)
+"memcache.ml" 108 3247 3253 "memcache.ml" 108 3247 3263
+type(
+  ('a, 'b) cache -> 'a -> 'b Lwt.t
+)
+ident(
+  def cache_find "memcache.ml" 135 3829 3829 --
+)
+"memcache.ml" 108 3247 3264 "memcache.ml" 108 3247 3269
+type(
+  ('a, 'b) cache
+)
+ident(
+  def cache "memcache.ml" 108 3247 3270 "memcache.ml" 116 3543 3563
+)
+"memcache.ml" 108 3247 3270 "memcache.ml" 108 3247 3271
+type(
+  'a
+)
+ident(
+  def k "memcache.ml" 109 3274 3279 "memcache.ml" 116 3543 3562
+)
+"memcache.ml" 110 3283 3290 "memcache.ml" 110 3283 3300
+type(
+  'b -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"memcache.ml" 110 3283 3302 "memcache.ml" 110 3283 3315
+type(
+  ('a, 'b) cache -> 'a -> 'b
+)
+ident(
+  int_ref find_in_cache "memcache.ml" 76 2345 2351 "memcache.ml" 76 2345 2364
+)
+"memcache.ml" 110 3283 3316 "memcache.ml" 110 3283 3321
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 108 3247 3264 "memcache.ml" 108 3247 3269
+)
+"memcache.ml" 110 3283 3322 "memcache.ml" 110 3283 3323
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 108 3247 3270 "memcache.ml" 108 3247 3271
+)
+"memcache.ml" 110 3283 3302 "memcache.ml" 110 3283 3323
+call(
+  stack
+)
+type(
+  'b
+)
+"memcache.ml" 110 3283 3290 "memcache.ml" 110 3283 3324
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 111 3325 3335 "memcache.ml" 111 3325 3344
+type(
+  exn
+)
+"memcache.ml" 112 3348 3355 "memcache.ml" 112 3348 3360
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 108 3247 3264 "memcache.ml" 108 3247 3269
+)
+"memcache.ml" 112 3348 3355 "memcache.ml" 112 3348 3367
+type(
+  'a -> 'b Lwt.t
+)
+"memcache.ml" 112 3348 3368 "memcache.ml" 112 3348 3369
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 108 3247 3270 "memcache.ml" 108 3247 3271
+)
+"memcache.ml" 112 3348 3355 "memcache.ml" 112 3348 3369
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 112 3348 3370 "memcache.ml" 112 3348 3373
+type(
+  'b Lwt.t -> ('b -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  int_ref >>= "memcache.ml" 26 851 855 "memcache.ml" 26 851 860
+)
+"memcache.ml" 112 3348 3378 "memcache.ml" 112 3348 3379
+type(
+  'b
+)
+ident(
+  def r "memcache.ml" 113 3383 3391 "memcache.ml" 116 3543 3562
+)
+"memcache.ml" 114 3444 3454 "memcache.ml" 114 3444 3460
+type(
+  'b -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"memcache.ml" 114 3444 3462 "memcache.ml" 114 3444 3475
+type(
+  ('a, 'b) cache -> 'a -> 'b
+)
+ident(
+  int_ref find_in_cache "memcache.ml" 76 2345 2351 "memcache.ml" 76 2345 2364
+)
+"memcache.ml" 114 3444 3476 "memcache.ml" 114 3444 3481
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 108 3247 3264 "memcache.ml" 108 3247 3269
+)
+"memcache.ml" 114 3444 3482 "memcache.ml" 114 3444 3483
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 108 3247 3270 "memcache.ml" 108 3247 3271
+)
+"memcache.ml" 114 3444 3462 "memcache.ml" 114 3444 3483
+call(
+  stack
+)
+type(
+  'b
+)
+"memcache.ml" 114 3444 3454 "memcache.ml" 114 3444 3484
+type(
+  unit
+)
+"memcache.ml" 115 3485 3498 "memcache.ml" 115 3485 3507
+type(
+  exn
+)
+"memcache.ml" 115 3485 3511 "memcache.ml" 115 3485 3530
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+ident(
+  int_ref cache_add_no_remove "memcache.ml" 92 2832 2838 "memcache.ml" 92 2832 2857
+)
+"memcache.ml" 115 3485 3531 "memcache.ml" 115 3485 3536
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref cache "memcache.ml" 108 3247 3264 "memcache.ml" 108 3247 3269
+)
+"memcache.ml" 115 3485 3537 "memcache.ml" 115 3485 3538
+type(
+  'a
+)
+ident(
+  int_ref k "memcache.ml" 108 3247 3270 "memcache.ml" 108 3247 3271
+)
+"memcache.ml" 115 3485 3539 "memcache.ml" 115 3485 3540
+type(
+  'b
+)
+ident(
+  int_ref r "memcache.ml" 112 3348 3378 "memcache.ml" 112 3348 3379
+)
+"memcache.ml" 115 3485 3511 "memcache.ml" 115 3485 3540
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 113 3383 3391 "memcache.ml" 115 3485 3540
+type(
+  unit
+)
+"memcache.ml" 116 3543 3550 "memcache.ml" 116 3543 3560
+type(
+  'b -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"memcache.ml" 116 3543 3561 "memcache.ml" 116 3543 3562
+type(
+  'b
+)
+ident(
+  int_ref r "memcache.ml" 112 3348 3378 "memcache.ml" 112 3348 3379
+)
+"memcache.ml" 116 3543 3550 "memcache.ml" 116 3543 3562
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 113 3383 3391 "memcache.ml" 116 3543 3562
+type(
+  'b Lwt.t
+)
+"memcache.ml" 112 3348 3378 "memcache.ml" 116 3543 3562
+type(
+  'b -> 'b Lwt.t
+)
+"memcache.ml" 112 3348 3355 "memcache.ml" 116 3543 3562
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 109 3274 3279 "memcache.ml" 116 3543 3562
+type(
+  'b Lwt.t
+)
+"memcache.ml" 108 3247 3270 "memcache.ml" 116 3543 3563
+type(
+  'a -> 'b Lwt.t
+)
+"memcache.ml" 108 3247 3264 "memcache.ml" 116 3543 3563
+type(
+  ('a, 'b) cache -> 'a -> 'b Lwt.t
+)
+"memcache.ml" 135 3829 3833 "memcache.ml" 135 3829 3849
+type(
+  unit -> unit
+)
+ident(
+  def clear_all_caches "memcache.ml" 137 3892 3892 --
+)
+"memcache.ml" 135 3829 3850 "memcache.ml" 135 3829 3852
+type(
+  unit
+)
+"memcache.ml" 135 3829 3855 "memcache.ml" 135 3829 3864
+type(
+  (Weak.data -> unit) -> Weak.t -> unit
+)
+ident(
+  ext_ref Weak.iter
+)
+"memcache.ml" 135 3829 3870 "memcache.ml" 135 3829 3871
+type(
+  Weak.data
+)
+ident(
+  def f "memcache.ml" 135 3829 3875 "memcache.ml" 135 3829 3879
+)
+"memcache.ml" 135 3829 3875 "memcache.ml" 135 3829 3876
+type(
+  Weak.data
+)
+ident(
+  int_ref f "memcache.ml" 135 3829 3870 "memcache.ml" 135 3829 3871
+)
+"memcache.ml" 135 3829 3877 "memcache.ml" 135 3829 3879
+type(
+  unit
+)
+"memcache.ml" 135 3829 3875 "memcache.ml" 135 3829 3879
+call(
+  tail
+)
+type(
+  unit
+)
+"memcache.ml" 135 3829 3870 "memcache.ml" 135 3829 3879
+type(
+  Weak.data -> unit
+)
+"memcache.ml" 135 3829 3881 "memcache.ml" 135 3829 3890
+type(
+  Weak.t
+)
+ident(
+  int_ref clear_all "memcache.ml" 34 1087 1091 "memcache.ml" 34 1087 1100
+)
+"memcache.ml" 135 3829 3855 "memcache.ml" 135 3829 3890
+call(
+  tail
+)
+type(
+  unit
+)
+"memcache.ml" 135 3829 3850 "memcache.ml" 135 3829 3890
+type(
+  unit -> unit
+)
+"memcache.ml" 139 3902 3906 "memcache.ml" 139 3902 3918
+type(
+  ('a, 'b) cache -> ('a -> 'c -> 'b -> 'b Lwt.t) -> 'a -> 'c -> 'b Lwt.t
+)
+ident(
+  def cache_update "memcache.ml" 145 4094 4094 --
+)
+"memcache.ml" 139 3902 3919 "memcache.ml" 139 3902 3920
+type(
+  ('a, 'b) cache
+)
+ident(
+  def t "memcache.ml" 139 3902 3921 "memcache.ml" 143 4034 4092
+)
+"memcache.ml" 139 3902 3921 "memcache.ml" 139 3902 3927
+type(
+  'a -> 'c -> 'b -> 'b Lwt.t
+)
+ident(
+  def update "memcache.ml" 139 3902 3928 "memcache.ml" 143 4034 4092
+)
+"memcache.ml" 139 3902 3928 "memcache.ml" 139 3902 3931
+type(
+  'a
+)
+ident(
+  def key "memcache.ml" 139 3902 3932 "memcache.ml" 143 4034 4092
+)
+"memcache.ml" 139 3902 3932 "memcache.ml" 139 3902 3936
+type(
+  'c
+)
+ident(
+  def diff "memcache.ml" 140 3939 3941 "memcache.ml" 143 4034 4092
+)
+"memcache.ml" 140 3939 3941 "memcache.ml" 140 3939 3951
+type(
+  ('a, 'b) cache -> 'a -> 'b Lwt.t
+)
+ident(
+  int_ref cache_find "memcache.ml" 108 3247 3253 "memcache.ml" 108 3247 3263
+)
+"memcache.ml" 140 3939 3952 "memcache.ml" 140 3939 3953
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref t "memcache.ml" 139 3902 3919 "memcache.ml" 139 3902 3920
+)
+"memcache.ml" 140 3939 3954 "memcache.ml" 140 3939 3957
+type(
+  'a
+)
+ident(
+  int_ref key "memcache.ml" 139 3902 3928 "memcache.ml" 139 3902 3931
+)
+"memcache.ml" 140 3939 3941 "memcache.ml" 140 3939 3957
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 140 3939 3958 "memcache.ml" 140 3939 3961
+type(
+  'b Lwt.t -> ('b -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"memcache.ml" 141 3962 3966 "memcache.ml" 141 3962 3972
+type(
+  'a -> 'c -> 'b -> 'b Lwt.t
+)
+ident(
+  int_ref update "memcache.ml" 139 3902 3921 "memcache.ml" 139 3902 3927
+)
+"memcache.ml" 141 3962 3973 "memcache.ml" 141 3962 3976
+type(
+  'a
+)
+ident(
+  int_ref key "memcache.ml" 139 3902 3928 "memcache.ml" 139 3902 3931
+)
+"memcache.ml" 141 3962 3977 "memcache.ml" 141 3962 3981
+type(
+  'c
+)
+ident(
+  int_ref diff "memcache.ml" 139 3902 3932 "memcache.ml" 139 3902 3936
+)
+"memcache.ml" 141 3962 3966 "memcache.ml" 141 3962 3981
+call(
+  stack
+)
+type(
+  'b -> 'b Lwt.t
+)
+"memcache.ml" 140 3939 3941 "memcache.ml" 141 3962 3981
+call(
+  stack
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 141 3962 3982 "memcache.ml" 141 3962 3985
+type(
+  'b Lwt.t -> ('b -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"memcache.ml" 141 3962 3990 "memcache.ml" 141 3962 4003
+type(
+  'b
+)
+ident(
+  def updated_value "memcache.ml" 142 4007 4013 "memcache.ml" 143 4034 4092
+)
+"memcache.ml" 142 4007 4013 "memcache.ml" 142 4007 4025
+type(
+  ('a, 'b) cache -> 'a -> unit
+)
+ident(
+  int_ref cache_remove "memcache.ml" 81 2453 2459 "memcache.ml" 81 2453 2471
+)
+"memcache.ml" 142 4007 4026 "memcache.ml" 142 4007 4027
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref t "memcache.ml" 139 3902 3919 "memcache.ml" 139 3902 3920
+)
+"memcache.ml" 142 4007 4028 "memcache.ml" 142 4007 4031
+type(
+  'a
+)
+ident(
+  int_ref key "memcache.ml" 139 3902 3928 "memcache.ml" 139 3902 3931
+)
+"memcache.ml" 142 4007 4013 "memcache.ml" 142 4007 4031
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 143 4034 4040 "memcache.ml" 143 4034 4049
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+ident(
+  int_ref cache_add "memcache.ml" 101 3110 3116 "memcache.ml" 101 3110 3125
+)
+"memcache.ml" 143 4034 4050 "memcache.ml" 143 4034 4051
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref t "memcache.ml" 139 3902 3919 "memcache.ml" 139 3902 3920
+)
+"memcache.ml" 143 4034 4052 "memcache.ml" 143 4034 4055
+type(
+  'a
+)
+ident(
+  int_ref key "memcache.ml" 139 3902 3928 "memcache.ml" 139 3902 3931
+)
+"memcache.ml" 143 4034 4056 "memcache.ml" 143 4034 4069
+type(
+  'b
+)
+ident(
+  int_ref updated_value "memcache.ml" 141 3962 3990 "memcache.ml" 141 3962 4003
+)
+"memcache.ml" 143 4034 4040 "memcache.ml" 143 4034 4069
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 143 4034 4072 "memcache.ml" 143 4034 4078
+type(
+  'b -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"memcache.ml" 143 4034 4079 "memcache.ml" 143 4034 4092
+type(
+  'b
+)
+ident(
+  int_ref updated_value "memcache.ml" 141 3962 3990 "memcache.ml" 141 3962 4003
+)
+"memcache.ml" 143 4034 4072 "memcache.ml" 143 4034 4092
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 143 4034 4040 "memcache.ml" 143 4034 4092
+type(
+  'b Lwt.t
+)
+"memcache.ml" 142 4007 4013 "memcache.ml" 143 4034 4092
+type(
+  'b Lwt.t
+)
+"memcache.ml" 141 3962 3990 "memcache.ml" 143 4034 4092
+type(
+  'b -> 'b Lwt.t
+)
+"memcache.ml" 140 3939 3941 "memcache.ml" 143 4034 4092
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"memcache.ml" 139 3902 3932 "memcache.ml" 143 4034 4092
+type(
+  'c -> 'b Lwt.t
+)
+"memcache.ml" 139 3902 3928 "memcache.ml" 143 4034 4092
+type(
+  'a -> 'c -> 'b Lwt.t
+)
+"memcache.ml" 139 3902 3921 "memcache.ml" 143 4034 4092
+type(
+  ('a -> 'c -> 'b -> 'b Lwt.t) -> 'a -> 'c -> 'b Lwt.t
+)
+"memcache.ml" 139 3902 3919 "memcache.ml" 143 4034 4092
+type(
+  ('a, 'b) cache -> ('a -> 'c -> 'b -> 'b Lwt.t) -> 'a -> 'c -> 'b Lwt.t
+)
+"memcache.ml" 145 4094 4098 "memcache.ml" 145 4094 4110
+type(
+  ('a, 'b) cache -> ('c -> 'b -> 'a Lwt.t) -> 'c -> 'b -> unit Lwt.t
+)
+ident(
+  def cache_insert "memcache.ml" 146 4132 4204 --
+)
+"memcache.ml" 145 4094 4111 "memcache.ml" 145 4094 4112
+type(
+  ('a, 'b) cache
+)
+ident(
+  def t "memcache.ml" 145 4094 4113 "memcache.ml" 146 4132 4204
+)
+"memcache.ml" 145 4094 4113 "memcache.ml" 145 4094 4119
+type(
+  'c -> 'b -> 'a Lwt.t
+)
+ident(
+  def insert "memcache.ml" 145 4094 4120 "memcache.ml" 146 4132 4204
+)
+"memcache.ml" 145 4094 4120 "memcache.ml" 145 4094 4123
+type(
+  'c
+)
+ident(
+  def key "memcache.ml" 145 4094 4124 "memcache.ml" 146 4132 4204
+)
+"memcache.ml" 145 4094 4124 "memcache.ml" 145 4094 4129
+type(
+  'b
+)
+ident(
+  def value "memcache.ml" 146 4132 4134 "memcache.ml" 146 4132 4204
+)
+"memcache.ml" 146 4132 4134 "memcache.ml" 146 4132 4140
+type(
+  'c -> 'b -> 'a Lwt.t
+)
+ident(
+  int_ref insert "memcache.ml" 145 4094 4113 "memcache.ml" 145 4094 4119
+)
+"memcache.ml" 146 4132 4141 "memcache.ml" 146 4132 4144
+type(
+  'c
+)
+ident(
+  int_ref key "memcache.ml" 145 4094 4120 "memcache.ml" 145 4094 4123
+)
+"memcache.ml" 146 4132 4145 "memcache.ml" 146 4132 4150
+type(
+  'b
+)
+ident(
+  int_ref value "memcache.ml" 145 4094 4124 "memcache.ml" 145 4094 4129
+)
+"memcache.ml" 146 4132 4134 "memcache.ml" 146 4132 4150
+call(
+  stack
+)
+type(
+  'a Lwt.t
+)
+"memcache.ml" 146 4132 4151 "memcache.ml" 146 4132 4154
+type(
+  'a Lwt.t -> ('a -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"memcache.ml" 146 4132 4159 "memcache.ml" 146 4132 4166
+type(
+  'a
+)
+ident(
+  def new_key "memcache.ml" 146 4132 4170 "memcache.ml" 146 4132 4204
+)
+"memcache.ml" 146 4132 4170 "memcache.ml" 146 4132 4176
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"memcache.ml" 146 4132 4178 "memcache.ml" 146 4132 4187
+type(
+  ('a, 'b) cache -> 'a -> 'b -> unit
+)
+ident(
+  int_ref cache_add "memcache.ml" 101 3110 3116 "memcache.ml" 101 3110 3125
+)
+"memcache.ml" 146 4132 4188 "memcache.ml" 146 4132 4189
+type(
+  ('a, 'b) cache
+)
+ident(
+  int_ref t "memcache.ml" 145 4094 4111 "memcache.ml" 145 4094 4112
+)
+"memcache.ml" 146 4132 4190 "memcache.ml" 146 4132 4197
+type(
+  'a
+)
+ident(
+  int_ref new_key "memcache.ml" 146 4132 4159 "memcache.ml" 146 4132 4166
+)
+"memcache.ml" 146 4132 4198 "memcache.ml" 146 4132 4203
+type(
+  'b
+)
+ident(
+  int_ref value "memcache.ml" 145 4094 4124 "memcache.ml" 145 4094 4129
+)
+"memcache.ml" 146 4132 4178 "memcache.ml" 146 4132 4203
+call(
+  stack
+)
+type(
+  unit
+)
+"memcache.ml" 146 4132 4170 "memcache.ml" 146 4132 4204
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"memcache.ml" 146 4132 4159 "memcache.ml" 146 4132 4204
+type(
+  'a -> unit Lwt.t
+)
+"memcache.ml" 146 4132 4134 "memcache.ml" 146 4132 4204
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"memcache.ml" 145 4094 4124 "memcache.ml" 146 4132 4204
+type(
+  'b -> unit Lwt.t
+)
+"memcache.ml" 145 4094 4120 "memcache.ml" 146 4132 4204
+type(
+  'c -> 'b -> unit Lwt.t
+)
+"memcache.ml" 145 4094 4113 "memcache.ml" 146 4132 4204
+type(
+  ('c -> 'b -> 'a Lwt.t) -> 'c -> 'b -> unit Lwt.t
+)
+"memcache.ml" 145 4094 4111 "memcache.ml" 146 4132 4204
+type(
+  ('a, 'b) cache -> ('c -> 'b -> 'a Lwt.t) -> 'c -> 'b -> unit Lwt.t
+)

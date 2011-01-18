@@ -1,0 +1,2182 @@
+"dList.ml" 78 2296 2302 "dList.ml" 78 2296 2316
+type(
+  int -> 'a t
+)
+ident(
+  def create_bounded "dList.ml" 85 2431 2433 --
+)
+"dList.ml" 78 2296 2317 "dList.ml" 78 2296 2321
+type(
+  int
+)
+ident(
+  def size "dList.ml" 79 2324 2328 "dList.ml" 83 2400 2429
+)
+"dList.ml" 79 2324 2338 "dList.ml" 79 2324 2342
+type(
+  'a node option
+)
+"dList.ml" 80 2344 2358 "dList.ml" 80 2344 2362
+type(
+  'a node option
+)
+"dList.ml" 81 2364 2376 "dList.ml" 81 2364 2377
+type(
+  int
+)
+"dList.ml" 82 2379 2394 "dList.ml" 82 2379 2398
+type(
+  int
+)
+ident(
+  int_ref size "dList.ml" 78 2296 2317 "dList.ml" 78 2296 2321
+)
+"dList.ml" 83 2400 2421 "dList.ml" 83 2400 2422
+type(
+  'a node
+)
+"dList.ml" 83 2400 2426 "dList.ml" 83 2400 2428
+type(
+  unit
+)
+"dList.ml" 83 2400 2421 "dList.ml" 83 2400 2428
+type(
+  'a node -> unit
+)
+"dList.ml" 79 2324 2328 "dList.ml" 83 2400 2429
+type(
+  'a t
+)
+"dList.ml" 78 2296 2317 "dList.ml" 83 2400 2429
+type(
+  int -> 'a t
+)
+"dList.ml" 85 2431 2437 "dList.ml" 85 2431 2443
+type(
+  unit -> 'a t
+)
+ident(
+  def create "dList.ml" 88 2530 2532 --
+)
+"dList.ml" 85 2431 2444 "dList.ml" 85 2431 2446
+type(
+  unit
+)
+"dList.ml" 85 2431 2449 "dList.ml" 85 2431 2463
+type(
+  int -> 'a t
+)
+ident(
+  int_ref create_bounded "dList.ml" 78 2296 2302 "dList.ml" 78 2296 2316
+)
+"dList.ml" 85 2431 2464 "dList.ml" 85 2431 2471
+type(
+  int
+)
+ident(
+  ext_ref Pervasives.max_int
+)
+"dList.ml" 85 2431 2449 "dList.ml" 85 2431 2471
+call(
+  tail
+)
+type(
+  'a t
+)
+"dList.ml" 85 2431 2444 "dList.ml" 85 2431 2471
+type(
+  unit -> 'a t
+)
+"dList.ml" 88 2530 2536 "dList.ml" 88 2530 2543
+type(
+  'a node -> 'a t -> unit
+)
+ident(
+  def remove' "dList.ml" 112 3177 3179 --
+)
+"dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+type(
+  'a node
+)
+ident(
+  def node "dList.ml" 88 2530 2549 "dList.ml" 109 3096 3120
+)
+"dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 90 2611 2615 "dList.ml" 109 3096 3120
+)
+"dList.ml" 90 2611 2619 "dList.ml" 90 2611 2625
+type(
+  'a node option
+)
+"dList.ml" 91 2628 2640 "dList.ml" 91 2628 2641
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 91 2628 2640 "dList.ml" 91 2628 2648
+type(
+  'a node option
+)
+"dList.ml" 92 2654 2669 "dList.ml" 92 2654 2670
+type(
+  'a node
+)
+ident(
+  def n "dList.ml" 92 2654 2676 "dList.ml" 92 2654 2685
+)
+"dList.ml" 92 2654 2664 "dList.ml" 92 2654 2670
+type(
+  'a node option
+)
+"dList.ml" 92 2654 2676 "dList.ml" 92 2654 2680
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 92 2654 2681 "dList.ml" 92 2654 2683
+type(
+  'a node -> 'a node -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"dList.ml" 92 2654 2684 "dList.ml" 92 2654 2685
+type(
+  'a node
+)
+ident(
+  int_ref n "dList.ml" 92 2654 2669 "dList.ml" 92 2654 2670
+)
+"dList.ml" 92 2654 2676 "dList.ml" 92 2654 2685
+type(
+  'a node option
+)
+type(
+  bool
+)
+"dList.ml" 92 2654 2689 "dList.ml" 92 2654 2693
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 92 2654 2689 "dList.ml" 92 2654 2698
+type(
+  'a node option
+)
+"dList.ml" 93 2699 2709 "dList.ml" 93 2699 2710
+type(
+  'a node option
+)
+"dList.ml" 93 2699 2714 "dList.ml" 93 2699 2715
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 93 2699 2714 "dList.ml" 93 2699 2722
+type(
+  'a node option
+)
+"dList.ml" 91 2628 2634 "dList.ml" 93 2699 2722
+type(
+  'a node option
+)
+"dList.ml" 95 2730 2738 "dList.ml" 95 2730 2744
+type(
+  'a node option
+)
+"dList.ml" 96 2747 2759 "dList.ml" 96 2747 2760
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 96 2747 2759 "dList.ml" 96 2747 2767
+type(
+  'a node option
+)
+"dList.ml" 97 2773 2788 "dList.ml" 97 2773 2789
+type(
+  'a node
+)
+ident(
+  def n "dList.ml" 97 2773 2795 "dList.ml" 97 2773 2804
+)
+"dList.ml" 97 2773 2783 "dList.ml" 97 2773 2789
+type(
+  'a node option
+)
+"dList.ml" 97 2773 2795 "dList.ml" 97 2773 2799
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 97 2773 2800 "dList.ml" 97 2773 2802
+type(
+  'a node -> 'a node -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"dList.ml" 97 2773 2803 "dList.ml" 97 2773 2804
+type(
+  'a node
+)
+ident(
+  int_ref n "dList.ml" 97 2773 2788 "dList.ml" 97 2773 2789
+)
+"dList.ml" 97 2773 2795 "dList.ml" 97 2773 2804
+type(
+  'a node option
+)
+type(
+  bool
+)
+"dList.ml" 97 2773 2808 "dList.ml" 97 2773 2812
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 97 2773 2808 "dList.ml" 97 2773 2817
+type(
+  'a node option
+)
+"dList.ml" 98 2818 2828 "dList.ml" 98 2818 2829
+type(
+  'a node option
+)
+"dList.ml" 98 2818 2833 "dList.ml" 98 2818 2834
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 98 2818 2833 "dList.ml" 98 2818 2841
+type(
+  'a node option
+)
+"dList.ml" 96 2747 2753 "dList.ml" 98 2818 2841
+type(
+  'a node option
+)
+"dList.ml" 100 2849 2860 "dList.ml" 100 2849 2864
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 100 2849 2860 "dList.ml" 100 2849 2869
+type(
+  'a node option
+)
+"dList.ml" 101 2875 2884 "dList.ml" 101 2875 2888
+type(
+  'a node option
+)
+"dList.ml" 101 2875 2892 "dList.ml" 101 2875 2894
+type(
+  unit
+)
+"dList.ml" 102 2895 2909 "dList.ml" 102 2895 2910
+type(
+  'a node
+)
+ident(
+  def s "dList.ml" 102 2895 2914 "dList.ml" 102 2895 2933
+)
+"dList.ml" 102 2895 2904 "dList.ml" 102 2895 2910
+type(
+  'a node option
+)
+"dList.ml" 102 2895 2914 "dList.ml" 102 2895 2915
+type(
+  'a node
+)
+ident(
+  int_ref s "dList.ml" 102 2895 2909 "dList.ml" 102 2895 2910
+)
+"dList.ml" 102 2895 2924 "dList.ml" 102 2895 2928
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 102 2895 2924 "dList.ml" 102 2895 2933
+type(
+  'a node option
+)
+"dList.ml" 102 2895 2914 "dList.ml" 102 2895 2933
+type(
+  unit
+)
+"dList.ml" 100 2849 2854 "dList.ml" 102 2895 2933
+type(
+  unit
+)
+"dList.ml" 103 2936 2947 "dList.ml" 103 2936 2951
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 103 2936 2947 "dList.ml" 103 2936 2956
+type(
+  'a node option
+)
+"dList.ml" 104 2962 2971 "dList.ml" 104 2962 2975
+type(
+  'a node option
+)
+"dList.ml" 104 2962 2979 "dList.ml" 104 2962 2981
+type(
+  unit
+)
+"dList.ml" 105 2982 2996 "dList.ml" 105 2982 2997
+type(
+  'a node
+)
+ident(
+  def s "dList.ml" 105 2982 3001 "dList.ml" 105 2982 3020
+)
+"dList.ml" 105 2982 2991 "dList.ml" 105 2982 2997
+type(
+  'a node option
+)
+"dList.ml" 105 2982 3001 "dList.ml" 105 2982 3002
+type(
+  'a node
+)
+ident(
+  int_ref s "dList.ml" 105 2982 2996 "dList.ml" 105 2982 2997
+)
+"dList.ml" 105 2982 3011 "dList.ml" 105 2982 3015
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 105 2982 3011 "dList.ml" 105 2982 3020
+type(
+  'a node option
+)
+"dList.ml" 105 2982 3001 "dList.ml" 105 2982 3020
+type(
+  unit
+)
+"dList.ml" 103 2936 2941 "dList.ml" 105 2982 3020
+type(
+  unit
+)
+"dList.ml" 106 3023 3027 "dList.ml" 106 3023 3028
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 106 3023 3039 "dList.ml" 106 3023 3045
+type(
+  'a node option
+)
+ident(
+  int_ref oldest "dList.ml" 90 2611 2619 "dList.ml" 90 2611 2625
+)
+"dList.ml" 106 3023 3027 "dList.ml" 106 3023 3045
+type(
+  unit
+)
+"dList.ml" 107 3047 3051 "dList.ml" 107 3047 3052
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 107 3047 3063 "dList.ml" 107 3047 3069
+type(
+  'a node option
+)
+ident(
+  int_ref newest "dList.ml" 95 2730 2738 "dList.ml" 95 2730 2744
+)
+"dList.ml" 107 3047 3051 "dList.ml" 107 3047 3069
+type(
+  unit
+)
+"dList.ml" 108 3071 3075 "dList.ml" 108 3071 3079
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 88 2530 2544 "dList.ml" 88 2530 2548
+)
+"dList.ml" 108 3071 3090 "dList.ml" 108 3071 3094
+type(
+  'a t option
+)
+"dList.ml" 108 3071 3075 "dList.ml" 108 3071 3094
+type(
+  unit
+)
+"dList.ml" 109 3096 3100 "dList.ml" 109 3096 3101
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 109 3096 3110 "dList.ml" 109 3096 3111
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 88 2530 2549 "dList.ml" 88 2530 2550
+)
+"dList.ml" 109 3096 3110 "dList.ml" 109 3096 3116
+type(
+  int
+)
+"dList.ml" 109 3096 3117 "dList.ml" 109 3096 3118
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"dList.ml" 109 3096 3119 "dList.ml" 109 3096 3120
+type(
+  int
+)
+"dList.ml" 109 3096 3110 "dList.ml" 109 3096 3120
+type(
+  int
+)
+"dList.ml" 109 3096 3100 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 108 3071 3075 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 107 3047 3051 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 106 3023 3027 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 103 2936 2941 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 100 2849 2854 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 95 2730 2734 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 90 2611 2615 "dList.ml" 109 3096 3120
+type(
+  unit
+)
+"dList.ml" 88 2530 2549 "dList.ml" 109 3096 3120
+type(
+  'a t -> unit
+)
+"dList.ml" 88 2530 2544 "dList.ml" 109 3096 3120
+type(
+  'a node -> 'a t -> unit
+)
+"dList.ml" 112 3177 3183 "dList.ml" 112 3177 3189
+type(
+  'a node -> unit
+)
+ident(
+  def remove "dList.ml" 130 3729 3731 --
+)
+"dList.ml" 112 3177 3190 "dList.ml" 112 3177 3194
+type(
+  'a node
+)
+ident(
+  def node "dList.ml" 113 3197 3201 "dList.ml" 122 3424 3443
+)
+"dList.ml" 113 3197 3207 "dList.ml" 113 3197 3211
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 112 3177 3190 "dList.ml" 112 3177 3194
+)
+"dList.ml" 113 3197 3207 "dList.ml" 113 3197 3218
+type(
+  'a t option
+)
+"dList.ml" 114 3224 3232 "dList.ml" 114 3224 3236
+type(
+  'a t option
+)
+"dList.ml" 114 3224 3240 "dList.ml" 114 3224 3242
+type(
+  unit
+)
+"dList.ml" 115 3243 3256 "dList.ml" 115 3243 3257
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 116 3266 3276 "dList.ml" 122 3424 3443
+)
+"dList.ml" 115 3243 3251 "dList.ml" 115 3243 3257
+type(
+  'a t option
+)
+"dList.ml" 115 3243 3251 "dList.ml" 115 3243 3262
+type(
+  'a t option
+)
+ident(
+  def a "dList.ml" 116 3266 3276 "dList.ml" 122 3424 3443
+)
+"dList.ml" 117 3280 3292 "dList.ml" 117 3280 3293
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 115 3243 3256 "dList.ml" 115 3243 3257
+)
+"dList.ml" 117 3280 3292 "dList.ml" 117 3280 3303
+type(
+  'a node -> unit
+)
+"dList.ml" 117 3280 3304 "dList.ml" 117 3280 3308
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 112 3177 3190 "dList.ml" 112 3177 3194
+)
+"dList.ml" 117 3280 3292 "dList.ml" 117 3280 3308
+call(
+  stack
+)
+type(
+  unit
+)
+"dList.ml" 118 3310 3330 "dList.ml" 118 3310 3334
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 112 3177 3190 "dList.ml" 112 3177 3194
+)
+"dList.ml" 118 3310 3330 "dList.ml" 118 3310 3341
+type(
+  'a t option
+)
+"dList.ml" 118 3310 3342 "dList.ml" 118 3310 3344
+type(
+  'a t option -> 'a t option -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"dList.ml" 118 3310 3345 "dList.ml" 118 3310 3346
+type(
+  'a t option
+)
+ident(
+  int_ref a "dList.ml" 115 3243 3251 "dList.ml" 115 3243 3262
+)
+"dList.ml" 118 3310 3330 "dList.ml" 118 3310 3346
+type(
+  bool
+)
+"dList.ml" 118 3310 3322 "dList.ml" 118 3310 3347
+type(
+  unit
+)
+"dList.ml" 119 3349 3361 "dList.ml" 119 3349 3368
+type(
+  'a node -> 'a t -> unit
+)
+ident(
+  int_ref remove' "dList.ml" 88 2530 2536 "dList.ml" 88 2530 2543
+)
+"dList.ml" 119 3349 3369 "dList.ml" 119 3349 3373
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 112 3177 3190 "dList.ml" 112 3177 3194
+)
+"dList.ml" 119 3349 3374 "dList.ml" 119 3349 3375
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 115 3243 3256 "dList.ml" 115 3243 3257
+)
+"dList.ml" 119 3349 3361 "dList.ml" 119 3349 3375
+call(
+  stack
+)
+type(
+  unit
+)
+"dList.ml" 120 3376 3391 "dList.ml" 120 3376 3392
+type(
+  exn
+)
+ident(
+  def e "dList.ml" 121 3396 3408 "dList.ml" 122 3424 3443
+)
+"dList.ml" 121 3396 3408 "dList.ml" 121 3396 3415
+type(
+  'a node -> 'a t -> unit
+)
+ident(
+  int_ref remove' "dList.ml" 88 2530 2536 "dList.ml" 88 2530 2543
+)
+"dList.ml" 121 3396 3416 "dList.ml" 121 3396 3420
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 112 3177 3190 "dList.ml" 112 3177 3194
+)
+"dList.ml" 121 3396 3421 "dList.ml" 121 3396 3422
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 115 3243 3256 "dList.ml" 115 3243 3257
+)
+"dList.ml" 121 3396 3408 "dList.ml" 121 3396 3422
+call(
+  stack
+)
+type(
+  unit
+)
+"dList.ml" 122 3424 3436 "dList.ml" 122 3424 3441
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"dList.ml" 122 3424 3442 "dList.ml" 122 3424 3443
+type(
+  exn
+)
+ident(
+  int_ref e "dList.ml" 120 3376 3391 "dList.ml" 120 3376 3392
+)
+"dList.ml" 122 3424 3436 "dList.ml" 122 3424 3443
+type(
+  unit
+)
+"dList.ml" 121 3396 3408 "dList.ml" 122 3424 3443
+type(
+  unit
+)
+"dList.ml" 118 3310 3322 "dList.ml" 122 3424 3443
+type(
+  unit
+)
+"dList.ml" 117 3280 3292 "dList.ml" 122 3424 3443
+type(
+  unit
+)
+"dList.ml" 116 3266 3276 "dList.ml" 122 3424 3443
+type(
+  unit
+)
+"dList.ml" 113 3197 3201 "dList.ml" 122 3424 3443
+type(
+  unit
+)
+"dList.ml" 112 3177 3190 "dList.ml" 122 3424 3443
+type(
+  'a node -> unit
+)
+"dList.ml" 130 3729 3735 "dList.ml" 130 3729 3743
+type(
+  'a node -> 'a t -> 'a node option
+)
+ident(
+  def add_node "dList.ml" 151 4269 4271 --
+)
+"dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+type(
+  'a node
+)
+ident(
+  def node "dList.ml" 130 3729 3749 "dList.ml" 149 4248 4267
+)
+"dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+type(
+  'a t
+)
+ident(
+  def r "dList.ml" 131 3753 3757 "dList.ml" 149 4248 4267
+)
+"dList.ml" 131 3753 3765 "dList.ml" 131 3753 3769
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 131 3753 3765 "dList.ml" 131 3753 3776
+type(
+  'a t option
+)
+"dList.ml" 131 3753 3777 "dList.ml" 131 3753 3778
+type(
+  'a t option -> 'a t option -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"dList.ml" 131 3753 3779 "dList.ml" 131 3753 3783
+type(
+  'a t option
+)
+"dList.ml" 131 3753 3765 "dList.ml" 131 3753 3783
+type(
+  bool
+)
+"dList.ml" 131 3753 3757 "dList.ml" 131 3753 3784
+type(
+  unit
+)
+"dList.ml" 132 3786 3790 "dList.ml" 132 3786 3794
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 132 3786 3810 "dList.ml" 132 3786 3811
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 132 3786 3805 "dList.ml" 132 3786 3811
+type(
+  'a t option
+)
+"dList.ml" 132 3786 3790 "dList.ml" 132 3786 3811
+type(
+  unit
+)
+"dList.ml" 133 3813 3823 "dList.ml" 133 3813 3824
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 133 3813 3823 "dList.ml" 133 3813 3831
+type(
+  'a node option
+)
+"dList.ml" 134 3837 3845 "dList.ml" 134 3837 3849
+type(
+  'a node option
+)
+"dList.ml" 135 3853 3863 "dList.ml" 135 3853 3867
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 135 3853 3876 "dList.ml" 135 3853 3880
+type(
+  'a node option
+)
+"dList.ml" 135 3853 3863 "dList.ml" 135 3853 3880
+type(
+  unit
+)
+"dList.ml" 136 3882 3892 "dList.ml" 136 3882 3896
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 136 3882 3905 "dList.ml" 136 3882 3909
+type(
+  'a node option
+)
+"dList.ml" 136 3882 3892 "dList.ml" 136 3882 3909
+type(
+  unit
+)
+"dList.ml" 137 3911 3921 "dList.ml" 137 3911 3922
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 137 3911 3938 "dList.ml" 137 3911 3942
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 137 3911 3933 "dList.ml" 137 3911 3942
+type(
+  'a node option
+)
+"dList.ml" 137 3911 3921 "dList.ml" 137 3911 3942
+type(
+  unit
+)
+"dList.ml" 138 3944 3954 "dList.ml" 138 3944 3955
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 138 3944 3966 "dList.ml" 138 3944 3967
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 138 3944 3966 "dList.ml" 138 3944 3974
+type(
+  'a node option
+)
+"dList.ml" 138 3944 3954 "dList.ml" 138 3944 3974
+type(
+  unit
+)
+"dList.ml" 139 3976 3986 "dList.ml" 139 3976 3987
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 139 3976 3996 "dList.ml" 139 3976 3997
+type(
+  int
+)
+"dList.ml" 139 3976 3986 "dList.ml" 139 3976 3997
+type(
+  unit
+)
+"dList.ml" 140 3999 4009 "dList.ml" 140 3999 4013
+type(
+  'a node option
+)
+"dList.ml" 139 3976 3986 "dList.ml" 140 3999 4013
+type(
+  'a node option
+)
+"dList.ml" 138 3944 3954 "dList.ml" 140 3999 4013
+type(
+  'a node option
+)
+"dList.ml" 137 3911 3921 "dList.ml" 140 3999 4013
+type(
+  'a node option
+)
+"dList.ml" 136 3882 3892 "dList.ml" 140 3999 4013
+type(
+  'a node option
+)
+"dList.ml" 135 3853 3863 "dList.ml" 140 3999 4013
+type(
+  'a node option
+)
+"dList.ml" 141 4014 4027 "dList.ml" 141 4014 4029
+type(
+  'a node
+)
+ident(
+  def rl "dList.ml" 142 4033 4043 "dList.ml" 149 4248 4267
+)
+"dList.ml" 141 4014 4022 "dList.ml" 141 4014 4029
+type(
+  'a node option
+)
+"dList.ml" 142 4033 4043 "dList.ml" 142 4033 4047
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 142 4033 4056 "dList.ml" 142 4033 4060
+type(
+  'a node option
+)
+"dList.ml" 142 4033 4043 "dList.ml" 142 4033 4060
+type(
+  unit
+)
+"dList.ml" 143 4062 4072 "dList.ml" 143 4062 4076
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 143 4062 4085 "dList.ml" 143 4062 4086
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 143 4062 4085 "dList.ml" 143 4062 4093
+type(
+  'a node option
+)
+"dList.ml" 143 4062 4072 "dList.ml" 143 4062 4093
+type(
+  unit
+)
+"dList.ml" 144 4095 4105 "dList.ml" 144 4095 4107
+type(
+  'a node
+)
+ident(
+  int_ref rl "dList.ml" 141 4014 4027 "dList.ml" 141 4014 4029
+)
+"dList.ml" 144 4095 4121 "dList.ml" 144 4095 4125
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 144 4095 4116 "dList.ml" 144 4095 4125
+type(
+  'a node option
+)
+"dList.ml" 144 4095 4105 "dList.ml" 144 4095 4125
+type(
+  unit
+)
+"dList.ml" 145 4127 4137 "dList.ml" 145 4127 4138
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 145 4127 4154 "dList.ml" 145 4127 4158
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 130 3729 3744 "dList.ml" 130 3729 3748
+)
+"dList.ml" 145 4127 4149 "dList.ml" 145 4127 4158
+type(
+  'a node option
+)
+"dList.ml" 145 4127 4137 "dList.ml" 145 4127 4158
+type(
+  unit
+)
+"dList.ml" 146 4160 4170 "dList.ml" 146 4160 4171
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 146 4160 4180 "dList.ml" 146 4160 4181
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 146 4160 4180 "dList.ml" 146 4160 4186
+type(
+  int
+)
+"dList.ml" 146 4160 4187 "dList.ml" 146 4160 4188
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"dList.ml" 146 4160 4189 "dList.ml" 146 4160 4190
+type(
+  int
+)
+"dList.ml" 146 4160 4180 "dList.ml" 146 4160 4190
+type(
+  int
+)
+"dList.ml" 146 4160 4170 "dList.ml" 146 4160 4190
+type(
+  unit
+)
+"dList.ml" 147 4192 4205 "dList.ml" 147 4192 4206
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 147 4192 4205 "dList.ml" 147 4192 4211
+type(
+  int
+)
+"dList.ml" 147 4192 4212 "dList.ml" 147 4192 4213
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>
+)
+"dList.ml" 147 4192 4214 "dList.ml" 147 4192 4215
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 147 4192 4214 "dList.ml" 147 4192 4223
+type(
+  int
+)
+"dList.ml" 147 4192 4205 "dList.ml" 147 4192 4223
+type(
+  bool
+)
+"dList.ml" 148 4224 4239 "dList.ml" 148 4224 4240
+type(
+  'a t
+)
+ident(
+  int_ref r "dList.ml" 130 3729 3749 "dList.ml" 130 3729 3750
+)
+"dList.ml" 148 4224 4239 "dList.ml" 148 4224 4247
+type(
+  'a node option
+)
+"dList.ml" 149 4248 4263 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 147 4192 4202 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 146 4160 4170 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 145 4127 4137 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 144 4095 4105 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 143 4062 4072 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 142 4033 4043 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 133 3813 3817 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 132 3786 3790 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 131 3753 3757 "dList.ml" 149 4248 4267
+type(
+  'a node option
+)
+"dList.ml" 130 3729 3749 "dList.ml" 149 4248 4267
+type(
+  'a t -> 'a node option
+)
+"dList.ml" 130 3729 3744 "dList.ml" 149 4248 4267
+type(
+  'a node -> 'a t -> 'a node option
+)
+"dList.ml" 151 4269 4275 "dList.ml" 151 4269 4278
+type(
+  'a -> 'a t -> 'a option
+)
+ident(
+  def add "dList.ml" 158 4504 4506 --
+)
+"dList.ml" 151 4269 4279 "dList.ml" 151 4269 4280
+type(
+  'a
+)
+ident(
+  def x "dList.ml" 151 4269 4281 "dList.ml" 156 4462 4502
+)
+"dList.ml" 151 4269 4281 "dList.ml" 151 4269 4282
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 152 4285 4289 "dList.ml" 156 4462 4502
+)
+"dList.ml" 152 4285 4293 "dList.ml" 152 4285 4303
+type(
+  'b -> 'b node
+)
+"dList.ml" 152 4285 4304 "dList.ml" 152 4285 4305
+type(
+  'b
+)
+ident(
+  def a "dList.ml" 152 4285 4308 "dList.ml" 152 4285 4362
+)
+"dList.ml" 152 4285 4318 "dList.ml" 152 4285 4319
+type(
+  'b
+)
+ident(
+  int_ref a "dList.ml" 152 4285 4304 "dList.ml" 152 4285 4305
+)
+"dList.ml" 152 4285 4328 "dList.ml" 152 4285 4332
+type(
+  'b node option
+)
+"dList.ml" 152 4285 4341 "dList.ml" 152 4285 4345
+type(
+  'b node option
+)
+"dList.ml" 152 4285 4356 "dList.ml" 152 4285 4360
+type(
+  'b t option
+)
+"dList.ml" 152 4285 4308 "dList.ml" 152 4285 4362
+type(
+  'b node
+)
+"dList.ml" 152 4285 4304 "dList.ml" 152 4285 4362
+type(
+  'b -> 'b node
+)
+"dList.ml" 154 4400 4410 "dList.ml" 154 4400 4418
+type(
+  'a node -> 'a t -> 'a node option
+)
+ident(
+  int_ref add_node "dList.ml" 130 3729 3735 "dList.ml" 130 3729 3743
+)
+"dList.ml" 154 4400 4420 "dList.ml" 154 4400 4430
+type(
+  'a -> 'a node
+)
+ident(
+  int_ref create_one "dList.ml" 152 4285 4293 "dList.ml" 152 4285 4303
+)
+"dList.ml" 154 4400 4431 "dList.ml" 154 4400 4432
+type(
+  'a
+)
+ident(
+  int_ref x "dList.ml" 151 4269 4279 "dList.ml" 151 4269 4280
+)
+"dList.ml" 154 4400 4420 "dList.ml" 154 4400 4432
+call(
+  stack
+)
+type(
+  'a node
+)
+"dList.ml" 154 4400 4434 "dList.ml" 154 4400 4435
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 151 4269 4281 "dList.ml" 151 4269 4282
+)
+"dList.ml" 154 4400 4410 "dList.ml" 154 4400 4435
+call(
+  stack
+)
+type(
+  'a node option
+)
+"dList.ml" 155 4441 4449 "dList.ml" 155 4441 4453
+type(
+  'a node option
+)
+"dList.ml" 155 4441 4457 "dList.ml" 155 4441 4461
+type(
+  'a option
+)
+"dList.ml" 156 4462 4475 "dList.ml" 156 4462 4476
+type(
+  'a node
+)
+ident(
+  def v "dList.ml" 156 4462 4480 "dList.ml" 156 4462 4502
+)
+"dList.ml" 156 4462 4470 "dList.ml" 156 4462 4476
+type(
+  'a node option
+)
+"dList.ml" 156 4462 4480 "dList.ml" 156 4462 4486
+type(
+  'a node -> unit
+)
+ident(
+  int_ref remove "dList.ml" 112 3177 3183 "dList.ml" 112 3177 3189
+)
+"dList.ml" 156 4462 4487 "dList.ml" 156 4462 4488
+type(
+  'a node
+)
+ident(
+  int_ref v "dList.ml" 156 4462 4475 "dList.ml" 156 4462 4476
+)
+"dList.ml" 156 4462 4480 "dList.ml" 156 4462 4488
+call(
+  stack
+)
+type(
+  unit
+)
+"dList.ml" 156 4462 4495 "dList.ml" 156 4462 4496
+type(
+  'a node
+)
+ident(
+  int_ref v "dList.ml" 156 4462 4475 "dList.ml" 156 4462 4476
+)
+"dList.ml" 156 4462 4495 "dList.ml" 156 4462 4502
+type(
+  'a
+)
+"dList.ml" 156 4462 4490 "dList.ml" 156 4462 4502
+type(
+  'a option
+)
+"dList.ml" 156 4462 4480 "dList.ml" 156 4462 4502
+type(
+  'a option
+)
+"dList.ml" 154 4400 4404 "dList.ml" 156 4462 4502
+type(
+  'a option
+)
+"dList.ml" 152 4285 4289 "dList.ml" 156 4462 4502
+type(
+  'a option
+)
+"dList.ml" 151 4269 4281 "dList.ml" 156 4462 4502
+type(
+  'a t -> 'a option
+)
+"dList.ml" 151 4269 4279 "dList.ml" 156 4462 4502
+type(
+  'a -> 'a t -> 'a option
+)
+"dList.ml" 158 4504 4510 "dList.ml" 158 4504 4516
+type(
+  'a t -> 'a node option
+)
+ident(
+  def newest "dList.ml" 159 4530 4532 --
+)
+"dList.ml" 158 4504 4517 "dList.ml" 158 4504 4518
+type(
+  'a t
+)
+ident(
+  def a "dList.ml" 158 4504 4521 "dList.ml" 158 4504 4529
+)
+"dList.ml" 158 4504 4521 "dList.ml" 158 4504 4522
+type(
+  'a t
+)
+ident(
+  int_ref a "dList.ml" 158 4504 4517 "dList.ml" 158 4504 4518
+)
+"dList.ml" 158 4504 4521 "dList.ml" 158 4504 4529
+type(
+  'a node option
+)
+"dList.ml" 158 4504 4517 "dList.ml" 158 4504 4529
+type(
+  'a t -> 'a node option
+)
+"dList.ml" 159 4530 4536 "dList.ml" 159 4530 4542
+type(
+  'a t -> 'a node option
+)
+ident(
+  def oldest "dList.ml" 160 4556 4558 --
+)
+"dList.ml" 159 4530 4543 "dList.ml" 159 4530 4544
+type(
+  'a t
+)
+ident(
+  def a "dList.ml" 159 4530 4547 "dList.ml" 159 4530 4555
+)
+"dList.ml" 159 4530 4547 "dList.ml" 159 4530 4548
+type(
+  'a t
+)
+ident(
+  int_ref a "dList.ml" 159 4530 4543 "dList.ml" 159 4530 4544
+)
+"dList.ml" 159 4530 4547 "dList.ml" 159 4530 4555
+type(
+  'a node option
+)
+"dList.ml" 159 4530 4543 "dList.ml" 159 4530 4555
+type(
+  'a t -> 'a node option
+)
+"dList.ml" 160 4556 4562 "dList.ml" 160 4556 4566
+type(
+  'a t -> int
+)
+ident(
+  def size "dList.ml" 161 4578 4580 --
+)
+"dList.ml" 160 4556 4567 "dList.ml" 160 4556 4568
+type(
+  'a t
+)
+ident(
+  def c "dList.ml" 160 4556 4571 "dList.ml" 160 4556 4577
+)
+"dList.ml" 160 4556 4571 "dList.ml" 160 4556 4572
+type(
+  'a t
+)
+ident(
+  int_ref c "dList.ml" 160 4556 4567 "dList.ml" 160 4556 4568
+)
+"dList.ml" 160 4556 4571 "dList.ml" 160 4556 4577
+type(
+  int
+)
+"dList.ml" 160 4556 4567 "dList.ml" 160 4556 4577
+type(
+  'a t -> int
+)
+"dList.ml" 161 4578 4584 "dList.ml" 161 4578 4591
+type(
+  'a t -> int
+)
+ident(
+  def maxsize "dList.ml" 163 4607 4609 --
+)
+"dList.ml" 161 4578 4592 "dList.ml" 161 4578 4593
+type(
+  'a t
+)
+ident(
+  def c "dList.ml" 161 4578 4596 "dList.ml" 161 4578 4605
+)
+"dList.ml" 161 4578 4596 "dList.ml" 161 4578 4597
+type(
+  'a t
+)
+ident(
+  int_ref c "dList.ml" 161 4578 4592 "dList.ml" 161 4578 4593
+)
+"dList.ml" 161 4578 4596 "dList.ml" 161 4578 4605
+type(
+  int
+)
+"dList.ml" 161 4578 4592 "dList.ml" 161 4578 4605
+type(
+  'a t -> int
+)
+"dList.ml" 163 4607 4613 "dList.ml" 163 4607 4618
+type(
+  'a node -> 'a
+)
+ident(
+  def value "dList.ml" 164 4631 4633 --
+)
+"dList.ml" 163 4607 4619 "dList.ml" 163 4607 4620
+type(
+  'a node
+)
+ident(
+  def n "dList.ml" 163 4607 4623 "dList.ml" 163 4607 4630
+)
+"dList.ml" 163 4607 4623 "dList.ml" 163 4607 4624
+type(
+  'a node
+)
+ident(
+  int_ref n "dList.ml" 163 4607 4619 "dList.ml" 163 4607 4620
+)
+"dList.ml" 163 4607 4623 "dList.ml" 163 4607 4630
+type(
+  'a
+)
+"dList.ml" 163 4607 4619 "dList.ml" 163 4607 4630
+type(
+  'a node -> 'a
+)
+"dList.ml" 164 4631 4637 "dList.ml" 164 4631 4644
+type(
+  'a node -> 'a t option
+)
+ident(
+  def list_of "dList.ml" 166 4659 4661 --
+)
+"dList.ml" 164 4631 4645 "dList.ml" 164 4631 4646
+type(
+  'a node
+)
+ident(
+  def n "dList.ml" 164 4631 4649 "dList.ml" 164 4631 4657
+)
+"dList.ml" 164 4631 4649 "dList.ml" 164 4631 4650
+type(
+  'a node
+)
+ident(
+  int_ref n "dList.ml" 164 4631 4645 "dList.ml" 164 4631 4646
+)
+"dList.ml" 164 4631 4649 "dList.ml" 164 4631 4657
+type(
+  'a t option
+)
+"dList.ml" 164 4631 4645 "dList.ml" 164 4631 4657
+type(
+  'a node -> 'a t option
+)
+"dList.ml" 166 4659 4665 "dList.ml" 166 4659 4667
+type(
+  'a node -> unit
+)
+ident(
+  def up "dList.ml" 177 5008 5010 --
+)
+"dList.ml" 166 4659 4668 "dList.ml" 166 4659 4672
+type(
+  'a node
+)
+ident(
+  def node "dList.ml" 167 4675 4679 "dList.ml" 174 4862 4902
+)
+"dList.ml" 167 4675 4685 "dList.ml" 167 4675 4689
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 166 4659 4668 "dList.ml" 166 4659 4672
+)
+"dList.ml" 167 4675 4685 "dList.ml" 167 4675 4696
+type(
+  'a t option
+)
+"dList.ml" 168 4702 4710 "dList.ml" 168 4702 4714
+type(
+  'a t option
+)
+"dList.ml" 168 4702 4718 "dList.ml" 168 4702 4720
+type(
+  unit
+)
+"dList.ml" 169 4721 4734 "dList.ml" 169 4721 4735
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 170 4739 4749 "dList.ml" 174 4862 4902
+)
+"dList.ml" 169 4721 4729 "dList.ml" 169 4721 4735
+type(
+  'a t option
+)
+"dList.ml" 170 4739 4755 "dList.ml" 170 4739 4756
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 169 4721 4734 "dList.ml" 169 4721 4735
+)
+"dList.ml" 170 4739 4755 "dList.ml" 170 4739 4763
+type(
+  'a node option
+)
+"dList.ml" 171 4769 4788 "dList.ml" 171 4769 4789
+type(
+  'a node
+)
+ident(
+  def n "dList.ml" 171 4769 4795 "dList.ml" 171 4769 4804
+)
+"dList.ml" 171 4769 4783 "dList.ml" 171 4769 4789
+type(
+  'a node option
+)
+"dList.ml" 171 4769 4795 "dList.ml" 171 4769 4799
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 166 4659 4668 "dList.ml" 166 4659 4672
+)
+"dList.ml" 171 4769 4800 "dList.ml" 171 4769 4802
+type(
+  'a node -> 'a node -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+"dList.ml" 171 4769 4803 "dList.ml" 171 4769 4804
+type(
+  'a node
+)
+ident(
+  int_ref n "dList.ml" 171 4769 4788 "dList.ml" 171 4769 4789
+)
+"dList.ml" 171 4769 4795 "dList.ml" 171 4769 4804
+type(
+  unit
+)
+type(
+  bool
+)
+"dList.ml" 171 4769 4808 "dList.ml" 171 4769 4810
+type(
+  unit
+)
+"dList.ml" 172 4811 4825 "dList.ml" 172 4811 4826
+type(
+  'a node option
+)
+"dList.ml" 173 4830 4846 "dList.ml" 173 4830 4853
+type(
+  'a node -> 'a t -> unit
+)
+ident(
+  int_ref remove' "dList.ml" 88 2530 2536 "dList.ml" 88 2530 2543
+)
+"dList.ml" 173 4830 4854 "dList.ml" 173 4830 4858
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 166 4659 4668 "dList.ml" 166 4659 4672
+)
+"dList.ml" 173 4830 4859 "dList.ml" 173 4830 4860
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 169 4721 4734 "dList.ml" 169 4721 4735
+)
+"dList.ml" 173 4830 4846 "dList.ml" 173 4830 4860
+call(
+  stack
+)
+type(
+  unit
+)
+"dList.ml" 174 4862 4878 "dList.ml" 174 4862 4884
+type(
+  'a node option -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"dList.ml" 174 4862 4886 "dList.ml" 174 4862 4894
+type(
+  'a node -> 'a t -> 'a node option
+)
+ident(
+  int_ref add_node "dList.ml" 130 3729 3735 "dList.ml" 130 3729 3743
+)
+"dList.ml" 174 4862 4895 "dList.ml" 174 4862 4899
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 166 4659 4668 "dList.ml" 166 4659 4672
+)
+"dList.ml" 174 4862 4900 "dList.ml" 174 4862 4901
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 169 4721 4734 "dList.ml" 169 4721 4735
+)
+"dList.ml" 174 4862 4886 "dList.ml" 174 4862 4901
+call(
+  stack
+)
+type(
+  'a node option
+)
+"dList.ml" 174 4862 4878 "dList.ml" 174 4862 4902
+type(
+  unit
+)
+"dList.ml" 173 4830 4846 "dList.ml" 174 4862 4902
+type(
+  unit
+)
+"dList.ml" 170 4739 4749 "dList.ml" 174 4862 4902
+type(
+  unit
+)
+"dList.ml" 167 4675 4679 "dList.ml" 174 4862 4902
+type(
+  unit
+)
+"dList.ml" 166 4659 4668 "dList.ml" 174 4862 4902
+type(
+  'a node -> unit
+)
+"dList.ml" 177 5008 5018 "dList.ml" 177 5008 5033
+type(
+  'a t -> int -> 'a list
+)
+ident(
+  def remove_n_oldest "dList.ml" 177 5008 5010 --
+)
+"dList.ml" 177 5008 5034 "dList.ml" 177 5008 5035
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 177 5008 5036 "dList.ml" 188 5405 5443
+)
+"dList.ml" 177 5008 5036 "dList.ml" 177 5008 5037
+type(
+  int
+)
+ident(
+  def n "dList.ml" 180 5221 5225 "dList.ml" 188 5405 5443
+)
+"dList.ml" 180 5221 5228 "dList.ml" 180 5221 5229
+type(
+  int
+)
+ident(
+  int_ref n "dList.ml" 177 5008 5036 "dList.ml" 177 5008 5037
+)
+"dList.ml" 180 5221 5230 "dList.ml" 180 5221 5232
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"dList.ml" 180 5221 5233 "dList.ml" 180 5221 5234
+type(
+  int
+)
+"dList.ml" 180 5221 5228 "dList.ml" 180 5221 5234
+type(
+  bool
+)
+"dList.ml" 181 5235 5244 "dList.ml" 181 5235 5246
+type(
+  'a list
+)
+"dList.ml" 183 5256 5268 "dList.ml" 183 5256 5269
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 177 5008 5034 "dList.ml" 177 5008 5035
+)
+"dList.ml" 183 5256 5268 "dList.ml" 183 5256 5276
+type(
+  'a node option
+)
+"dList.ml" 184 5282 5292 "dList.ml" 184 5282 5296
+type(
+  'a node option
+)
+"dList.ml" 184 5282 5300 "dList.ml" 184 5282 5302
+type(
+  'a list
+)
+"dList.ml" 185 5303 5318 "dList.ml" 185 5303 5322
+type(
+  'a node
+)
+ident(
+  def node "dList.ml" 186 5326 5338 "dList.ml" 188 5405 5443
+)
+"dList.ml" 185 5303 5313 "dList.ml" 185 5303 5322
+type(
+  'a node option
+)
+"dList.ml" 186 5326 5342 "dList.ml" 186 5326 5343
+type(
+  'a
+)
+"dList.ml" 186 5326 5346 "dList.ml" 186 5326 5350
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 185 5303 5318 "dList.ml" 185 5303 5322
+)
+"dList.ml" 186 5326 5346 "dList.ml" 186 5326 5356
+type(
+  'a
+)
+"dList.ml" 187 5360 5372 "dList.ml" 187 5360 5378
+type(
+  'a node -> unit
+)
+ident(
+  int_ref remove "dList.ml" 112 3177 3183 "dList.ml" 112 3177 3189
+)
+"dList.ml" 187 5360 5379 "dList.ml" 187 5360 5383
+type(
+  'a node
+)
+ident(
+  int_ref node "dList.ml" 185 5303 5318 "dList.ml" 185 5303 5322
+)
+"dList.ml" 187 5360 5372 "dList.ml" 187 5360 5383
+call(
+  stack
+)
+type(
+  unit
+)
+"dList.ml" 188 5405 5417 "dList.ml" 188 5405 5418
+type(
+  'a
+)
+ident(
+  int_ref v "dList.ml" 186 5326 5342 "dList.ml" 186 5326 5343
+)
+"dList.ml" 188 5405 5420 "dList.ml" 188 5405 5435
+type(
+  'a t -> int -> 'a list
+)
+ident(
+  int_ref remove_n_oldest "dList.ml" 177 5008 5018 "dList.ml" 177 5008 5033
+)
+"dList.ml" 188 5405 5436 "dList.ml" 188 5405 5437
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 177 5008 5034 "dList.ml" 177 5008 5035
+)
+"dList.ml" 188 5405 5439 "dList.ml" 188 5405 5440
+type(
+  int
+)
+ident(
+  int_ref n "dList.ml" 177 5008 5036 "dList.ml" 177 5008 5037
+)
+"dList.ml" 188 5405 5440 "dList.ml" 188 5405 5441
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"dList.ml" 188 5405 5441 "dList.ml" 188 5405 5442
+type(
+  int
+)
+"dList.ml" 188 5405 5439 "dList.ml" 188 5405 5442
+type(
+  int
+)
+"dList.ml" 188 5405 5420 "dList.ml" 188 5405 5443
+call(
+  stack
+)
+type(
+  'a list
+)
+"dList.ml" 188 5405 5417 "dList.ml" 188 5405 5443
+type(
+  'a list
+)
+"dList.ml" 187 5360 5372 "dList.ml" 188 5405 5443
+type(
+  'a list
+)
+"dList.ml" 186 5326 5338 "dList.ml" 188 5405 5443
+type(
+  'a list
+)
+"dList.ml" 183 5256 5262 "dList.ml" 188 5405 5443
+type(
+  'a list
+)
+"dList.ml" 180 5221 5225 "dList.ml" 188 5405 5443
+type(
+  'a list
+)
+"dList.ml" 177 5008 5036 "dList.ml" 188 5405 5443
+type(
+  int -> 'a list
+)
+"dList.ml" 177 5008 5034 "dList.ml" 188 5405 5443
+type(
+  'a t -> int -> 'a list
+)
+"dList.ml" 190 5445 5451 "dList.ml" 190 5445 5462
+type(
+  'a t -> int -> 'a list
+)
+ident(
+  def set_maxsize "dList.ml" 201 5686 5688 --
+)
+"dList.ml" 190 5445 5463 "dList.ml" 190 5445 5464
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 190 5445 5465 "dList.ml" 199 5676 5684
+)
+"dList.ml" 190 5445 5465 "dList.ml" 190 5445 5466
+type(
+  int
+)
+ident(
+  def m "dList.ml" 191 5469 5473 "dList.ml" 199 5676 5684
+)
+"dList.ml" 191 5469 5477 "dList.ml" 191 5469 5481
+type(
+  int
+)
+"dList.ml" 191 5469 5484 "dList.ml" 191 5469 5485
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 190 5445 5463 "dList.ml" 190 5445 5464
+)
+"dList.ml" 191 5469 5484 "dList.ml" 191 5469 5490
+type(
+  int
+)
+"dList.ml" 192 5494 5501 "dList.ml" 192 5494 5502
+type(
+  int
+)
+ident(
+  int_ref m "dList.ml" 190 5445 5465 "dList.ml" 190 5445 5466
+)
+"dList.ml" 192 5494 5503 "dList.ml" 192 5494 5505
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.>=
+)
+"dList.ml" 192 5494 5506 "dList.ml" 192 5494 5510
+type(
+  int
+)
+ident(
+  int_ref size "dList.ml" 191 5469 5477 "dList.ml" 191 5469 5481
+)
+"dList.ml" 192 5494 5501 "dList.ml" 192 5494 5510
+type(
+  bool
+)
+"dList.ml" 193 5511 5521 "dList.ml" 193 5511 5522
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 190 5445 5463 "dList.ml" 190 5445 5464
+)
+"dList.ml" 193 5511 5534 "dList.ml" 193 5511 5535
+type(
+  int
+)
+ident(
+  int_ref m "dList.ml" 190 5445 5465 "dList.ml" 190 5445 5466
+)
+"dList.ml" 193 5511 5521 "dList.ml" 193 5511 5535
+type(
+  unit
+)
+"dList.ml" 193 5511 5537 "dList.ml" 193 5511 5539
+type(
+  'a list
+)
+"dList.ml" 193 5511 5521 "dList.ml" 193 5511 5539
+type(
+  'a list
+)
+"dList.ml" 194 5541 5553 "dList.ml" 194 5541 5554
+type(
+  int
+)
+ident(
+  int_ref m "dList.ml" 190 5445 5465 "dList.ml" 190 5445 5466
+)
+"dList.ml" 194 5541 5555 "dList.ml" 194 5541 5557
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.<=
+)
+"dList.ml" 194 5541 5558 "dList.ml" 194 5541 5559
+type(
+  int
+)
+"dList.ml" 194 5541 5553 "dList.ml" 194 5541 5559
+type(
+  bool
+)
+"dList.ml" 195 5560 5569 "dList.ml" 195 5560 5577
+type(
+  string -> 'a list
+)
+ident(
+  ext_ref Pervasives.failwith
+)
+"dList.ml" 195 5560 5578 "dList.ml" 195 5560 5597
+type(
+  string
+)
+"dList.ml" 195 5560 5569 "dList.ml" 195 5560 5597
+call(
+  tail
+)
+type(
+  'a list
+)
+"dList.ml" 197 5607 5617 "dList.ml" 197 5607 5619
+type(
+  'a list
+)
+"dList.ml" 197 5607 5622 "dList.ml" 197 5607 5637
+type(
+  'a t -> int -> 'a list
+)
+ident(
+  int_ref remove_n_oldest "dList.ml" 177 5008 5018 "dList.ml" 177 5008 5033
+)
+"dList.ml" 197 5607 5638 "dList.ml" 197 5607 5639
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 190 5445 5463 "dList.ml" 190 5445 5464
+)
+"dList.ml" 197 5607 5641 "dList.ml" 197 5607 5645
+type(
+  int
+)
+ident(
+  int_ref size "dList.ml" 191 5469 5477 "dList.ml" 191 5469 5481
+)
+"dList.ml" 197 5607 5646 "dList.ml" 197 5607 5647
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"dList.ml" 197 5607 5648 "dList.ml" 197 5607 5649
+type(
+  int
+)
+ident(
+  int_ref m "dList.ml" 190 5445 5465 "dList.ml" 190 5445 5466
+)
+"dList.ml" 197 5607 5641 "dList.ml" 197 5607 5649
+type(
+  int
+)
+"dList.ml" 197 5607 5622 "dList.ml" 197 5607 5650
+call(
+  stack
+)
+type(
+  'a list
+)
+"dList.ml" 198 5654 5660 "dList.ml" 198 5654 5661
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 190 5445 5463 "dList.ml" 190 5445 5464
+)
+"dList.ml" 198 5654 5673 "dList.ml" 198 5654 5674
+type(
+  int
+)
+ident(
+  int_ref m "dList.ml" 190 5445 5465 "dList.ml" 190 5445 5466
+)
+"dList.ml" 198 5654 5660 "dList.ml" 198 5654 5674
+type(
+  unit
+)
+"dList.ml" 199 5676 5682 "dList.ml" 199 5676 5684
+type(
+  'a list
+)
+ident(
+  int_ref ll "dList.ml" 197 5607 5617 "dList.ml" 197 5607 5619
+)
+"dList.ml" 198 5654 5660 "dList.ml" 199 5676 5684
+type(
+  'a list
+)
+"dList.ml" 197 5607 5613 "dList.ml" 199 5676 5684
+type(
+  'a list
+)
+"dList.ml" 194 5541 5550 "dList.ml" 199 5676 5684
+type(
+  'a list
+)
+"dList.ml" 192 5494 5498 "dList.ml" 199 5676 5684
+type(
+  'a list
+)
+"dList.ml" 191 5469 5473 "dList.ml" 199 5676 5684
+type(
+  'a list
+)
+"dList.ml" 190 5445 5465 "dList.ml" 199 5676 5684
+type(
+  int -> 'a list
+)
+"dList.ml" 190 5445 5463 "dList.ml" 199 5676 5684
+type(
+  'a t -> int -> 'a list
+)
+"dList.ml" 201 5686 5692 "dList.ml" 201 5686 5705
+type(
+  ('a node -> unit) -> 'a t -> unit
+)
+ident(
+  def set_finaliser "dList.ml" 203 5730 5732 --
+)
+"dList.ml" 201 5686 5706 "dList.ml" 201 5686 5707
+type(
+  'a node -> unit
+)
+ident(
+  def f "dList.ml" 201 5686 5708 "dList.ml" 201 5686 5728
+)
+"dList.ml" 201 5686 5708 "dList.ml" 201 5686 5709
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 201 5686 5712 "dList.ml" 201 5686 5728
+)
+"dList.ml" 201 5686 5712 "dList.ml" 201 5686 5713
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 201 5686 5708 "dList.ml" 201 5686 5709
+)
+"dList.ml" 201 5686 5727 "dList.ml" 201 5686 5728
+type(
+  'a node -> unit
+)
+ident(
+  int_ref f "dList.ml" 201 5686 5706 "dList.ml" 201 5686 5707
+)
+"dList.ml" 201 5686 5712 "dList.ml" 201 5686 5728
+type(
+  unit
+)
+"dList.ml" 201 5686 5708 "dList.ml" 201 5686 5728
+type(
+  'a t -> unit
+)
+"dList.ml" 201 5686 5706 "dList.ml" 201 5686 5728
+type(
+  ('a node -> unit) -> 'a t -> unit
+)
+"dList.ml" 203 5730 5736 "dList.ml" 203 5730 5749
+type(
+  'a t -> 'a node -> unit
+)
+ident(
+  def get_finaliser "dList.ml" 203 5730 5765 --
+)
+"dList.ml" 203 5730 5750 "dList.ml" 203 5730 5751
+type(
+  'a t
+)
+ident(
+  def l "dList.ml" 203 5730 5754 "dList.ml" 203 5730 5765
+)
+"dList.ml" 203 5730 5754 "dList.ml" 203 5730 5755
+type(
+  'a t
+)
+ident(
+  int_ref l "dList.ml" 203 5730 5750 "dList.ml" 203 5730 5751
+)
+"dList.ml" 203 5730 5754 "dList.ml" 203 5730 5765
+type(
+  'a node -> unit
+)
+"dList.ml" 203 5730 5750 "dList.ml" 203 5730 5765
+type(
+  'a t -> 'a node -> unit
+)

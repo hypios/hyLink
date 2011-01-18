@@ -1,0 +1,595 @@
+"hqueue.ml" 9 140 144 "hqueue.ml" 9 140 150
+type(
+  unit -> 'a t
+)
+ident(
+  def create "hqueue.ml" 11 235 235 --
+)
+"hqueue.ml" 9 140 151 "hqueue.ml" 9 140 153
+type(
+  unit
+)
+"hqueue.ml" 9 140 162 "hqueue.ml" 9 140 178
+type(
+  unit -> Lwt_mutex.t
+)
+ident(
+  ext_ref Lwt_mutex.create
+)
+"hqueue.ml" 9 140 179 "hqueue.ml" 9 140 181
+type(
+  unit
+)
+"hqueue.ml" 9 140 162 "hqueue.ml" 9 140 181
+call(
+  stack
+)
+type(
+  Lwt_mutex.t
+)
+"hqueue.ml" 9 140 187 "hqueue.ml" 9 140 207
+type(
+  unit -> unit Lwt_condition.t
+)
+ident(
+  ext_ref Lwt_condition.create
+)
+"hqueue.ml" 9 140 208 "hqueue.ml" 9 140 210
+type(
+  unit
+)
+"hqueue.ml" 9 140 187 "hqueue.ml" 9 140 210
+call(
+  stack
+)
+type(
+  unit Lwt_condition.t
+)
+"hqueue.ml" 9 140 216 "hqueue.ml" 9 140 228
+type(
+  unit -> 'a Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"hqueue.ml" 9 140 229 "hqueue.ml" 9 140 231
+type(
+  unit
+)
+"hqueue.ml" 9 140 216 "hqueue.ml" 9 140 231
+call(
+  stack
+)
+type(
+  'a Queue.t
+)
+"hqueue.ml" 9 140 156 "hqueue.ml" 9 140 233
+type(
+  'a t
+)
+"hqueue.ml" 9 140 151 "hqueue.ml" 9 140 233
+type(
+  unit -> 'a t
+)
+"hqueue.ml" 11 235 239 "hqueue.ml" 11 235 242
+type(
+  'a -> 'a t -> unit
+)
+ident(
+  def add "hqueue.ml" 15 299 299 --
+)
+"hqueue.ml" 11 235 243 "hqueue.ml" 11 235 244
+type(
+  'a
+)
+ident(
+  def e "hqueue.ml" 11 235 245 "hqueue.ml" 13 268 297
+)
+"hqueue.ml" 11 235 245 "hqueue.ml" 11 235 246
+type(
+  'a t
+)
+ident(
+  def t "hqueue.ml" 12 249 251 "hqueue.ml" 13 268 297
+)
+"hqueue.ml" 12 249 251 "hqueue.ml" 12 249 260
+type(
+  'a -> 'a Queue.t -> unit
+)
+ident(
+  ext_ref Queue.add
+)
+"hqueue.ml" 12 249 261 "hqueue.ml" 12 249 262
+type(
+  'a
+)
+ident(
+  int_ref e "hqueue.ml" 11 235 243 "hqueue.ml" 11 235 244
+)
+"hqueue.ml" 12 249 263 "hqueue.ml" 12 249 264
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 11 235 245 "hqueue.ml" 11 235 246
+)
+"hqueue.ml" 12 249 263 "hqueue.ml" 12 249 266
+type(
+  'a Queue.t
+)
+"hqueue.ml" 12 249 251 "hqueue.ml" 12 249 266
+call(
+  stack
+)
+type(
+  unit
+)
+"hqueue.ml" 13 268 270 "hqueue.ml" 13 268 290
+type(
+  unit Lwt_condition.t -> unit -> unit
+)
+ident(
+  ext_ref Lwt_condition.signal
+)
+"hqueue.ml" 13 268 291 "hqueue.ml" 13 268 292
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 11 235 245 "hqueue.ml" 11 235 246
+)
+"hqueue.ml" 13 268 291 "hqueue.ml" 13 268 294
+type(
+  unit Lwt_condition.t
+)
+"hqueue.ml" 13 268 295 "hqueue.ml" 13 268 297
+type(
+  unit
+)
+"hqueue.ml" 13 268 270 "hqueue.ml" 13 268 297
+call(
+  tail
+)
+type(
+  unit
+)
+"hqueue.ml" 12 249 251 "hqueue.ml" 13 268 297
+type(
+  unit
+)
+"hqueue.ml" 11 235 245 "hqueue.ml" 13 268 297
+type(
+  'a t -> unit
+)
+"hqueue.ml" 11 235 243 "hqueue.ml" 13 268 297
+type(
+  'a -> 'a t -> unit
+)
+"hqueue.ml" 15 299 303 "hqueue.ml" 15 299 307
+type(
+  'a t -> 'a list Lwt.t
+)
+ident(
+  def take "hqueue.ml" 25 682 703 --
+)
+"hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+type(
+  'a t
+)
+ident(
+  def t "hqueue.ml" 16 312 314 "hqueue.ml" 25 682 703
+)
+"hqueue.ml" 16 312 314 "hqueue.ml" 16 312 328
+type(
+  Lwt_mutex.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.lock
+)
+"hqueue.ml" 16 312 329 "hqueue.ml" 16 312 330
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 16 312 329 "hqueue.ml" 16 312 332
+type(
+  Lwt_mutex.t
+)
+"hqueue.ml" 16 312 314 "hqueue.ml" 16 312 332
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"hqueue.ml" 16 312 333 "hqueue.ml" 16 312 336
+type(
+  unit Lwt.t -> (unit -> 'a list Lwt.t) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"hqueue.ml" 16 312 341 "hqueue.ml" 16 312 343
+type(
+  unit
+)
+"hqueue.ml" 17 347 359 "hqueue.ml" 17 347 370
+type(
+  unit -> bool Lwt.t
+)
+"hqueue.ml" 17 347 371 "hqueue.ml" 17 347 373
+type(
+  unit
+)
+"hqueue.ml" 18 376 385 "hqueue.ml" 18 376 388
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"hqueue.ml" 18 376 390 "hqueue.ml" 18 376 404
+type(
+  'a Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"hqueue.ml" 18 376 405 "hqueue.ml" 18 376 406
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 18 376 405 "hqueue.ml" 18 376 408
+type(
+  'a Queue.t
+)
+"hqueue.ml" 18 376 390 "hqueue.ml" 18 376 408
+call(
+  stack
+)
+type(
+  bool
+)
+"hqueue.ml" 18 376 385 "hqueue.ml" 18 376 409
+type(
+  bool
+)
+"hqueue.ml" 18 376 415 "hqueue.ml" 18 376 425
+type(
+  bool -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"hqueue.ml" 18 376 426 "hqueue.ml" 18 376 430
+type(
+  bool
+)
+"hqueue.ml" 18 376 415 "hqueue.ml" 18 376 430
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"hqueue.ml" 19 431 442 "hqueue.ml" 19 431 460
+type(
+  ?mutex:Lwt_mutex.t -> unit Lwt_condition.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_condition.wait
+)
+"hqueue.ml" 19 431 461 "hqueue.ml" 19 431 462
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 19 431 461 "hqueue.ml" 19 431 464
+type(
+  unit Lwt_condition.t
+)
+"hqueue.ml" 19 431 472 "hqueue.ml" 19 431 473
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 19 431 472 "hqueue.ml" 19 431 475
+type(
+  Lwt_mutex.t
+)
+"hqueue.ml" 19 431 442 "hqueue.ml" 19 431 475
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"hqueue.ml" 19 431 476 "hqueue.ml" 19 431 479
+type(
+  unit Lwt.t -> (unit -> bool Lwt.t) -> bool Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"hqueue.ml" 19 431 480 "hqueue.ml" 19 431 491
+type(
+  unit -> bool Lwt.t
+)
+ident(
+  int_ref while_empty "hqueue.ml" 17 347 359 "hqueue.ml" 17 347 370
+)
+"hqueue.ml" 19 431 442 "hqueue.ml" 19 431 491
+call(
+  tail
+)
+type(
+  bool Lwt.t
+)
+"hqueue.ml" 18 376 382 "hqueue.ml" 19 431 491
+type(
+  bool Lwt.t
+)
+"hqueue.ml" 17 347 371 "hqueue.ml" 19 431 491
+type(
+  unit -> bool Lwt.t
+)
+"hqueue.ml" 20 495 499 "hqueue.ml" 20 495 510
+type(
+  unit -> bool Lwt.t
+)
+ident(
+  int_ref while_empty "hqueue.ml" 17 347 359 "hqueue.ml" 17 347 370
+)
+"hqueue.ml" 20 495 511 "hqueue.ml" 20 495 513
+type(
+  unit
+)
+"hqueue.ml" 20 495 499 "hqueue.ml" 20 495 513
+call(
+  stack
+)
+type(
+  bool Lwt.t
+)
+"hqueue.ml" 20 495 514 "hqueue.ml" 20 495 517
+type(
+  bool Lwt.t -> (bool -> 'a list Lwt.t) -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"hqueue.ml" 20 495 522 "hqueue.ml" 20 495 531
+type(
+  bool
+)
+ident(
+  def not_empty "hqueue.ml" 21 535 541 "hqueue.ml" 25 682 703
+)
+"hqueue.ml" 21 535 545 "hqueue.ml" 21 535 549
+type(
+  'a list
+)
+"hqueue.ml" 21 535 552 "hqueue.ml" 21 535 562
+type(
+  ('a list -> 'a -> 'a list) -> 'a list -> 'a Queue.t -> 'a list
+)
+ident(
+  ext_ref Queue.fold
+)
+"hqueue.ml" 21 535 568 "hqueue.ml" 21 535 571
+type(
+  'a list
+)
+ident(
+  def acc "hqueue.ml" 21 535 572 "hqueue.ml" 21 535 583
+)
+"hqueue.ml" 21 535 572 "hqueue.ml" 21 535 573
+type(
+  'a
+)
+ident(
+  def e "hqueue.ml" 21 535 577 "hqueue.ml" 21 535 583
+)
+"hqueue.ml" 21 535 577 "hqueue.ml" 21 535 578
+type(
+  'a
+)
+ident(
+  int_ref e "hqueue.ml" 21 535 572 "hqueue.ml" 21 535 573
+)
+"hqueue.ml" 21 535 580 "hqueue.ml" 21 535 583
+type(
+  'a list
+)
+ident(
+  int_ref acc "hqueue.ml" 21 535 568 "hqueue.ml" 21 535 571
+)
+"hqueue.ml" 21 535 577 "hqueue.ml" 21 535 583
+type(
+  'a list
+)
+"hqueue.ml" 21 535 572 "hqueue.ml" 21 535 583
+type(
+  'a -> 'a list
+)
+"hqueue.ml" 21 535 568 "hqueue.ml" 21 535 583
+type(
+  'a list -> 'a -> 'a list
+)
+"hqueue.ml" 21 535 585 "hqueue.ml" 21 535 587
+type(
+  'a list
+)
+"hqueue.ml" 21 535 588 "hqueue.ml" 21 535 589
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 21 535 588 "hqueue.ml" 21 535 591
+type(
+  'a Queue.t
+)
+"hqueue.ml" 21 535 552 "hqueue.ml" 21 535 591
+call(
+  stack
+)
+type(
+  'a list
+)
+"hqueue.ml" 22 595 601 "hqueue.ml" 22 595 612
+type(
+  'a Queue.t -> unit
+)
+ident(
+  ext_ref Queue.clear
+)
+"hqueue.ml" 22 595 613 "hqueue.ml" 22 595 614
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 22 595 613 "hqueue.ml" 22 595 616
+type(
+  'a Queue.t
+)
+"hqueue.ml" 22 595 601 "hqueue.ml" 22 595 616
+call(
+  stack
+)
+type(
+  unit
+)
+"hqueue.ml" 23 619 625 "hqueue.ml" 23 619 645
+type(
+  unit Lwt_condition.t -> unit -> unit
+)
+ident(
+  ext_ref Lwt_condition.signal
+)
+"hqueue.ml" 23 619 646 "hqueue.ml" 23 619 647
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 23 619 646 "hqueue.ml" 23 619 649
+type(
+  unit Lwt_condition.t
+)
+"hqueue.ml" 23 619 650 "hqueue.ml" 23 619 652
+type(
+  unit
+)
+"hqueue.ml" 23 619 625 "hqueue.ml" 23 619 652
+call(
+  stack
+)
+type(
+  unit
+)
+"hqueue.ml" 24 654 660 "hqueue.ml" 24 654 676
+type(
+  Lwt_mutex.t -> unit
+)
+ident(
+  ext_ref Lwt_mutex.unlock
+)
+"hqueue.ml" 24 654 677 "hqueue.ml" 24 654 678
+type(
+  'a t
+)
+ident(
+  int_ref t "hqueue.ml" 15 299 308 "hqueue.ml" 15 299 309
+)
+"hqueue.ml" 24 654 677 "hqueue.ml" 24 654 680
+type(
+  Lwt_mutex.t
+)
+"hqueue.ml" 24 654 660 "hqueue.ml" 24 654 680
+call(
+  stack
+)
+type(
+  unit
+)
+"hqueue.ml" 25 682 688 "hqueue.ml" 25 682 698
+type(
+  'a list -> 'a list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"hqueue.ml" 25 682 699 "hqueue.ml" 25 682 703
+type(
+  'a list
+)
+ident(
+  int_ref elts "hqueue.ml" 21 535 545 "hqueue.ml" 21 535 549
+)
+"hqueue.ml" 25 682 688 "hqueue.ml" 25 682 703
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 24 654 660 "hqueue.ml" 25 682 703
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 23 619 625 "hqueue.ml" 25 682 703
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 22 595 601 "hqueue.ml" 25 682 703
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 21 535 541 "hqueue.ml" 25 682 703
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 20 495 522 "hqueue.ml" 25 682 703
+type(
+  bool -> 'a list Lwt.t
+)
+"hqueue.ml" 20 495 499 "hqueue.ml" 25 682 703
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 17 347 351 "hqueue.ml" 25 682 703
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 16 312 341 "hqueue.ml" 25 682 703
+type(
+  unit -> 'a list Lwt.t
+)
+"hqueue.ml" 16 312 314 "hqueue.ml" 25 682 703
+call(
+  tail
+)
+type(
+  'a list Lwt.t
+)
+"hqueue.ml" 15 299 308 "hqueue.ml" 25 682 703
+type(
+  'a t -> 'a list Lwt.t
+)

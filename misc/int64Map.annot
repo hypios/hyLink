@@ -1,0 +1,728 @@
+"int64Map.ml" 1 0 8 "int64Map.ml" 1 0 24
+call(
+  stack
+)
+"int64Map.ml" 3 26 30 "int64Map.ml" 3 26 51
+type(
+  int -> (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+ident(
+  def int64map_partial_fold "int64Map.ml" 16 344 344 --
+)
+"int64Map.ml" 3 26 52 "int64Map.ml" 3 26 53
+type(
+  int
+)
+ident(
+  def l "int64Map.ml" 3 26 54 "int64Map.ml" 14 337 342
+)
+"int64Map.ml" 3 26 54 "int64Map.ml" 3 26 55
+type(
+  key -> 'a -> 'b -> 'b * bool
+)
+ident(
+  def f "int64Map.ml" 3 26 56 "int64Map.ml" 14 337 342
+)
+"int64Map.ml" 3 26 56 "int64Map.ml" 3 26 59
+type(
+  'a t
+)
+ident(
+  def map "int64Map.ml" 3 26 60 "int64Map.ml" 14 337 342
+)
+"int64Map.ml" 3 26 60 "int64Map.ml" 3 26 63
+type(
+  'b
+)
+ident(
+  def acc "int64Map.ml" 4 66 68 "int64Map.ml" 14 337 342
+)
+"int64Map.ml" 4 66 72 "int64Map.ml" 4 66 73
+type(
+  int
+)
+"int64Map.ml" 4 66 75 "int64Map.ml" 4 66 78
+type(
+  'b
+)
+"int64Map.ml" 4 66 72 "int64Map.ml" 4 66 78
+type(
+  int * 'b
+)
+"int64Map.ml" 4 66 81 "int64Map.ml" 4 66 85
+type(
+  (key -> 'a -> int * 'b -> int * 'b) -> 'a t -> int * 'b -> int * 'b
+)
+"int64Map.ml" 5 86 95 "int64Map.ml" 5 86 96
+type(
+  key
+)
+ident(
+  def k "int64Map.ml" 5 86 97 "int64Map.ml" 10 254 306
+)
+"int64Map.ml" 5 86 97 "int64Map.ml" 5 86 98
+type(
+  'a
+)
+ident(
+  def v "int64Map.ml" 5 86 99 "int64Map.ml" 10 254 306
+)
+"int64Map.ml" 5 86 100 "int64Map.ml" 5 86 109
+type(
+  int
+)
+ident(
+  def remaining "int64Map.ml" 6 118 125 "int64Map.ml" 10 254 306
+)
+"int64Map.ml" 5 86 110 "int64Map.ml" 5 86 113
+type(
+  'b
+)
+ident(
+  def acc "int64Map.ml" 6 118 125 "int64Map.ml" 10 254 306
+)
+"int64Map.ml" 5 86 100 "int64Map.ml" 5 86 113
+type(
+  int * 'b
+)
+"int64Map.ml" 6 118 131 "int64Map.ml" 6 118 140
+type(
+  int
+)
+ident(
+  int_ref remaining "int64Map.ml" 5 86 100 "int64Map.ml" 5 86 109
+)
+"int64Map.ml" 7 146 155 "int64Map.ml" 7 146 156
+type(
+  int
+)
+"int64Map.ml" 7 146 161 "int64Map.ml" 7 146 162
+type(
+  int
+)
+"int64Map.ml" 7 146 164 "int64Map.ml" 7 146 167
+type(
+  'b
+)
+ident(
+  int_ref acc "int64Map.ml" 5 86 110 "int64Map.ml" 5 86 113
+)
+"int64Map.ml" 7 146 161 "int64Map.ml" 7 146 167
+type(
+  int * 'b
+)
+"int64Map.ml" 8 169 178 "int64Map.ml" 8 169 179
+type(
+  int
+)
+ident(
+  def n "int64Map.ml" 8 169 183 "int64Map.ml" 10 254 306
+)
+"int64Map.ml" 8 169 189 "int64Map.ml" 8 169 190
+type(
+  key -> 'a -> 'b -> 'b * bool
+)
+ident(
+  int_ref f "int64Map.ml" 3 26 54 "int64Map.ml" 3 26 55
+)
+"int64Map.ml" 8 169 191 "int64Map.ml" 8 169 192
+type(
+  key
+)
+ident(
+  int_ref k "int64Map.ml" 5 86 95 "int64Map.ml" 5 86 96
+)
+"int64Map.ml" 8 169 193 "int64Map.ml" 8 169 194
+type(
+  'a
+)
+ident(
+  int_ref v "int64Map.ml" 5 86 97 "int64Map.ml" 5 86 98
+)
+"int64Map.ml" 8 169 195 "int64Map.ml" 8 169 198
+type(
+  'b
+)
+ident(
+  int_ref acc "int64Map.ml" 5 86 110 "int64Map.ml" 5 86 113
+)
+"int64Map.ml" 8 169 189 "int64Map.ml" 8 169 198
+call(
+  stack
+)
+type(
+  'b * bool
+)
+"int64Map.ml" 9 204 217 "int64Map.ml" 9 204 224
+type(
+  'b
+)
+ident(
+  def new_acc "int64Map.ml" 9 204 235 "int64Map.ml" 9 204 253
+)
+"int64Map.ml" 9 204 226 "int64Map.ml" 9 204 231
+type(
+  bool
+)
+"int64Map.ml" 9 204 217 "int64Map.ml" 9 204 231
+type(
+  'b * bool
+)
+"int64Map.ml" 9 204 235 "int64Map.ml" 9 204 244
+type(
+  int
+)
+ident(
+  int_ref remaining "int64Map.ml" 5 86 100 "int64Map.ml" 5 86 109
+)
+"int64Map.ml" 9 204 246 "int64Map.ml" 9 204 253
+type(
+  'b
+)
+ident(
+  int_ref new_acc "int64Map.ml" 9 204 217 "int64Map.ml" 9 204 224
+)
+"int64Map.ml" 9 204 235 "int64Map.ml" 9 204 253
+type(
+  int * 'b
+)
+"int64Map.ml" 10 254 267 "int64Map.ml" 10 254 274
+type(
+  'b
+)
+ident(
+  def new_acc "int64Map.ml" 10 254 284 "int64Map.ml" 10 254 306
+)
+"int64Map.ml" 10 254 276 "int64Map.ml" 10 254 280
+type(
+  bool
+)
+"int64Map.ml" 10 254 267 "int64Map.ml" 10 254 280
+type(
+  'b * bool
+)
+"int64Map.ml" 10 254 284 "int64Map.ml" 10 254 293
+type(
+  int
+)
+ident(
+  int_ref remaining "int64Map.ml" 5 86 100 "int64Map.ml" 5 86 109
+)
+"int64Map.ml" 10 254 294 "int64Map.ml" 10 254 295
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"int64Map.ml" 10 254 296 "int64Map.ml" 10 254 297
+type(
+  int
+)
+"int64Map.ml" 10 254 284 "int64Map.ml" 10 254 297
+type(
+  int
+)
+"int64Map.ml" 10 254 299 "int64Map.ml" 10 254 306
+type(
+  'b
+)
+ident(
+  int_ref new_acc "int64Map.ml" 10 254 267 "int64Map.ml" 10 254 274
+)
+"int64Map.ml" 10 254 284 "int64Map.ml" 10 254 306
+type(
+  int * 'b
+)
+"int64Map.ml" 8 169 183 "int64Map.ml" 10 254 306
+type(
+  int * 'b
+)
+"int64Map.ml" 6 118 125 "int64Map.ml" 10 254 306
+type(
+  int * 'b
+)
+"int64Map.ml" 5 86 99 "int64Map.ml" 10 254 306
+type(
+  int * 'b -> int * 'b
+)
+"int64Map.ml" 5 86 97 "int64Map.ml" 10 254 306
+type(
+  'a -> int * 'b -> int * 'b
+)
+"int64Map.ml" 5 86 95 "int64Map.ml" 10 254 306
+type(
+  key -> 'a -> int * 'b -> int * 'b
+)
+"int64Map.ml" 12 313 319 "int64Map.ml" 12 313 322
+type(
+  'a t
+)
+ident(
+  int_ref map "int64Map.ml" 3 26 56 "int64Map.ml" 3 26 59
+)
+"int64Map.ml" 12 313 324 "int64Map.ml" 12 313 325
+type(
+  int
+)
+ident(
+  int_ref l "int64Map.ml" 3 26 52 "int64Map.ml" 3 26 53
+)
+"int64Map.ml" 12 313 327 "int64Map.ml" 12 313 330
+type(
+  'b
+)
+ident(
+  int_ref acc "int64Map.ml" 3 26 60 "int64Map.ml" 3 26 63
+)
+"int64Map.ml" 12 313 324 "int64Map.ml" 12 313 330
+type(
+  int * 'b
+)
+"int64Map.ml" 4 66 81 "int64Map.ml" 12 313 331
+call(
+  stack
+)
+type(
+  int * 'b
+)
+"int64Map.ml" 14 337 339 "int64Map.ml" 14 337 342
+type(
+  'b
+)
+ident(
+  int_ref res "int64Map.ml" 4 66 75 "int64Map.ml" 4 66 78
+)
+"int64Map.ml" 4 66 68 "int64Map.ml" 14 337 342
+type(
+  'b
+)
+"int64Map.ml" 3 26 60 "int64Map.ml" 14 337 342
+type(
+  'b -> 'b
+)
+"int64Map.ml" 3 26 56 "int64Map.ml" 14 337 342
+type(
+  'a t -> 'b -> 'b
+)
+"int64Map.ml" 3 26 54 "int64Map.ml" 14 337 342
+type(
+  (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+"int64Map.ml" 3 26 52 "int64Map.ml" 14 337 342
+type(
+  int -> (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+"int64Map.ml" 16 344 348 "int64Map.ml" 16 344 371
+type(
+  from:int -> size:int -> (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+ident(
+  def int64map_paginated_fold "int64Map.ml" 29 792 797 --
+)
+"int64Map.ml" 16 344 384 "int64Map.ml" 16 344 385
+type(
+  key -> 'a -> 'b -> 'b * bool
+)
+ident(
+  def f "int64Map.ml" 16 344 386 "int64Map.ml" 29 792 797
+)
+"int64Map.ml" 16 344 386 "int64Map.ml" 16 344 389
+type(
+  'a t
+)
+ident(
+  def map "int64Map.ml" 16 344 390 "int64Map.ml" 29 792 797
+)
+"int64Map.ml" 16 344 390 "int64Map.ml" 16 344 394
+type(
+  'b
+)
+ident(
+  def init "int64Map.ml" 17 397 399 "int64Map.ml" 29 792 797
+)
+"int64Map.ml" 17 397 403 "int64Map.ml" 17 397 404
+type(
+  int
+)
+"int64Map.ml" 17 397 406 "int64Map.ml" 17 397 407
+type(
+  int
+)
+"int64Map.ml" 17 397 409 "int64Map.ml" 17 397 412
+type(
+  'b
+)
+"int64Map.ml" 17 397 403 "int64Map.ml" 17 397 412
+type(
+  int * int * 'b
+)
+"int64Map.ml" 17 397 415 "int64Map.ml" 17 397 419
+type(
+  (key -> 'a -> int * int * 'b -> int * int * 'b) ->
+  'a t -> int * int * 'b -> int * int * 'b
+)
+"int64Map.ml" 18 420 429 "int64Map.ml" 18 420 430
+type(
+  key
+)
+ident(
+  def k "int64Map.ml" 18 420 431 "int64Map.ml" 26 721 757
+)
+"int64Map.ml" 18 420 431 "int64Map.ml" 18 420 432
+type(
+  'a
+)
+ident(
+  def v "int64Map.ml" 18 420 433 "int64Map.ml" 26 721 757
+)
+"int64Map.ml" 18 420 434 "int64Map.ml" 18 420 443
+type(
+  int
+)
+ident(
+  def to_forget "int64Map.ml" 19 466 473 "int64Map.ml" 26 721 757
+)
+"int64Map.ml" 18 420 445 "int64Map.ml" 18 420 455
+type(
+  int
+)
+ident(
+  def to_display "int64Map.ml" 19 466 473 "int64Map.ml" 26 721 757
+)
+"int64Map.ml" 18 420 457 "int64Map.ml" 18 420 460
+type(
+  'b
+)
+ident(
+  def acc "int64Map.ml" 19 466 473 "int64Map.ml" 26 721 757
+)
+"int64Map.ml" 18 420 434 "int64Map.ml" 18 420 460
+type(
+  int * int * 'b
+)
+"int64Map.ml" 19 466 479 "int64Map.ml" 19 466 488
+type(
+  int
+)
+ident(
+  int_ref to_forget "int64Map.ml" 18 420 434 "int64Map.ml" 18 420 443
+)
+"int64Map.ml" 20 494 503 "int64Map.ml" 20 494 504
+type(
+  int
+)
+"int64Map.ml" 21 508 526 "int64Map.ml" 21 508 536
+type(
+  int
+)
+ident(
+  int_ref to_display "int64Map.ml" 18 420 445 "int64Map.ml" 18 420 455
+)
+"int64Map.ml" 22 542 556 "int64Map.ml" 22 542 557
+type(
+  int
+)
+"int64Map.ml" 22 542 562 "int64Map.ml" 22 542 563
+type(
+  int
+)
+"int64Map.ml" 22 542 565 "int64Map.ml" 22 542 566
+type(
+  int
+)
+"int64Map.ml" 22 542 568 "int64Map.ml" 22 542 571
+type(
+  'b
+)
+ident(
+  int_ref acc "int64Map.ml" 18 420 457 "int64Map.ml" 18 420 460
+)
+"int64Map.ml" 22 542 562 "int64Map.ml" 22 542 571
+type(
+  int * int * 'b
+)
+"int64Map.ml" 23 573 587 "int64Map.ml" 23 573 588
+type(
+  int
+)
+ident(
+  def n "int64Map.ml" 23 573 592 "int64Map.ml" 25 668 719
+)
+"int64Map.ml" 23 573 598 "int64Map.ml" 23 573 599
+type(
+  key -> 'a -> 'b -> 'b * bool
+)
+ident(
+  int_ref f "int64Map.ml" 16 344 384 "int64Map.ml" 16 344 385
+)
+"int64Map.ml" 23 573 600 "int64Map.ml" 23 573 601
+type(
+  key
+)
+ident(
+  int_ref k "int64Map.ml" 18 420 429 "int64Map.ml" 18 420 430
+)
+"int64Map.ml" 23 573 602 "int64Map.ml" 23 573 603
+type(
+  'a
+)
+ident(
+  int_ref v "int64Map.ml" 18 420 431 "int64Map.ml" 18 420 432
+)
+"int64Map.ml" 23 573 604 "int64Map.ml" 23 573 607
+type(
+  'b
+)
+ident(
+  int_ref acc "int64Map.ml" 18 420 457 "int64Map.ml" 18 420 460
+)
+"int64Map.ml" 23 573 598 "int64Map.ml" 23 573 607
+call(
+  stack
+)
+type(
+  'b * bool
+)
+"int64Map.ml" 24 613 631 "int64Map.ml" 24 613 638
+type(
+  'b
+)
+ident(
+  def new_acc "int64Map.ml" 24 613 649 "int64Map.ml" 24 613 666
+)
+"int64Map.ml" 24 613 640 "int64Map.ml" 24 613 644
+type(
+  bool
+)
+"int64Map.ml" 24 613 631 "int64Map.ml" 24 613 644
+type(
+  'b * bool
+)
+"int64Map.ml" 24 613 649 "int64Map.ml" 24 613 650
+type(
+  int
+)
+"int64Map.ml" 24 613 653 "int64Map.ml" 24 613 654
+type(
+  int
+)
+ident(
+  int_ref n "int64Map.ml" 23 573 587 "int64Map.ml" 23 573 588
+)
+"int64Map.ml" 24 613 654 "int64Map.ml" 24 613 655
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"int64Map.ml" 24 613 655 "int64Map.ml" 24 613 656
+type(
+  int
+)
+"int64Map.ml" 24 613 653 "int64Map.ml" 24 613 656
+type(
+  int
+)
+"int64Map.ml" 24 613 659 "int64Map.ml" 24 613 666
+type(
+  'b
+)
+ident(
+  int_ref new_acc "int64Map.ml" 24 613 631 "int64Map.ml" 24 613 638
+)
+"int64Map.ml" 24 613 649 "int64Map.ml" 24 613 666
+type(
+  int * int * 'b
+)
+"int64Map.ml" 25 668 686 "int64Map.ml" 25 668 693
+type(
+  'b
+)
+ident(
+  def new_acc "int64Map.ml" 25 668 705 "int64Map.ml" 25 668 718
+)
+"int64Map.ml" 25 668 695 "int64Map.ml" 25 668 700
+type(
+  bool
+)
+"int64Map.ml" 25 668 686 "int64Map.ml" 25 668 700
+type(
+  'b * bool
+)
+"int64Map.ml" 25 668 705 "int64Map.ml" 25 668 706
+type(
+  int
+)
+"int64Map.ml" 25 668 708 "int64Map.ml" 25 668 709
+type(
+  int
+)
+ident(
+  int_ref n "int64Map.ml" 23 573 587 "int64Map.ml" 23 573 588
+)
+"int64Map.ml" 25 668 711 "int64Map.ml" 25 668 718
+type(
+  'b
+)
+ident(
+  int_ref new_acc "int64Map.ml" 25 668 686 "int64Map.ml" 25 668 693
+)
+"int64Map.ml" 25 668 705 "int64Map.ml" 25 668 718
+type(
+  int * int * 'b
+)
+"int64Map.ml" 23 573 592 "int64Map.ml" 25 668 719
+type(
+  int * int * 'b
+)
+"int64Map.ml" 21 508 520 "int64Map.ml" 25 668 719
+type(
+  int * int * 'b
+)
+"int64Map.ml" 26 721 730 "int64Map.ml" 26 721 731
+type(
+  int
+)
+ident(
+  def n "int64Map.ml" 26 721 736 "int64Map.ml" 26 721 756
+)
+"int64Map.ml" 26 721 736 "int64Map.ml" 26 721 737
+type(
+  int
+)
+ident(
+  int_ref n "int64Map.ml" 26 721 730 "int64Map.ml" 26 721 731
+)
+"int64Map.ml" 26 721 737 "int64Map.ml" 26 721 738
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.-
+)
+"int64Map.ml" 26 721 738 "int64Map.ml" 26 721 739
+type(
+  int
+)
+"int64Map.ml" 26 721 736 "int64Map.ml" 26 721 739
+type(
+  int
+)
+"int64Map.ml" 26 721 741 "int64Map.ml" 26 721 751
+type(
+  int
+)
+ident(
+  int_ref to_display "int64Map.ml" 18 420 445 "int64Map.ml" 18 420 455
+)
+"int64Map.ml" 26 721 753 "int64Map.ml" 26 721 756
+type(
+  'b
+)
+ident(
+  int_ref acc "int64Map.ml" 18 420 457 "int64Map.ml" 18 420 460
+)
+"int64Map.ml" 26 721 736 "int64Map.ml" 26 721 756
+type(
+  int * int * 'b
+)
+"int64Map.ml" 19 466 473 "int64Map.ml" 26 721 757
+type(
+  int * int * 'b
+)
+"int64Map.ml" 18 420 433 "int64Map.ml" 26 721 757
+type(
+  int * int * 'b -> int * int * 'b
+)
+"int64Map.ml" 18 420 431 "int64Map.ml" 26 721 757
+type(
+  'a -> int * int * 'b -> int * int * 'b
+)
+"int64Map.ml" 18 420 429 "int64Map.ml" 26 721 757
+type(
+  key -> 'a -> int * int * 'b -> int * int * 'b
+)
+"int64Map.ml" 27 758 764 "int64Map.ml" 27 758 767
+type(
+  'a t
+)
+ident(
+  int_ref map "int64Map.ml" 16 344 386 "int64Map.ml" 16 344 389
+)
+"int64Map.ml" 27 758 769 "int64Map.ml" 27 758 773
+type(
+  int
+)
+ident(
+  int_ref from "int64Map.ml" 16 344 372 "int64Map.ml" 29 792 797
+)
+"int64Map.ml" 27 758 775 "int64Map.ml" 27 758 779
+type(
+  int
+)
+ident(
+  int_ref size "int64Map.ml" 16 344 378 "int64Map.ml" 29 792 797
+)
+"int64Map.ml" 27 758 781 "int64Map.ml" 27 758 785
+type(
+  'b
+)
+ident(
+  int_ref init "int64Map.ml" 16 344 390 "int64Map.ml" 16 344 394
+)
+"int64Map.ml" 27 758 769 "int64Map.ml" 27 758 785
+type(
+  int * int * 'b
+)
+"int64Map.ml" 17 397 415 "int64Map.ml" 27 758 786
+call(
+  stack
+)
+type(
+  int * int * 'b
+)
+"int64Map.ml" 29 792 794 "int64Map.ml" 29 792 797
+type(
+  'b
+)
+ident(
+  int_ref res "int64Map.ml" 17 397 409 "int64Map.ml" 17 397 412
+)
+"int64Map.ml" 17 397 399 "int64Map.ml" 29 792 797
+type(
+  'b
+)
+"int64Map.ml" 16 344 390 "int64Map.ml" 29 792 797
+type(
+  'b -> 'b
+)
+"int64Map.ml" 16 344 386 "int64Map.ml" 29 792 797
+type(
+  'a t -> 'b -> 'b
+)
+"int64Map.ml" 16 344 384 "int64Map.ml" 29 792 797
+type(
+  (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+"int64Map.ml" 16 344 378 "int64Map.ml" 29 792 797
+type(
+  size:int -> (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+type(
+  int
+)
+ident(
+  def size "int64Map.ml" 16 344 384 "int64Map.ml" 29 792 797
+)
+"int64Map.ml" 16 344 372 "int64Map.ml" 29 792 797
+type(
+  from:int -> size:int -> (key -> 'a -> 'b -> 'b * bool) -> 'a t -> 'b -> 'b
+)
+type(
+  int
+)
+ident(
+  def from "int64Map.ml" 16 344 378 "int64Map.ml" 29 792 797
+)
