@@ -1,0 +1,961 @@
+"params.ml" 12 127 131 "params.ml" 12 127 137
+type(
+  (string * string) list
+)
+ident(
+  def config "params.ml" 21 312 312 --
+)
+"params.ml" 13 141 143 "params.ml" 13 141 157
+type(
+  ((string * string) list -> Simplexmlparser.xml -> (string * string) list) ->
+  (string * string) list ->
+  Simplexmlparser.xml list -> (string * string) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"params.ml" 13 141 163 "params.ml" 13 141 166
+type(
+  (string * string) list
+)
+ident(
+  def acc "params.ml" 13 141 167 "params.ml" 17 248 266
+)
+"params.ml" 13 141 167 "params.ml" 13 141 168
+type(
+  Simplexmlparser.xml
+)
+ident(
+  def e "params.ml" 14 173 179 "params.ml" 17 248 266
+)
+"params.ml" 14 173 185 "params.ml" 14 173 186
+type(
+  Simplexmlparser.xml
+)
+ident(
+  int_ref e "params.ml" 13 141 167 "params.ml" 13 141 168
+)
+"params.ml" 15 192 203 "params.ml" 15 192 204
+type(
+  string
+)
+ident(
+  def k "params.ml" 16 230 235 "params.ml" 16 230 247
+)
+"params.ml" 15 192 206 "params.ml" 15 192 207
+type(
+  (string * string) list
+)
+"params.ml" 15 192 218 "params.ml" 15 192 219
+type(
+  string
+)
+ident(
+  def v "params.ml" 16 230 235 "params.ml" 16 230 247
+)
+"params.ml" 15 192 210 "params.ml" 15 192 220
+type(
+  Simplexmlparser.xml
+)
+"params.ml" 15 192 224 "params.ml" 15 192 225
+type(
+  Simplexmlparser.xml list
+)
+"params.ml" 15 192 210 "params.ml" 15 192 225
+type(
+  Simplexmlparser.xml list
+)
+"params.ml" 15 192 195 "params.ml" 15 192 226
+type(
+  Simplexmlparser.xml
+)
+type(
+  string * (string * string) list * Simplexmlparser.xml list
+)
+"params.ml" 16 230 236 "params.ml" 16 230 237
+type(
+  string
+)
+ident(
+  int_ref k "params.ml" 15 192 203 "params.ml" 15 192 204
+)
+"params.ml" 16 230 238 "params.ml" 16 230 239
+type(
+  string
+)
+ident(
+  int_ref v "params.ml" 15 192 218 "params.ml" 15 192 219
+)
+"params.ml" 16 230 236 "params.ml" 16 230 239
+type(
+  string * string
+)
+"params.ml" 16 230 244 "params.ml" 16 230 247
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "params.ml" 13 141 163 "params.ml" 13 141 166
+)
+"params.ml" 16 230 235 "params.ml" 16 230 247
+type(
+  (string * string) list
+)
+"params.ml" 17 248 258 "params.ml" 17 248 259
+type(
+  Simplexmlparser.xml
+)
+"params.ml" 17 248 263 "params.ml" 17 248 266
+type(
+  (string * string) list
+)
+ident(
+  int_ref acc "params.ml" 13 141 163 "params.ml" 13 141 166
+)
+"params.ml" 14 173 179 "params.ml" 17 248 266
+type(
+  (string * string) list
+)
+"params.ml" 13 141 167 "params.ml" 17 248 266
+type(
+  Simplexmlparser.xml -> (string * string) list
+)
+"params.ml" 13 141 163 "params.ml" 17 248 266
+type(
+  (string * string) list -> Simplexmlparser.xml -> (string * string) list
+)
+"params.ml" 18 268 272 "params.ml" 18 268 274
+type(
+  (string * string) list
+)
+"params.ml" 18 268 276 "params.ml" 18 268 301
+type(
+  unit -> Simplexmlparser.xml list
+)
+ident(
+  ext_ref Eliom_sessions.get_config
+)
+"params.ml" 18 268 302 "params.ml" 18 268 304
+type(
+  unit
+)
+"params.ml" 18 268 276 "params.ml" 18 268 304
+call(
+  stack
+)
+type(
+  Simplexmlparser.xml list
+)
+"params.ml" 13 141 143 "params.ml" 18 268 305
+call(
+  stack
+)
+type(
+  (string * string) list
+)
+"params.ml" 21 312 316 "params.ml" 21 312 321
+type(
+  string -> string
+)
+ident(
+  def fetch "params.ml" 24 434 434 --
+)
+"params.ml" 21 312 322 "params.ml" 21 312 323
+type(
+  string
+)
+ident(
+  def e "params.ml" 22 327 329 "params.ml" 22 327 432
+)
+"params.ml" 22 327 333 "params.ml" 22 327 343
+type(
+  string -> (string * string) list -> string
+)
+ident(
+  ext_ref List.assoc
+)
+"params.ml" 22 327 344 "params.ml" 22 327 345
+type(
+  string
+)
+ident(
+  int_ref e "params.ml" 21 312 322 "params.ml" 21 312 323
+)
+"params.ml" 22 327 346 "params.ml" 22 327 352
+type(
+  (string * string) list
+)
+ident(
+  int_ref config "params.ml" 12 127 131 "params.ml" 12 127 137
+)
+"params.ml" 22 327 333 "params.ml" 22 327 352
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 22 327 358 "params.ml" 22 327 359
+type(
+  exn
+)
+"params.ml" 22 327 363 "params.ml" 22 327 376
+type(
+  (string -> unit, out_channel, unit) format -> string -> unit
+)
+ident(
+  ext_ref Printf.printf
+)
+"params.ml" 22 327 377 "params.ml" 22 327 404
+type(
+  (string -> unit, out_channel, unit) format
+)
+"params.ml" 22 327 405 "params.ml" 22 327 406
+type(
+  string
+)
+ident(
+  int_ref e "params.ml" 21 312 322 "params.ml" 21 312 323
+)
+"params.ml" 22 327 363 "params.ml" 22 327 406
+call(
+  stack
+)
+type(
+  unit
+)
+"params.ml" 22 327 408 "params.ml" 22 327 413
+type(
+  out_channel -> unit
+)
+ident(
+  ext_ref Pervasives.flush
+)
+"params.ml" 22 327 414 "params.ml" 22 327 420
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stdout
+)
+"params.ml" 22 327 408 "params.ml" 22 327 420
+call(
+  stack
+)
+type(
+  unit
+)
+"params.ml" 22 327 423 "params.ml" 22 327 427
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.exit
+)
+"params.ml" 22 327 429 "params.ml" 22 327 431
+type(
+  int
+)
+"params.ml" 22 327 423 "params.ml" 22 327 432
+call(
+  tail
+)
+type(
+  string
+)
+"params.ml" 22 327 408 "params.ml" 22 327 432
+type(
+  string
+)
+"params.ml" 22 327 363 "params.ml" 22 327 432
+type(
+  string
+)
+"params.ml" 22 327 329 "params.ml" 22 327 432
+type(
+  string
+)
+"params.ml" 21 312 322 "params.ml" 22 327 432
+type(
+  string -> string
+)
+"params.ml" 24 434 438 "params.ml" 24 434 444
+type(
+  string
+)
+ident(
+  def prefix "params.ml" 25 463 463 --
+)
+"params.ml" 24 434 447 "params.ml" 24 434 452
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 24 434 453 "params.ml" 24 434 461
+type(
+  string
+)
+"params.ml" 24 434 447 "params.ml" 24 434 461
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 25 463 467 "params.ml" 25 463 477
+type(
+  string
+)
+ident(
+  def public_dir "params.ml" 26 499 499 --
+)
+"params.ml" 25 463 480 "params.ml" 25 463 485
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 25 463 486 "params.ml" 25 463 498
+type(
+  string
+)
+"params.ml" 25 463 480 "params.ml" 25 463 498
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 26 499 503 "params.ml" 26 499 514
+type(
+  string
+)
+ident(
+  def private_dir "params.ml" 29 564 564 --
+)
+"params.ml" 26 499 517 "params.ml" 26 499 522
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 26 499 523 "params.ml" 26 499 536
+type(
+  string
+)
+"params.ml" 26 499 517 "params.ml" 26 499 536
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 29 564 568 "params.ml" 29 564 579
+type(
+  int
+)
+ident(
+  def page_length "params.ml" 30 585 585 --
+)
+"params.ml" 29 564 582 "params.ml" 29 564 584
+type(
+  int
+)
+"params.ml" 30 585 589 "params.ml" 30 585 600
+type(
+  int
+)
+ident(
+  def json_length "params.ml" 33 626 626 --
+)
+"params.ml" 30 585 603 "params.ml" 30 585 605
+type(
+  int
+)
+"params.ml" 33 626 630 "params.ml" 33 626 645
+type(
+  int
+)
+ident(
+  def mysql_pool_size "params.ml" 34 651 651 --
+)
+"params.ml" 33 626 648 "params.ml" 33 626 649
+type(
+  int
+)
+"params.ml" 34 651 655 "params.ml" 34 651 666
+type(
+  string
+)
+ident(
+  def mysql_login "params.ml" 35 689 689 --
+)
+"params.ml" 34 651 669 "params.ml" 34 651 674
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 34 651 675 "params.ml" 34 651 688
+type(
+  string
+)
+"params.ml" 34 651 669 "params.ml" 34 651 688
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 35 689 693 "params.ml" 35 689 702
+type(
+  string
+)
+ident(
+  def mysql_pwd "params.ml" 36 723 723 --
+)
+"params.ml" 35 689 705 "params.ml" 35 689 710
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 35 689 711 "params.ml" 35 689 722
+type(
+  string
+)
+"params.ml" 35 689 705 "params.ml" 35 689 722
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 36 723 727 "params.ml" 36 723 737
+type(
+  string
+)
+ident(
+  def mysql_host "params.ml" 37 759 759 --
+)
+"params.ml" 36 723 740 "params.ml" 36 723 745
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 36 723 746 "params.ml" 36 723 758
+type(
+  string
+)
+"params.ml" 36 723 740 "params.ml" 36 723 758
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 37 759 763 "params.ml" 37 759 775
+type(
+  string
+)
+ident(
+  def mysql_dbname "params.ml" 40 820 820 --
+)
+"params.ml" 37 759 778 "params.ml" 37 759 783
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 37 759 784 "params.ml" 37 759 798
+type(
+  string
+)
+"params.ml" 37 759 778 "params.ml" 37 759 798
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 40 820 824 "params.ml" 40 820 833
+type(
+  string
+)
+ident(
+  def sqlite_db "params.ml" 41 853 853 --
+)
+"params.ml" 40 820 836 "params.ml" 40 820 841
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 40 820 842 "params.ml" 40 820 851
+type(
+  string
+)
+"params.ml" 40 820 836 "params.ml" 40 820 851
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 41 853 857 "params.ml" 41 853 864
+type(
+  string
+)
+ident(
+  def db_wiki "params.ml" 44 898 898 --
+)
+"params.ml" 41 853 867 "params.ml" 41 853 872
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 41 853 873 "params.ml" 41 853 882
+type(
+  string
+)
+"params.ml" 41 853 867 "params.ml" 41 853 882
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 44 898 902 "params.ml" 44 898 919
+type(
+  int
+)
+ident(
+  def zemanta_pool_size "params.ml" 45 924 924 --
+)
+"params.ml" 44 898 922 "params.ml" 44 898 923
+type(
+  int
+)
+"params.ml" 45 924 928 "params.ml" 45 924 943
+type(
+  string
+)
+ident(
+  def zemanta_api_key "params.ml" 48 989 989 --
+)
+"params.ml" 45 924 946 "params.ml" 45 924 951
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 45 924 952 "params.ml" 45 924 969
+type(
+  string
+)
+"params.ml" 45 924 946 "params.ml" 45 924 969
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 48 989 993 "params.ml" 48 989 1007
+type(
+  int
+)
+ident(
+  def std_cache_size "params.ml" 51 1084 1084 --
+)
+"params.ml" 48 989 1010 "params.ml" 48 989 1023
+type(
+  string -> int
+)
+ident(
+  ext_ref Pervasives.int_of_string
+)
+"params.ml" 48 989 1025 "params.ml" 48 989 1030
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 48 989 1031 "params.ml" 48 989 1043
+type(
+  string
+)
+"params.ml" 48 989 1025 "params.ml" 48 989 1043
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 48 989 1010 "params.ml" 48 989 1044
+type(
+  int
+)
+"params.ml" 51 1084 1088 "params.ml" 51 1084 1108
+type(
+  int
+)
+ident(
+  def number_of_challenges "params.ml" 52 1114 1114 --
+)
+"params.ml" 51 1084 1111 "params.ml" 51 1084 1113
+type(
+  int
+)
+"params.ml" 52 1114 1118 "params.ml" 52 1114 1136
+type(
+  int
+)
+ident(
+  def number_of_projects "params.ml" 55 1183 1183 --
+)
+"params.ml" 52 1114 1139 "params.ml" 52 1114 1141
+type(
+  int
+)
+"params.ml" 55 1183 1187 "params.ml" 55 1183 1202
+type(
+  int
+)
+ident(
+  def size_for_thread "params.ml" 56 1210 1210 --
+)
+"params.ml" 55 1183 1205 "params.ml" 55 1183 1209
+type(
+  int
+)
+"params.ml" 56 1210 1214 "params.ml" 56 1210 1230
+type(
+  int
+)
+ident(
+  def size_for_message "params.ml" 60 1263 1263 --
+)
+"params.ml" 56 1210 1233 "params.ml" 56 1210 1237
+type(
+  int
+)
+"params.ml" 60 1263 1267 "params.ml" 60 1263 1279
+type(
+  string
+)
+ident(
+  def mailing_name "params.ml" 61 1297 1297 --
+)
+"params.ml" 60 1263 1282 "params.ml" 60 1263 1296
+type(
+  string
+)
+"params.ml" 61 1297 1301 "params.ml" 61 1297 1313
+type(
+  string
+)
+ident(
+  def mailing_user "params.ml" 62 1343 1343 --
+)
+"params.ml" 61 1297 1316 "params.ml" 61 1297 1342
+type(
+  string
+)
+"params.ml" 62 1343 1347 "params.ml" 62 1343 1363
+type(
+  string
+)
+ident(
+  def mailing_password "params.ml" 63 1379 1379 --
+)
+"params.ml" 62 1343 1366 "params.ml" 62 1343 1378
+type(
+  string
+)
+"params.ml" 63 1379 1383 "params.ml" 63 1379 1398
+type(
+  float
+)
+ident(
+  def mailing_timeout "params.ml" 66 1424 1424 --
+)
+"params.ml" 63 1379 1401 "params.ml" 63 1379 1405
+type(
+  float
+)
+"params.ml" 66 1424 1428 "params.ml" 66 1424 1438
+type(
+  int
+)
+ident(
+  def feed_depth "params.ml" 67 1445 1445 --
+)
+"params.ml" 66 1424 1441 "params.ml" 66 1424 1443
+type(
+  int
+)
+"params.ml" 67 1445 1449 "params.ml" 67 1445 1465
+type(
+  int
+)
+ident(
+  def feed_depth_delta "params.ml" 69 1473 1473 --
+)
+"params.ml" 67 1445 1468 "params.ml" 67 1445 1470
+type(
+  int
+)
+"params.ml" 69 1473 1477 "params.ml" 69 1473 1498
+type(
+  int
+)
+ident(
+  def nb_followers_overview "params.ml" 70 1503 1503 --
+)
+"params.ml" 69 1473 1501 "params.ml" 69 1473 1502
+type(
+  int
+)
+"params.ml" 70 1503 1507 "params.ml" 70 1503 1528
+type(
+  int
+)
+ident(
+  def nb_following_overview "params.ml" 71 1533 1533 --
+)
+"params.ml" 70 1503 1531 "params.ml" 70 1503 1532
+type(
+  int
+)
+"params.ml" 71 1533 1537 "params.ml" 71 1533 1557
+type(
+  int
+)
+ident(
+  def nb_projects_overview "params.ml" 72 1562 1562 --
+)
+"params.ml" 71 1533 1560 "params.ml" 71 1533 1561
+type(
+  int
+)
+"params.ml" 72 1562 1566 "params.ml" 72 1562 1582
+type(
+  int
+)
+ident(
+  def nb_labs_overview "params.ml" 76 1618 1618 --
+)
+"params.ml" 72 1562 1585 "params.ml" 72 1562 1586
+type(
+  int
+)
+"params.ml" 76 1618 1622 "params.ml" 76 1618 1637
+type(
+  string
+)
+ident(
+  def webmaster_email "params.ml" 83 1868 1868 --
+)
+"params.ml" 76 1618 1640 "params.ml" 76 1618 1663
+type(
+  string
+)
+"params.ml" 83 1868 1872 "params.ml" 83 1868 1885
+type(
+  int
+)
+ident(
+  def paginate_size "params.ml" 84 1893 1893 --
+)
+"params.ml" 83 1868 1888 "params.ml" 83 1868 1892
+type(
+  int
+)
+"params.ml" 84 1893 1897 "params.ml" 84 1893 1906
+type(
+  int
+)
+ident(
+  def page_size "params.ml" 85 1912 1912 --
+)
+"params.ml" 84 1893 1909 "params.ml" 84 1893 1911
+type(
+  int
+)
+"params.ml" 85 1912 1916 "params.ml" 85 1912 1930
+type(
+  int
+)
+ident(
+  def paginate_delta "params.ml" 86 1935 1935 --
+)
+"params.ml" 85 1912 1933 "params.ml" 85 1912 1934
+type(
+  int
+)
+"params.ml" 86 1935 1939 "params.ml" 86 1935 1955
+type(
+  int
+)
+ident(
+  def agenda_page_size "params.ml" 87 1960 1960 --
+)
+"params.ml" 86 1935 1958 "params.ml" 86 1935 1959
+type(
+  int
+)
+"params.ml" 87 1960 1964 "params.ml" 87 1960 1985
+type(
+  int
+)
+ident(
+  def publication_page_size "params.ml" 89 1991 1991 --
+)
+"params.ml" 87 1960 1988 "params.ml" 87 1960 1989
+type(
+  int
+)
+"params.ml" 89 1991 1995 "params.ml" 89 1991 2016
+type(
+  int
+)
+ident(
+  def institution_page_size "params.ml" 90 2021 2021 --
+)
+"params.ml" 89 1991 2019 "params.ml" 89 1991 2020
+type(
+  int
+)
+"params.ml" 90 2021 2025 "params.ml" 90 2021 2038
+type(
+  int
+)
+ident(
+  def lab_page_size "params.ml" 94 2064 2064 --
+)
+"params.ml" 90 2021 2041 "params.ml" 90 2021 2042
+type(
+  int
+)
+"params.ml" 94 2064 2068 "params.ml" 94 2064 2080
+type(
+  int
+)
+ident(
+  def excerpt_size "params.ml" 97 2106 2106 --
+)
+"params.ml" 94 2064 2083 "params.ml" 94 2064 2086
+type(
+  int
+)
+"params.ml" 97 2106 2110 "params.ml" 97 2106 2126
+type(
+  int
+)
+ident(
+  def graph_cache_size "params.ml" 98 2134 2134 --
+)
+"params.ml" 97 2106 2129 "params.ml" 97 2106 2133
+type(
+  int
+)
+"params.ml" 98 2134 2138 "params.ml" 98 2134 2160
+type(
+  string
+)
+ident(
+  def graph_poll_result_file "params.ml" 102 2215 2215 --
+)
+"params.ml" 98 2134 2163 "params.ml" 98 2134 2168
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 98 2134 2169 "params.ml" 98 2134 2187
+type(
+  string
+)
+"params.ml" 98 2134 2163 "params.ml" 98 2134 2187
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 102 2215 2219 "params.ml" 102 2215 2230
+type(
+  string
+)
+ident(
+  def imagemagick "params.ml" 104 2262 2262 --
+)
+"params.ml" 102 2215 2233 "params.ml" 102 2215 2238
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 102 2215 2239 "params.ml" 102 2215 2260
+type(
+  string
+)
+"params.ml" 102 2215 2233 "params.ml" 102 2215 2260
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 104 2262 2266 "params.ml" 104 2262 2270
+type(
+  string
+)
+ident(
+  def host "params.ml" 108 2314 2314 --
+)
+"params.ml" 104 2262 2273 "params.ml" 104 2262 2278
+type(
+  string -> string
+)
+ident(
+  int_ref fetch "params.ml" 21 312 316 "params.ml" 21 312 321
+)
+"params.ml" 104 2262 2279 "params.ml" 104 2262 2285
+type(
+  string
+)
+"params.ml" 104 2262 2273 "params.ml" 104 2262 2285
+call(
+  stack
+)
+type(
+  string
+)
+"params.ml" 108 2314 2318 "params.ml" 108 2314 2340
+type(
+  int
+)
+ident(
+  def skills_suggestion_card "params.ml" 108 2314 2344 --
+)
+"params.ml" 108 2314 2343 "params.ml" 108 2314 2344
+type(
+  int
+)

@@ -1,0 +1,1124 @@
+"html_utils.ml" 5 50 54 "html_utils.ml" 5 50 64
+type(
+  'a list -> 'a list * 'a list
+)
+ident(
+  def split_list "html_utils.ml" 17 311 311 --
+)
+"html_utils.ml" 5 50 65 "html_utils.ml" 5 50 66
+type(
+  'a list
+)
+ident(
+  def l "html_utils.ml" 6 69 71 "html_utils.ml" 14 288 306
+)
+"html_utils.ml" 6 69 79 "html_utils.ml" 6 69 83
+type(
+  'b list * 'b list -> int -> 'b list -> 'b list * 'b list
+)
+"html_utils.ml" 6 69 85 "html_utils.ml" 6 69 86
+type(
+  'b list
+)
+ident(
+  def l "html_utils.ml" 6 69 90 "html_utils.ml" 12 252 282
+)
+"html_utils.ml" 6 69 87 "html_utils.ml" 6 69 88
+type(
+  'b list
+)
+ident(
+  def r "html_utils.ml" 6 69 90 "html_utils.ml" 12 252 282
+)
+"html_utils.ml" 6 69 85 "html_utils.ml" 6 69 88
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 6 69 90 "html_utils.ml" 6 69 91
+type(
+  int
+)
+ident(
+  def n "html_utils.ml" 6 69 94 "html_utils.ml" 12 252 282
+)
+"html_utils.ml" 7 103 107 "html_utils.ml" 7 103 109
+type(
+  'b list
+)
+"html_utils.ml" 7 103 114 "html_utils.ml" 7 103 115
+type(
+  'b list
+)
+ident(
+  int_ref l "html_utils.ml" 6 69 85 "html_utils.ml" 6 69 86
+)
+"html_utils.ml" 7 103 117 "html_utils.ml" 7 103 118
+type(
+  'b list
+)
+ident(
+  int_ref r "html_utils.ml" 6 69 87 "html_utils.ml" 6 69 88
+)
+"html_utils.ml" 7 103 114 "html_utils.ml" 7 103 118
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 8 171 175 "html_utils.ml" 8 171 176
+type(
+  'b
+)
+ident(
+  def h "html_utils.ml" 9 184 190 "html_utils.ml" 12 252 282
+)
+"html_utils.ml" 8 171 179 "html_utils.ml" 8 171 180
+type(
+  'b list
+)
+ident(
+  def q "html_utils.ml" 9 184 190 "html_utils.ml" 12 252 282
+)
+"html_utils.ml" 8 171 175 "html_utils.ml" 8 171 180
+type(
+  'b list
+)
+"html_utils.ml" 9 184 193 "html_utils.ml" 9 184 194
+type(
+  int
+)
+ident(
+  int_ref n "html_utils.ml" 6 69 90 "html_utils.ml" 6 69 91
+)
+"html_utils.ml" 9 184 199 "html_utils.ml" 9 184 200
+type(
+  int
+)
+"html_utils.ml" 9 184 193 "html_utils.ml" 9 184 200
+type(
+  int
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.mod
+)
+"html_utils.ml" 9 184 201 "html_utils.ml" 9 184 202
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"html_utils.ml" 9 184 203 "html_utils.ml" 9 184 204
+type(
+  int
+)
+"html_utils.ml" 9 184 193 "html_utils.ml" 9 184 204
+type(
+  bool
+)
+"html_utils.ml" 10 210 218 "html_utils.ml" 10 210 222
+type(
+  'b list * 'b list -> int -> 'b list -> 'b list * 'b list
+)
+ident(
+  int_ref iter "html_utils.ml" 6 69 79 "html_utils.ml" 6 69 83
+)
+"html_utils.ml" 10 210 224 "html_utils.ml" 10 210 225
+type(
+  'b
+)
+ident(
+  int_ref h "html_utils.ml" 8 171 175 "html_utils.ml" 8 171 176
+)
+"html_utils.ml" 10 210 227 "html_utils.ml" 10 210 228
+type(
+  'b list
+)
+ident(
+  int_ref l "html_utils.ml" 6 69 85 "html_utils.ml" 6 69 86
+)
+"html_utils.ml" 10 210 224 "html_utils.ml" 10 210 228
+type(
+  'b list
+)
+"html_utils.ml" 10 210 230 "html_utils.ml" 10 210 231
+type(
+  'b list
+)
+ident(
+  int_ref r "html_utils.ml" 6 69 87 "html_utils.ml" 6 69 88
+)
+"html_utils.ml" 10 210 224 "html_utils.ml" 10 210 231
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 10 210 234 "html_utils.ml" 10 210 235
+type(
+  int
+)
+ident(
+  int_ref n "html_utils.ml" 6 69 90 "html_utils.ml" 6 69 91
+)
+"html_utils.ml" 10 210 235 "html_utils.ml" 10 210 236
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"html_utils.ml" 10 210 236 "html_utils.ml" 10 210 237
+type(
+  int
+)
+"html_utils.ml" 10 210 234 "html_utils.ml" 10 210 237
+type(
+  int
+)
+"html_utils.ml" 10 210 239 "html_utils.ml" 10 210 240
+type(
+  'b list
+)
+ident(
+  int_ref q "html_utils.ml" 8 171 179 "html_utils.ml" 8 171 180
+)
+"html_utils.ml" 10 210 218 "html_utils.ml" 10 210 240
+call(
+  tail
+)
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 12 252 260 "html_utils.ml" 12 252 264
+type(
+  'b list * 'b list -> int -> 'b list -> 'b list * 'b list
+)
+ident(
+  int_ref iter "html_utils.ml" 6 69 79 "html_utils.ml" 6 69 83
+)
+"html_utils.ml" 12 252 266 "html_utils.ml" 12 252 267
+type(
+  'b list
+)
+ident(
+  int_ref l "html_utils.ml" 6 69 85 "html_utils.ml" 6 69 86
+)
+"html_utils.ml" 12 252 269 "html_utils.ml" 12 252 270
+type(
+  'b
+)
+ident(
+  int_ref h "html_utils.ml" 8 171 175 "html_utils.ml" 8 171 176
+)
+"html_utils.ml" 12 252 272 "html_utils.ml" 12 252 273
+type(
+  'b list
+)
+ident(
+  int_ref r "html_utils.ml" 6 69 87 "html_utils.ml" 6 69 88
+)
+"html_utils.ml" 12 252 269 "html_utils.ml" 12 252 273
+type(
+  'b list
+)
+"html_utils.ml" 12 252 266 "html_utils.ml" 12 252 273
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 12 252 276 "html_utils.ml" 12 252 277
+type(
+  int
+)
+ident(
+  int_ref n "html_utils.ml" 6 69 90 "html_utils.ml" 6 69 91
+)
+"html_utils.ml" 12 252 277 "html_utils.ml" 12 252 278
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+"html_utils.ml" 12 252 278 "html_utils.ml" 12 252 279
+type(
+  int
+)
+"html_utils.ml" 12 252 276 "html_utils.ml" 12 252 279
+type(
+  int
+)
+"html_utils.ml" 12 252 281 "html_utils.ml" 12 252 282
+type(
+  'b list
+)
+ident(
+  int_ref q "html_utils.ml" 8 171 179 "html_utils.ml" 8 171 180
+)
+"html_utils.ml" 12 252 260 "html_utils.ml" 12 252 282
+call(
+  tail
+)
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 9 184 190 "html_utils.ml" 12 252 282
+type(
+  'b list * 'b list
+)
+"html_utils.ml" 6 69 94 "html_utils.ml" 12 252 282
+type(
+  'b list -> 'b list * 'b list
+)
+"html_utils.ml" 6 69 90 "html_utils.ml" 12 252 282
+type(
+  int -> 'b list -> 'b list * 'b list
+)
+"html_utils.ml" 6 69 84 "html_utils.ml" 12 252 282
+type(
+  'b list * 'b list -> int -> 'b list -> 'b list * 'b list
+)
+"html_utils.ml" 14 288 290 "html_utils.ml" 14 288 294
+type(
+  'a list * 'a list -> int -> 'a list -> 'a list * 'a list
+)
+ident(
+  int_ref iter "html_utils.ml" 6 69 79 "html_utils.ml" 6 69 83
+)
+"html_utils.ml" 14 288 296 "html_utils.ml" 14 288 298
+type(
+  'a list
+)
+"html_utils.ml" 14 288 299 "html_utils.ml" 14 288 301
+type(
+  'a list
+)
+"html_utils.ml" 14 288 296 "html_utils.ml" 14 288 301
+type(
+  'a list * 'a list
+)
+"html_utils.ml" 14 288 303 "html_utils.ml" 14 288 304
+type(
+  int
+)
+"html_utils.ml" 14 288 305 "html_utils.ml" 14 288 306
+type(
+  'a list
+)
+ident(
+  int_ref l "html_utils.ml" 5 50 65 "html_utils.ml" 5 50 66
+)
+"html_utils.ml" 14 288 290 "html_utils.ml" 14 288 306
+call(
+  tail
+)
+type(
+  'a list * 'a list
+)
+"html_utils.ml" 6 69 71 "html_utils.ml" 14 288 306
+type(
+  'a list * 'a list
+)
+"html_utils.ml" 5 50 65 "html_utils.ml" 14 288 306
+type(
+  'a list -> 'a list * 'a list
+)
+"html_utils.ml" 17 311 315 "html_utils.ml" 17 311 331
+type(
+  id:XHTML.M.id ->
+  cl:XHTML.M.nmtoken ->
+  cl_left:XHTML.M.nmtoken ->
+  cl_right:XHTML.M.nmtoken ->
+  ('a ->
+   [< `A
+    | `Abbr
+    | `Acronym
+    | `Address
+    | `B
+    | `Bdo
+    | `Big
+    | `Blockquote
+    | `Br
+    | `Button
+    | `Cite
+    | `Code
+    | `Del
+    | `Dfn
+    | `Div
+    | `Dl
+    | `Em
+    | `Fieldset
+    | `Form
+    | `H1
+    | `H2
+    | `H3
+    | `H4
+    | `H5
+    | `H6
+    | `Hr
+    | `I
+    | `Img
+    | `Input
+    | `Ins
+    | `Kbd
+    | `Label
+    | `Map
+    | `Noscript
+    | `Object
+    | `Ol
+    | `P
+    | `PCDATA
+    | `Pre
+    | `Q
+    | `Ruby_complex
+    | `Ruby_simple1
+    | `Ruby_simple2
+    | `Samp
+    | `Script
+    | `Select
+    | `Small
+    | `Span
+    | `Strong
+    | `Sub
+    | `Sup
+    | `Table
+    | `Textarea
+    | `Tt
+    | `Ul
+    | `Var ]
+   XHTML.M.elt list Lwt.t) ->
+  'a list -> [> `Div ] XHTML.M.elt Lwt.t
+)
+ident(
+  def two_columns_list "html_utils.ml" 33 756 761 --
+)
+"html_utils.ml" 17 311 359 "html_utils.ml" 17 311 360
+type(
+  'a ->
+  ([< `A
+    | `Abbr
+    | `Acronym
+    | `Address
+    | `B
+    | `Bdo
+    | `Big
+    | `Blockquote
+    | `Br
+    | `Button
+    | `Cite
+    | `Code
+    | `Del
+    | `Dfn
+    | `Div
+    | `Dl
+    | `Em
+    | `Fieldset
+    | `Form
+    | `H1
+    | `H2
+    | `H3
+    | `H4
+    | `H5
+    | `H6
+    | `Hr
+    | `I
+    | `Img
+    | `Input
+    | `Ins
+    | `Kbd
+    | `Label
+    | `Map
+    | `Noscript
+    | `Object
+    | `Ol
+    | `P
+    | `PCDATA
+    | `Pre
+    | `Q
+    | `Ruby_complex
+    | `Ruby_simple1
+    | `Ruby_simple2
+    | `Samp
+    | `Script
+    | `Select
+    | `Small
+    | `Span
+    | `Strong
+    | `Sub
+    | `Sup
+    | `Table
+    | `Textarea
+    | `Tt
+    | `Ul
+    | `Var ]
+   as 'b)
+  XHTML.M.elt list Lwt.t
+)
+ident(
+  def f "html_utils.ml" 17 311 361 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 17 311 361 "html_utils.ml" 17 311 365
+type(
+  'a list
+)
+ident(
+  def list "html_utils.ml" 18 368 370 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 18 368 375 "html_utils.ml" 18 368 384
+type(
+  'a list
+)
+"html_utils.ml" 18 368 386 "html_utils.ml" 18 368 396
+type(
+  'a list
+)
+"html_utils.ml" 18 368 375 "html_utils.ml" 18 368 396
+type(
+  'a list * 'a list
+)
+"html_utils.ml" 18 368 400 "html_utils.ml" 18 368 410
+type(
+  'a list -> 'a list * 'a list
+)
+ident(
+  int_ref split_list "html_utils.ml" 5 50 54 "html_utils.ml" 5 50 64
+)
+"html_utils.ml" 18 368 411 "html_utils.ml" 18 368 415
+type(
+  'a list
+)
+ident(
+  int_ref list "html_utils.ml" 17 311 361 "html_utils.ml" 17 311 365
+)
+"html_utils.ml" 18 368 400 "html_utils.ml" 18 368 415
+call(
+  stack
+)
+type(
+  'a list * 'a list
+)
+"html_utils.ml" 19 419 425 "html_utils.ml" 19 419 429
+type(
+  'a list -> 'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 19 419 432 "html_utils.ml" 19 419 452
+type(
+  ('b XHTML.M.elt list -> 'a -> 'b XHTML.M.elt list Lwt.t) ->
+  'b XHTML.M.elt list -> 'a list -> 'b XHTML.M.elt list Lwt.t
+)
+ident(
+  ext_ref Lwt_list.fold_left_s
+)
+"html_utils.ml" 20 453 462 "html_utils.ml" 20 453 465
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  def acc "html_utils.ml" 20 453 466 "html_utils.ml" 20 453 510
+)
+"html_utils.ml" 20 453 466 "html_utils.ml" 20 453 467
+type(
+  'a
+)
+ident(
+  def x "html_utils.ml" 20 453 471 "html_utils.ml" 20 453 510
+)
+"html_utils.ml" 20 453 472 "html_utils.ml" 20 453 473
+type(
+  'a -> 'b XHTML.M.elt list Lwt.t
+)
+ident(
+  int_ref f "html_utils.ml" 17 311 359 "html_utils.ml" 17 311 360
+)
+"html_utils.ml" 20 453 474 "html_utils.ml" 20 453 475
+type(
+  'a
+)
+ident(
+  int_ref x "html_utils.ml" 20 453 466 "html_utils.ml" 20 453 467
+)
+"html_utils.ml" 20 453 472 "html_utils.ml" 20 453 475
+call(
+  stack
+)
+type(
+  'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 20 453 477 "html_utils.ml" 20 453 480
+type(
+  'b XHTML.M.elt list Lwt.t ->
+  ('b XHTML.M.elt list -> 'b XHTML.M.elt list Lwt.t) ->
+  'b XHTML.M.elt list Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"html_utils.ml" 20 453 485 "html_utils.ml" 20 453 486
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  def x "html_utils.ml" 20 453 490 "html_utils.ml" 20 453 510
+)
+"html_utils.ml" 20 453 490 "html_utils.ml" 20 453 500
+type(
+  'b XHTML.M.elt list -> 'b XHTML.M.elt list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"html_utils.ml" 20 453 502 "html_utils.ml" 20 453 503
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  int_ref x "html_utils.ml" 20 453 485 "html_utils.ml" 20 453 486
+)
+"html_utils.ml" 20 453 504 "html_utils.ml" 20 453 505
+type(
+  'b XHTML.M.elt list -> 'b XHTML.M.elt list -> 'b XHTML.M.elt list
+)
+ident(
+  ext_ref Pervasives.@
+)
+"html_utils.ml" 20 453 506 "html_utils.ml" 20 453 509
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  int_ref acc "html_utils.ml" 20 453 462 "html_utils.ml" 20 453 465
+)
+"html_utils.ml" 20 453 502 "html_utils.ml" 20 453 509
+call(
+  stack
+)
+type(
+  'b XHTML.M.elt list
+)
+"html_utils.ml" 20 453 490 "html_utils.ml" 20 453 510
+call(
+  tail
+)
+type(
+  'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 20 453 485 "html_utils.ml" 20 453 510
+type(
+  'b XHTML.M.elt list -> 'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 20 453 471 "html_utils.ml" 20 453 510
+call(
+  tail
+)
+type(
+  'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 20 453 466 "html_utils.ml" 20 453 510
+type(
+  'a -> 'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 20 453 462 "html_utils.ml" 20 453 510
+type(
+  'b XHTML.M.elt list -> 'a -> 'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 21 512 518 "html_utils.ml" 21 512 520
+type(
+  'b XHTML.M.elt list
+)
+"html_utils.ml" 19 419 432 "html_utils.ml" 21 512 520
+call(
+  stack
+)
+type(
+  'a list -> 'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 23 526 529 "html_utils.ml" 23 526 533
+type(
+  'a list -> 'b XHTML.M.elt list Lwt.t
+)
+ident(
+  int_ref side "html_utils.ml" 19 419 425 "html_utils.ml" 19 419 429
+)
+"html_utils.ml" 23 526 534 "html_utils.ml" 23 526 543
+type(
+  'a list
+)
+ident(
+  int_ref list_left "html_utils.ml" 18 368 375 "html_utils.ml" 18 368 384
+)
+"html_utils.ml" 23 526 529 "html_utils.ml" 23 526 543
+call(
+  stack
+)
+type(
+  'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 24 544 548 "html_utils.ml" 24 544 551
+type(
+  'b XHTML.M.elt list Lwt.t ->
+  ('b XHTML.M.elt list -> ([> `Div ] as 'c) XHTML.M.elt Lwt.t) ->
+  'c XHTML.M.elt Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"html_utils.ml" 24 544 556 "html_utils.ml" 24 544 560
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  def left "html_utils.ml" 25 564 568 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 25 564 568 "html_utils.ml" 25 564 572
+type(
+  'a list -> 'b XHTML.M.elt list Lwt.t
+)
+ident(
+  int_ref side "html_utils.ml" 19 419 425 "html_utils.ml" 19 419 429
+)
+"html_utils.ml" 25 564 573 "html_utils.ml" 25 564 583
+type(
+  'a list
+)
+ident(
+  int_ref list_right "html_utils.ml" 18 368 386 "html_utils.ml" 18 368 396
+)
+"html_utils.ml" 25 564 568 "html_utils.ml" 25 564 583
+call(
+  stack
+)
+type(
+  'b XHTML.M.elt list Lwt.t
+)
+"html_utils.ml" 26 584 588 "html_utils.ml" 26 584 591
+type(
+  'b XHTML.M.elt list Lwt.t ->
+  ('b XHTML.M.elt list -> 'c XHTML.M.elt Lwt.t) -> 'c XHTML.M.elt Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"html_utils.ml" 26 584 596 "html_utils.ml" 26 584 601
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  def right "html_utils.ml" 27 605 609 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 27 605 609 "html_utils.ml" 27 605 619
+type(
+  'c XHTML.M.elt -> 'c XHTML.M.elt Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"html_utils.ml" 28 620 625 "html_utils.ml" 28 620 628
+type(
+  (_[< XHTML.M.common > `Class `Id ],
+   _[< `A
+     | `Abbr
+     | `Acronym
+     | `Address
+     | `B
+     | `Bdo
+     | `Big
+     | `Blockquote
+     | `Br
+     | `Button
+     | `Cite
+     | `Code
+     | `Del
+     | `Dfn
+     | `Div
+     | `Dl
+     | `Em
+     | `Fieldset
+     | `Form
+     | `H1
+     | `H2
+     | `H3
+     | `H4
+     | `H5
+     | `H6
+     | `Hr
+     | `I
+     | `Img
+     | `Input
+     | `Ins
+     | `Kbd
+     | `Label
+     | `Map
+     | `Noscript
+     | `Object
+     | `Ol
+     | `P
+     | `PCDATA
+     | `Pre
+     | `Q
+     | `Ruby_complex
+     | `Ruby_simple1
+     | `Ruby_simple2
+     | `Samp
+     | `Script
+     | `Select
+     | `Small
+     | `Span
+     | `Strong
+     | `Sub
+     | `Sup
+     | `Table
+     | `Textarea
+     | `Tt
+     | `Ul
+     | `Var
+     > `Div ],
+   'c)
+  XHTML.M.star
+)
+ident(
+  ext_ref XHTML.M.div
+)
+"html_utils.ml" 28 620 633 "html_utils.ml" 28 620 637
+type(
+  XHTML.M.id -> (_[< XHTML.M.common > `Class `Id ] as 'd) XHTML.M.attrib
+)
+ident(
+  ext_ref XHTML.M.a_id
+)
+"html_utils.ml" 28 620 638 "html_utils.ml" 28 620 640
+type(
+  XHTML.M.id
+)
+ident(
+  int_ref id "html_utils.ml" 17 311 332 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 28 620 633 "html_utils.ml" 28 620 640
+call(
+  stack
+)
+type(
+  'd XHTML.M.attrib
+)
+"html_utils.ml" 28 620 642 "html_utils.ml" 28 620 649
+type(
+  XHTML.M.nmtokens -> 'd XHTML.M.attrib
+)
+ident(
+  ext_ref XHTML.M.a_class
+)
+"html_utils.ml" 28 620 651 "html_utils.ml" 28 620 653
+type(
+  XHTML.M.nmtoken
+)
+ident(
+  int_ref cl "html_utils.ml" 17 311 336 "html_utils.ml" 33 756 761
+)
+type(
+  XHTML.M.nmtokens
+)
+"html_utils.ml" 28 620 650 "html_utils.ml" 28 620 654
+type(
+  XHTML.M.nmtoken list
+)
+"html_utils.ml" 28 620 642 "html_utils.ml" 28 620 654
+call(
+  stack
+)
+type(
+  'd XHTML.M.attrib
+)
+type(
+  'd XHTML.M.attrib list
+)
+"html_utils.ml" 28 620 633 "html_utils.ml" 28 620 654
+type(
+  'd XHTML.M.attrib list
+)
+"html_utils.ml" 28 620 632 "html_utils.ml" 28 620 655
+type(
+  'd XHTML.M.attrib list
+)
+"html_utils.ml" 30 663 670 "html_utils.ml" 30 663 673
+type(
+  (_[< XHTML.M.common > `Class ], 'b,
+   _[< `A
+     | `Abbr
+     | `Acronym
+     | `Address
+     | `B
+     | `Bdo
+     | `Big
+     | `Blockquote
+     | `Br
+     | `Button
+     | `Cite
+     | `Code
+     | `Del
+     | `Dfn
+     | `Div
+     | `Dl
+     | `Em
+     | `Fieldset
+     | `Form
+     | `H1
+     | `H2
+     | `H3
+     | `H4
+     | `H5
+     | `H6
+     | `Hr
+     | `I
+     | `Img
+     | `Input
+     | `Ins
+     | `Kbd
+     | `Label
+     | `Map
+     | `Noscript
+     | `Object
+     | `Ol
+     | `P
+     | `PCDATA
+     | `Pre
+     | `Q
+     | `Ruby_complex
+     | `Ruby_simple1
+     | `Ruby_simple2
+     | `Samp
+     | `Script
+     | `Select
+     | `Small
+     | `Span
+     | `Strong
+     | `Sub
+     | `Sup
+     | `Table
+     | `Textarea
+     | `Tt
+     | `Ul
+     | `Var
+     > `Div ]
+   as 'e)
+  XHTML.M.star
+)
+ident(
+  ext_ref XHTML.M.div
+)
+"html_utils.ml" 30 663 679 "html_utils.ml" 30 663 686
+type(
+  XHTML.M.nmtokens -> (_[< XHTML.M.common > `Class ] as 'f) XHTML.M.attrib
+)
+ident(
+  ext_ref XHTML.M.a_class
+)
+"html_utils.ml" 30 663 688 "html_utils.ml" 30 663 695
+type(
+  XHTML.M.nmtoken
+)
+ident(
+  int_ref cl_left "html_utils.ml" 17 311 340 "html_utils.ml" 33 756 761
+)
+type(
+  XHTML.M.nmtokens
+)
+"html_utils.ml" 30 663 687 "html_utils.ml" 30 663 696
+type(
+  XHTML.M.nmtoken list
+)
+"html_utils.ml" 30 663 679 "html_utils.ml" 30 663 696
+call(
+  stack
+)
+type(
+  'f XHTML.M.attrib
+)
+type(
+  'f XHTML.M.attrib list
+)
+"html_utils.ml" 30 663 678 "html_utils.ml" 30 663 697
+type(
+  'f XHTML.M.attrib list
+)
+"html_utils.ml" 30 663 698 "html_utils.ml" 30 663 702
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  int_ref left "html_utils.ml" 24 544 556 "html_utils.ml" 24 544 560
+)
+"html_utils.ml" 30 663 670 "html_utils.ml" 30 663 702
+call(
+  stack
+)
+type(
+  'e XHTML.M.elt
+)
+"html_utils.ml" 31 705 712 "html_utils.ml" 31 705 715
+type(
+  (_[< XHTML.M.common > `Class ], 'b, 'e) XHTML.M.star
+)
+ident(
+  ext_ref XHTML.M.div
+)
+"html_utils.ml" 31 705 721 "html_utils.ml" 31 705 728
+type(
+  XHTML.M.nmtokens -> (_[< XHTML.M.common > `Class ] as 'g) XHTML.M.attrib
+)
+ident(
+  ext_ref XHTML.M.a_class
+)
+"html_utils.ml" 31 705 730 "html_utils.ml" 31 705 738
+type(
+  XHTML.M.nmtoken
+)
+ident(
+  int_ref cl_right "html_utils.ml" 17 311 349 "html_utils.ml" 33 756 761
+)
+type(
+  XHTML.M.nmtokens
+)
+"html_utils.ml" 31 705 729 "html_utils.ml" 31 705 739
+type(
+  XHTML.M.nmtoken list
+)
+"html_utils.ml" 31 705 721 "html_utils.ml" 31 705 739
+call(
+  stack
+)
+type(
+  'g XHTML.M.attrib
+)
+type(
+  'g XHTML.M.attrib list
+)
+"html_utils.ml" 31 705 720 "html_utils.ml" 31 705 740
+type(
+  'g XHTML.M.attrib list
+)
+"html_utils.ml" 31 705 741 "html_utils.ml" 31 705 746
+type(
+  'b XHTML.M.elt list
+)
+ident(
+  int_ref right "html_utils.ml" 26 584 596 "html_utils.ml" 26 584 601
+)
+"html_utils.ml" 31 705 712 "html_utils.ml" 31 705 746
+call(
+  stack
+)
+type(
+  'e XHTML.M.elt
+)
+"html_utils.ml" 31 705 712 "html_utils.ml" 31 705 748
+type(
+  'e XHTML.M.elt list
+)
+"html_utils.ml" 30 663 670 "html_utils.ml" 31 705 748
+type(
+  'e XHTML.M.elt list
+)
+"html_utils.ml" 29 656 661 "html_utils.ml" 32 749 755
+type(
+  'e XHTML.M.elt list
+)
+"html_utils.ml" 28 620 625 "html_utils.ml" 32 749 755
+call(
+  stack
+)
+type(
+  'c XHTML.M.elt
+)
+"html_utils.ml" 27 605 609 "html_utils.ml" 33 756 761
+call(
+  tail
+)
+type(
+  'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 26 584 596 "html_utils.ml" 33 756 761
+type(
+  'b XHTML.M.elt list -> 'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 25 564 568 "html_utils.ml" 33 756 761
+call(
+  tail
+)
+type(
+  'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 24 544 556 "html_utils.ml" 33 756 761
+type(
+  'b XHTML.M.elt list -> 'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 23 526 529 "html_utils.ml" 33 756 761
+call(
+  tail
+)
+type(
+  'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 19 419 421 "html_utils.ml" 33 756 761
+type(
+  'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 18 368 370 "html_utils.ml" 33 756 761
+type(
+  'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 17 311 361 "html_utils.ml" 33 756 761
+type(
+  'a list -> 'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 17 311 359 "html_utils.ml" 33 756 761
+type(
+  ('a -> 'b XHTML.M.elt list Lwt.t) -> 'a list -> 'c XHTML.M.elt Lwt.t
+)
+"html_utils.ml" 17 311 349 "html_utils.ml" 33 756 761
+type(
+  cl_right:XHTML.M.nmtoken ->
+  ('a -> 'b XHTML.M.elt list Lwt.t) -> 'a list -> 'c XHTML.M.elt Lwt.t
+)
+type(
+  XHTML.M.nmtoken
+)
+ident(
+  def cl_right "html_utils.ml" 17 311 359 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 17 311 340 "html_utils.ml" 33 756 761
+type(
+  cl_left:XHTML.M.nmtoken ->
+  cl_right:XHTML.M.nmtoken ->
+  ('a -> 'b XHTML.M.elt list Lwt.t) -> 'a list -> 'c XHTML.M.elt Lwt.t
+)
+type(
+  XHTML.M.nmtoken
+)
+ident(
+  def cl_left "html_utils.ml" 17 311 349 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 17 311 336 "html_utils.ml" 33 756 761
+type(
+  cl:XHTML.M.nmtoken ->
+  cl_left:XHTML.M.nmtoken ->
+  cl_right:XHTML.M.nmtoken ->
+  ('a -> 'b XHTML.M.elt list Lwt.t) -> 'a list -> 'c XHTML.M.elt Lwt.t
+)
+type(
+  XHTML.M.nmtoken
+)
+ident(
+  def cl "html_utils.ml" 17 311 340 "html_utils.ml" 33 756 761
+)
+"html_utils.ml" 17 311 332 "html_utils.ml" 33 756 761
+type(
+  id:XHTML.M.id ->
+  cl:XHTML.M.nmtoken ->
+  cl_left:XHTML.M.nmtoken ->
+  cl_right:XHTML.M.nmtoken ->
+  ('a -> 'b XHTML.M.elt list Lwt.t) -> 'a list -> 'c XHTML.M.elt Lwt.t
+)
+type(
+  XHTML.M.id
+)
+ident(
+  def id "html_utils.ml" 17 311 336 "html_utils.ml" 33 756 761
+)

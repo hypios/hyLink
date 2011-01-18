@@ -1,0 +1,238 @@
+"crop.ml" 23 284 288 "crop.ml" 23 284 300
+type(
+  Ocsigen_lib.file_info -> int -> string Lwt.t
+)
+ident(
+  def resize_width "crop.ml" 29 543 543 "crop.ml" 32 586 589
+)
+"crop.ml" 23 284 301 "crop.ml" 23 284 305
+type(
+  Ocsigen_lib.file_info
+)
+ident(
+  def file "crop.ml" 23 284 306 "crop.ml" 27 516 541
+)
+"crop.ml" 23 284 306 "crop.ml" 23 284 310
+type(
+  int
+)
+ident(
+  def size "crop.ml" 24 313 315 "crop.ml" 27 516 541
+)
+"crop.ml" 24 313 319 "crop.ml" 24 313 324
+type(
+  string
+)
+"crop.ml" 24 313 327 "crop.ml" 24 313 358
+type(
+  Ocsigen_lib.file_info -> string
+)
+ident(
+  ext_ref Eliom_sessions.get_tmp_filename
+)
+"crop.ml" 24 313 359 "crop.ml" 24 313 363
+type(
+  Ocsigen_lib.file_info
+)
+ident(
+  int_ref file "crop.ml" 23 284 301 "crop.ml" 23 284 305
+)
+"crop.ml" 24 313 327 "crop.ml" 24 313 363
+call(
+  stack
+)
+type(
+  string
+)
+"crop.ml" 25 367 373 "crop.ml" 25 367 379
+type(
+  string
+)
+"crop.ml" 25 367 381 "crop.ml" 25 367 384
+type(
+  string
+)
+"crop.ml" 25 367 373 "crop.ml" 25 367 384
+type(
+  string * string
+)
+"crop.ml" 25 367 387 "crop.ml" 25 367 405
+type(
+  Ocsigen_lib.file_info -> string * string
+)
+ident(
+  ext_ref Storage.fresh_copy
+)
+"crop.ml" 25 367 406 "crop.ml" 25 367 410
+type(
+  Ocsigen_lib.file_info
+)
+ident(
+  int_ref file "crop.ml" 23 284 301 "crop.ml" 23 284 305
+)
+"crop.ml" 25 367 387 "crop.ml" 25 367 410
+call(
+  stack
+)
+type(
+  string * string
+)
+"crop.ml" 26 414 416 "crop.ml" 26 414 432
+type(
+  ?timeout:float ->
+  ?env:string array ->
+  ?stdin:Lwt_process.redirection ->
+  ?stdout:Lwt_process.redirection ->
+  ?stderr:Lwt_process.redirection ->
+  Lwt_process.command -> Unix.process_status Lwt.t
+)
+ident(
+  ext_ref Lwt_process.exec
+)
+"crop.ml" 26 414 434 "crop.ml" 26 414 452
+type(
+  string
+)
+ident(
+  ext_ref Params.imagemagick
+)
+"crop.ml" 26 414 457 "crop.ml" 26 414 466
+type(
+  string
+)
+"crop.ml" 26 414 468 "crop.ml" 26 414 473
+type(
+  string
+)
+ident(
+  int_ref imgin "crop.ml" 24 313 319 "crop.ml" 24 313 324
+)
+"crop.ml" 26 414 475 "crop.ml" 26 414 484
+type(
+  string
+)
+"crop.ml" 26 414 486 "crop.ml" 26 414 493
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"crop.ml" 26 414 494 "crop.ml" 26 414 498
+type(
+  (int -> string, unit, string) format
+)
+"crop.ml" 26 414 499 "crop.ml" 26 414 503
+type(
+  int
+)
+ident(
+  int_ref size "crop.ml" 23 284 306 "crop.ml" 23 284 310
+)
+"crop.ml" 26 414 486 "crop.ml" 26 414 503
+call(
+  stack
+)
+type(
+  string
+)
+"crop.ml" 26 414 505 "crop.ml" 26 414 511
+type(
+  string
+)
+ident(
+  int_ref imgout "crop.ml" 25 367 373 "crop.ml" 25 367 379
+)
+"crop.ml" 26 414 454 "crop.ml" 26 414 514
+type(
+  string array
+)
+"crop.ml" 26 414 434 "crop.ml" 26 414 514
+type(
+  Lwt_process.command
+)
+"crop.ml" 26 414 416 "crop.ml" 26 414 515
+call(
+  stack
+)
+type(
+  Unix.process_status Lwt.t
+)
+"crop.ml" 27 516 518 "crop.ml" 27 516 521
+type(
+  Unix.process_status Lwt.t ->
+  (Unix.process_status -> string Lwt.t) -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"crop.ml" 27 516 526 "crop.ml" 27 516 527
+type(
+  Unix.process_status
+)
+"crop.ml" 27 516 531 "crop.ml" 27 516 537
+type(
+  string -> string Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"crop.ml" 27 516 538 "crop.ml" 27 516 541
+type(
+  string
+)
+ident(
+  int_ref uri "crop.ml" 25 367 381 "crop.ml" 25 367 384
+)
+"crop.ml" 27 516 531 "crop.ml" 27 516 541
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"crop.ml" 27 516 526 "crop.ml" 27 516 541
+type(
+  Unix.process_status -> string Lwt.t
+)
+"crop.ml" 26 414 416 "crop.ml" 27 516 541
+call(
+  tail
+)
+type(
+  string Lwt.t
+)
+"crop.ml" 25 367 369 "crop.ml" 27 516 541
+type(
+  string Lwt.t
+)
+"crop.ml" 24 313 315 "crop.ml" 27 516 541
+type(
+  string Lwt.t
+)
+"crop.ml" 23 284 306 "crop.ml" 27 516 541
+type(
+  int -> string Lwt.t
+)
+"crop.ml" 23 284 301 "crop.ml" 27 516 541
+type(
+  Ocsigen_lib.file_info -> int -> string Lwt.t
+)
+"crop.ml" 30 551 552 "crop.ml" 30 551 558
+type(
+  (unit, unit, string, unit) format4 -> unit
+)
+ident(
+  ext_ref Misc.debug'
+)
+"crop.ml" 30 551 559 "crop.ml" 30 551 584
+type(
+  (unit, unit, string, unit) format4
+)
+"crop.ml" 30 551 552 "crop.ml" 30 551 584
+call(
+  stack
+)
+type(
+  unit
+)

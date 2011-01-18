@@ -1,0 +1,5295 @@
+"period.ml" 6 60 78 "period.ml" 6 60 82
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Time.date
+)
+type(
+  Orm.Sql_get.V.t -> Time.date
+)
+ident(
+  ext_ref Time.date_of_value
+)
+type(
+  Time.date
+)
+type(
+  Orm.Sql_get.V.t -> Time.date
+)
+ident(
+  ext_ref Time.date_of_value
+)
+type(
+  V.t
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Time.Cache_date.elt -> V.t
+)
+ident(
+  ext_ref Time.value_of_date
+)
+type(
+  int
+)
+type(
+  Time.date
+)
+ident(
+  int_ref x "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Time.date -> int
+)
+ident(
+  ext_ref Time.hash_of_date
+)
+"period.ml" 7 85 101 "period.ml" 7 85 105
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  Time.date
+)
+type(
+  Orm.Sql_get.V.t -> Time.date
+)
+ident(
+  ext_ref Time.date_of_value
+)
+type(
+  Time.date
+)
+type(
+  Orm.Sql_get.V.t -> Time.date
+)
+ident(
+  ext_ref Time.date_of_value
+)
+type(
+  V.t
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Time.Cache_date.elt -> V.t
+)
+ident(
+  ext_ref Time.value_of_date
+)
+type(
+  int
+)
+type(
+  Time.date
+)
+ident(
+  int_ref x "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  Time.date -> int
+)
+ident(
+  ext_ref Time.hash_of_date
+)
+"period.ml" 7 85 101 "period.ml" 7 85 112
+type(
+  Time.date option
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x6__ "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  Time.date option
+)
+type(
+  Time.date option
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+ident(
+  def __x6__ "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  V.t
+)
+type(
+  Time.date option
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x10__ "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  Time.date option
+)
+type(
+  Time.date option
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+ident(
+  def __x10__ "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  Time.Cache_date.elt
+)
+ident(
+  int_ref __x15__ "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  V.t
+)
+type(
+  Time.Cache_date.elt option
+)
+type(
+  Time.Cache_date.elt option
+)
+type(
+  Time.Cache_date.elt
+)
+ident(
+  def __x15__ "period.ml" 7 85 101 "period.ml" 7 85 112
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  Time.date option
+)
+type(
+  Time.date
+)
+ident(
+  def x "period.ml" 7 85 101 "period.ml" 7 85 105
+)
+type(
+  Time.date option
+)
+type(
+  Time.date option
+)
+ident(
+  int_ref x "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+"period.ml" 5 36 58 "period.ml" 8 115 116
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+type(
+  Deps.env -> Value.t -> partial_period
+)
+type(
+  Value.t -> partial_period
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  string
+)
+type(
+  partial_period
+)
+type(
+  string
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  string
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x5__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x4__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  exn
+)
+type(
+  V.t
+)
+type(
+  (string * V.t) list
+)
+ident(
+  int_ref __x3__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  string -> (string * V.t) list -> V.t
+)
+ident(
+  ext_ref List.assoc
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  exn
+)
+type(
+  V.t
+)
+type(
+  (string * V.t) list
+)
+ident(
+  int_ref __x3__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  string -> (string * V.t) list -> V.t
+)
+ident(
+  ext_ref List.assoc
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  (string * V.t) list
+)
+ident(
+  def __x3__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x2__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __value0__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Obj.t
+)
+type(
+  int
+)
+type(
+  Obj.t
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __value1__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+type(
+  Obj.t -> int -> Obj.t
+)
+ident(
+  ext_ref Obj.field
+)
+type(
+  int
+)
+type(
+  Obj.t
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __value0__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+type(
+  Obj.t -> int -> Obj.t -> unit
+)
+ident(
+  ext_ref Obj.set_field
+)
+type(
+  unit
+)
+type(
+  Obj.t
+)
+type(
+  int
+)
+type(
+  Obj.t
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __value1__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+type(
+  Obj.t -> int -> Obj.t
+)
+ident(
+  ext_ref Obj.field
+)
+type(
+  int
+)
+type(
+  Obj.t
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __value0__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+type(
+  Obj.t -> int -> Obj.t -> unit
+)
+ident(
+  ext_ref Obj.set_field
+)
+type(
+  unit
+)
+type(
+  partial_period
+)
+type(
+  string
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  string
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x9__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x8__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  exn
+)
+type(
+  V.t
+)
+type(
+  (string * V.t) list
+)
+ident(
+  int_ref __x7__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  string -> (string * V.t) list -> V.t
+)
+ident(
+  ext_ref List.assoc
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  exn
+)
+type(
+  V.t
+)
+type(
+  (string * V.t) list
+)
+ident(
+  int_ref __x7__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  string -> (string * V.t) list -> V.t
+)
+ident(
+  ext_ref List.assoc
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  V.t
+)
+type(
+  (string * V.t) list
+)
+ident(
+  def __x7__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  V.t
+)
+ident(
+  int_ref __x2__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+type(
+  Deps.env
+)
+type(
+  (int64 * partial_period) list
+)
+type(
+  Deps.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64 * partial_period
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __value0__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  (int64 * partial_period) list
+)
+type(
+  Deps.env
+)
+type(
+  partial_period
+)
+type(
+  Time.date option
+)
+type(
+  int
+)
+type(
+  int -> Time.date option
+)
+ident(
+  ext_ref Obj.magic
+)
+type(
+  Time.date
+)
+type(
+  int
+)
+type(
+  int -> Time.date
+)
+ident(
+  ext_ref Obj.magic
+)
+type(
+  partial_period
+)
+type(
+  partial_period
+)
+type(
+  (int64 * partial_period) list
+)
+type(
+  Deps.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64 -> (int64 * partial_period) list -> partial_period
+)
+ident(
+  ext_ref List.assoc
+)
+type(
+  bool
+)
+type(
+  (int64 * partial_period) list
+)
+type(
+  Deps.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64 -> (int64 * partial_period) list -> bool
+)
+ident(
+  ext_ref List.mem_assoc
+)
+type(
+  partial_period
+)
+type(
+  (int64 * partial_period) list
+)
+type(
+  Deps.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int64 -> (int64 * partial_period) list -> partial_period
+)
+ident(
+  ext_ref List.assoc
+)
+type(
+  Value.t
+)
+type(
+  V.t
+)
+ident(
+  def __x2__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string * int64
+)
+ident(
+  def n "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+type(
+  V.t
+)
+ident(
+  def __x2__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string * int64
+)
+type(
+  int64
+)
+ident(
+  def __id__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+ident(
+  def n "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+type(
+  string * int64
+)
+type(
+  int64
+)
+ident(
+  def __id__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+ident(
+  def n "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+ident(
+  int_ref __x1__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+ident(
+  def __x1__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Deps.env
+)
+ident(
+  def __env__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Deps.env -> Value.t -> partial_period
+)
+ident(
+  def partial_period_of_value_aux "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> 'a -> partial_period -> Value.t
+)
+type(
+  'a -> partial_period -> Value.t
+)
+type(
+  partial_period -> Value.t
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+type(
+  (string * V.t) list
+)
+type(
+  string * V.t
+)
+type(
+  Time.Cache_date.elt option
+)
+ident(
+  int_ref __x14__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  (string * V.t) list
+)
+type(
+  string * V.t
+)
+type(
+  Time.Cache_date.elt
+)
+ident(
+  int_ref __x13__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  (string * V.t) list
+)
+type(
+  Value.t
+)
+type(
+  Time.date option
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __x12__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Time.date
+)
+type(
+  partial_period
+)
+ident(
+  int_ref __x12__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Time.date option
+)
+ident(
+  def __x14__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Time.date
+)
+ident(
+  def __x13__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+ident(
+  def __x12__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  'a
+)
+ident(
+  def __env__ "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  def id_seed "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> 'a -> partial_period -> Value.t
+)
+ident(
+  def value_of_partial_period_aux "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  Time.date
+)
+type(
+  partial_period
+)
+ident(
+  int_ref x "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Time.date
+)
+type(
+  int
+)
+type(
+  Time.date option
+)
+type(
+  partial_period
+)
+ident(
+  int_ref x "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Time.date option
+)
+type(
+  int -> int -> int
+)
+ident(
+  int_ref _combine "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int -> int -> int
+)
+type(
+  int -> int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref h "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref acc "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref acc "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.lsl
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.+
+)
+type(
+  int
+)
+ident(
+  def h "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int
+)
+ident(
+  def acc "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  int -> int -> int
+)
+"period.ml" 5 36 41 "period.ml" 8 115 116
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  tail
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+call(
+  stack
+)
+type(
+  db:(partial_period, [< `RO | `RW ]) Orm.Db.t ->
+  Cache_partial_period.elt -> int64
+)
+type(
+  Cache_partial_period.elt -> int64
+)
+type(
+  Cache_partial_period.elt -> int64
+)
+type(
+  int64
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64
+)
+ident(
+  ext_ref Orm.Sql_cache.to_weakid
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [< `RO | `RW ] as 'b) Orm.Db.t
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, 'b) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'b) Orm.Db.t
+)
+ident(
+  def __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  db:(partial_period, 'b) Orm.Db.t -> Cache_partial_period.elt -> int64
+)
+ident(
+  def partial_period_id "period.ml" 10 127 127 --
+)
+type(
+  ?recursive:bool ->
+  db:(partial_period, [ `RW ]) Orm.Db.t -> Cache_partial_period.elt -> unit
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t -> Cache_partial_period.elt -> unit
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t -> Cache_partial_period.elt -> unit
+)
+type(
+  Cache_partial_period.elt -> unit
+)
+type(
+  Cache_partial_period.elt -> unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Value.t
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+ident(
+  int_ref value_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+ident(
+  int_ref recursive "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  db:Orm.Sql_backend.state -> recursive:bool -> Value.t -> unit
+)
+ident(
+  ext_ref Orm.Sql_delete.delete_value
+)
+type(
+  bool
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> bool
+)
+ident(
+  ext_ref Orm.Sql_cache.mem
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  def __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  bool
+)
+ident(
+  int_ref *sth* "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool option
+)
+type(
+  bool option
+)
+type(
+  bool
+)
+ident(
+  def *sth* "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool option
+)
+ident(
+  int_ref *opt* "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  bool option
+)
+ident(
+  def *opt* "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  ?recursive:bool ->
+  db:(partial_period, [ `RW ]) Orm.Db.t -> Cache_partial_period.elt -> unit
+)
+ident(
+  def partial_period_delete "period.ml" 5 36 41 --
+)
+type(
+  id:[< `Eq of int64 ] ->
+  (partial_period, [< `RO | `RW ]) Orm.Db.t -> Cache_partial_period.elt
+)
+type(
+  (partial_period, [< `RO | `RW ] as 'c) Orm.Db.t -> Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  exn
+)
+type(
+  exn -> Cache_partial_period.elt
+)
+ident(
+  ext_ref Pervasives.raise
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  unit
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64 -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.replace
+)
+type(
+  partial_period
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  int_ref __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> int64 -> Cache_partial_period.elt list
+)
+ident(
+  ext_ref Orm.Sql_cache.of_weakid
+)
+type(
+  Cache_partial_period.elt list -> Cache_partial_period.elt
+)
+ident(
+  ext_ref List.hd
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> int64 -> bool
+)
+ident(
+  ext_ref Orm.Sql_cache.mem_weakid
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  unit
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64 -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.add
+)
+type(
+  partial_period
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  int_ref __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Type.t -> bool
+)
+ident(
+  ext_ref Type.is_mutable
+)
+type(
+  (int64 * Orm.Sql_get.V.t) list
+)
+type(
+  (int64 * Orm.Sql_get.V.t) list
+)
+type(
+  (int64 * Orm.Sql_get.V.t) list
+)
+type(
+  int64 * Orm.Sql_get.V.t
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  def __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  def __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (int64 * Orm.Sql_get.V.t) list
+)
+type(
+  Orm.Sql_get.T.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (string list *
+   _[< `Big_int of
+         _[< `Eq of Big_int.big_int
+           | `Ge of Big_int.big_int
+           | `Geq of Big_int.big_int
+           | `Le of Big_int.big_int
+           | `Leq of Big_int.big_int
+           | `Neq of Big_int.big_int ]
+     | `Bool of _[< `F | `T ]
+     | `Char of
+         _[< `Eq of char
+           | `Ge of char
+           | `Geq of char
+           | `Le of char
+           | `Leq of char
+           | `Neq of char ]
+     | `Float of
+         _[< `Eq of float
+           | `Ge of float
+           | `Geq of float
+           | `Le of float
+           | `Leq of float
+           | `Neq of float ]
+     | `Int of
+         _[< `Eq of int
+           | `Ge of int
+           | `Geq of int
+           | `Le of int
+           | `Leq of int
+           | `Neq of int ]
+     | `Int32 of
+         _[< `Eq of int32
+           | `Ge of int32
+           | `Geq of int32
+           | `Le of int32
+           | `Leq of int32
+           | `Neq of int32 ]
+     | `Int64 of
+         _[< `Eq of int64
+           | `Ge of int64
+           | `Geq of int64
+           | `Le of int64
+           | `Leq of int64
+           | `Neq of int64 ]
+     | `Opaque_id of [< `Eq of int64 ] as 'd
+     | `String of _[< `Contains of string | `Eq of string ]
+     > `Opaque_id ])
+  list
+)
+ident(
+  int_ref constraints "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  db:Orm.Sql_backend.state ->
+  ?id:int64 ->
+  ?constraints:(string list *
+                (_[< `Big_int of
+                       _[< `Eq of Big_int.big_int
+                         | `Ge of Big_int.big_int
+                         | `Geq of Big_int.big_int
+                         | `Le of Big_int.big_int
+                         | `Leq of Big_int.big_int
+                         | `Neq of Big_int.big_int ]
+                   | `Bool of _[< `F | `T ]
+                   | `Char of
+                       _[< `Eq of char
+                         | `Ge of char
+                         | `Geq of char
+                         | `Le of char
+                         | `Leq of char
+                         | `Neq of char ]
+                   | `Float of
+                       _[< `Eq of float
+                         | `Ge of float
+                         | `Geq of float
+                         | `Le of float
+                         | `Leq of float
+                         | `Neq of float ]
+                   | `Int of
+                       _[< `Eq of int
+                         | `Ge of int
+                         | `Geq of int
+                         | `Le of int
+                         | `Leq of int
+                         | `Neq of int ]
+                   | `Int32 of
+                       _[< `Eq of int32
+                         | `Ge of int32
+                         | `Geq of int32
+                         | `Le of int32
+                         | `Leq of int32
+                         | `Neq of int32 ]
+                   | `Int64 of
+                       _[< `Eq of int64
+                         | `Ge of int64
+                         | `Geq of int64
+                         | `Le of int64
+                         | `Leq of int64
+                         | `Neq of int64 ]
+                   | `Opaque_id of 'd
+                   | `String of _[< `Contains of string | `Eq of string ]
+                   > `Opaque_id ]
+                 as 'e))
+               list ->
+  ?custom_fn:(Orm.Sql_get.V.t -> bool) ->
+  Orm.Sql_get.T.t -> (int64 * Orm.Sql_get.V.t) list
+)
+ident(
+  ext_ref Orm.Sql_get.get_values
+)
+type(
+  (string list * [> `Opaque_id of 'd ]) list
+)
+type(
+  string list * ([> `Opaque_id of 'd ] as 'f)
+)
+type(
+  'f
+)
+type(
+  'd
+)
+ident(
+  int_ref id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string list
+)
+type(
+  string
+)
+type(
+  string list
+)
+type(
+  (string list * 'f) list
+)
+type(
+  (string list * 'f) list
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'c) Orm.Db.t
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, 'c) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'c) Orm.Db.t
+)
+ident(
+  def __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  'd
+)
+ident(
+  def id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id:'d -> (partial_period, 'c) Orm.Db.t -> Cache_partial_period.elt
+)
+ident(
+  def partial_period_get_by_id "period.ml" 5 36 41 --
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t -> string -> string -> int64 list
+)
+type(
+  string -> string -> int64 list
+)
+type(
+  string -> int64 list
+)
+type(
+  int64 list
+)
+type(
+  int64 list
+)
+type(
+  Orm.Sql_search.T.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+ident(
+  int_ref query "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+ident(
+  int_ref field "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  db:Orm.Sql_backend.state ->
+  ?id:'_g -> string -> string -> Orm.Sql_search.T.t -> int64 list
+)
+ident(
+  ext_ref Orm.Sql_search.search_values
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  string
+)
+ident(
+  def query "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+ident(
+  def field "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  def __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t -> string -> string -> int64 list
+)
+ident(
+  def partial_period_search "period.ml" 5 36 41 --
+)
+type(
+  ?custom:(partial_period -> bool) ->
+  (partial_period, [< `RO | `RW ]) Orm.Db.t -> Cache_partial_period.elt list
+)
+type(
+  ?custom:(partial_period -> bool) ->
+  (partial_period, [< `RO | `RW ] as 'h) Orm.Db.t ->
+  Cache_partial_period.elt list
+)
+type(
+  (partial_period, 'h) Orm.Db.t -> Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  (int64 * Orm.Sql_get.V.t) list
+)
+type(
+  Orm.Sql_get.T.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+ident(
+  int_ref __custom_fn__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (string list *
+   _[< `Big_int of
+         _[< `Eq of Big_int.big_int
+           | `Ge of Big_int.big_int
+           | `Geq of Big_int.big_int
+           | `Le of Big_int.big_int
+           | `Leq of Big_int.big_int
+           | `Neq of Big_int.big_int ]
+     | `Bool of _[< `F | `T ]
+     | `Char of
+         _[< `Eq of char
+           | `Ge of char
+           | `Geq of char
+           | `Le of char
+           | `Leq of char
+           | `Neq of char ]
+     | `Float of
+         _[< `Eq of float
+           | `Ge of float
+           | `Geq of float
+           | `Le of float
+           | `Leq of float
+           | `Neq of float ]
+     | `Int of
+         _[< `Eq of int
+           | `Ge of int
+           | `Geq of int
+           | `Le of int
+           | `Leq of int
+           | `Neq of int ]
+     | `Int32 of
+         _[< `Eq of int32
+           | `Ge of int32
+           | `Geq of int32
+           | `Le of int32
+           | `Leq of int32
+           | `Neq of int32 ]
+     | `Int64 of
+         _[< `Eq of int64
+           | `Ge of int64
+           | `Geq of int64
+           | `Le of int64
+           | `Leq of int64
+           | `Neq of int64 ]
+     | `Opaque_id of _[< `Eq of int64 ]
+     | `String of _[< `Contains of string | `Eq of string ] ])
+  list
+)
+ident(
+  int_ref __constraints__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  db:Orm.Sql_backend.state ->
+  ?id:int64 ->
+  ?constraints:(string list *
+                (_[< `Big_int of
+                       _[< `Eq of Big_int.big_int
+                         | `Ge of Big_int.big_int
+                         | `Geq of Big_int.big_int
+                         | `Le of Big_int.big_int
+                         | `Leq of Big_int.big_int
+                         | `Neq of Big_int.big_int ]
+                   | `Bool of _[< `F | `T ]
+                   | `Char of
+                       _[< `Eq of char
+                         | `Ge of char
+                         | `Geq of char
+                         | `Le of char
+                         | `Leq of char
+                         | `Neq of char ]
+                   | `Float of
+                       _[< `Eq of float
+                         | `Ge of float
+                         | `Geq of float
+                         | `Le of float
+                         | `Leq of float
+                         | `Neq of float ]
+                   | `Int of
+                       _[< `Eq of int
+                         | `Ge of int
+                         | `Geq of int
+                         | `Le of int
+                         | `Leq of int
+                         | `Neq of int ]
+                   | `Int32 of
+                       _[< `Eq of int32
+                         | `Ge of int32
+                         | `Geq of int32
+                         | `Le of int32
+                         | `Leq of int32
+                         | `Neq of int32 ]
+                   | `Int64 of
+                       _[< `Eq of int64
+                         | `Ge of int64
+                         | `Geq of int64
+                         | `Le of int64
+                         | `Leq of int64
+                         | `Neq of int64 ]
+                   | `Opaque_id of _[< `Eq of int64 ]
+                   | `String of _[< `Contains of string | `Eq of string ] ]
+                 as 'i))
+               list ->
+  ?custom_fn:(Orm.Sql_get.V.t -> bool) ->
+  Orm.Sql_get.T.t -> (int64 * Orm.Sql_get.V.t) list
+)
+ident(
+  ext_ref Orm.Sql_get.get_values
+)
+type(
+  int64 * Orm.Sql_get.V.t -> Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  unit
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64 -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.replace
+)
+type(
+  partial_period
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  int_ref __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> int64 -> Cache_partial_period.elt list
+)
+ident(
+  ext_ref Orm.Sql_cache.of_weakid
+)
+type(
+  Cache_partial_period.elt list -> Cache_partial_period.elt
+)
+ident(
+  ext_ref List.hd
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> int64 -> bool
+)
+ident(
+  ext_ref Orm.Sql_cache.mem_weakid
+)
+type(
+  int64 * Orm.Sql_get.V.t
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  def __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  def __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (int64 * Orm.Sql_get.V.t -> Cache_partial_period.elt) ->
+  (int64 * Orm.Sql_get.V.t) list -> Cache_partial_period.elt list
+)
+ident(
+  ext_ref List.map
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  Orm.Sql_get.V.t -> bool
+)
+type(
+  bool
+)
+type(
+  partial_period
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  int_ref __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period -> bool
+)
+ident(
+  int_ref fn "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  def __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  (partial_period -> bool) option
+)
+type(
+  partial_period -> bool
+)
+ident(
+  def fn "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period -> bool) option
+)
+type(
+  (partial_period -> bool) option
+)
+ident(
+  int_ref __custom_fn__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  'j list
+)
+type(
+  'j list
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'h) Orm.Db.t
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, 'h) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'h) Orm.Db.t
+)
+ident(
+  def __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period -> bool) option
+)
+ident(
+  def __custom_fn__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  ?custom:(partial_period -> bool) ->
+  (partial_period, 'h) Orm.Db.t -> Cache_partial_period.elt list
+)
+type(
+  (partial_period, 'h) Orm.Db.t -> Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  Cache_partial_period.elt list
+)
+type(
+  (int64 * Orm.Sql_get.V.t) list
+)
+type(
+  Orm.Sql_get.T.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+ident(
+  int_ref __custom_fn__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (string list *
+   _[< `Big_int of
+         _[< `Eq of Big_int.big_int
+           | `Ge of Big_int.big_int
+           | `Geq of Big_int.big_int
+           | `Le of Big_int.big_int
+           | `Leq of Big_int.big_int
+           | `Neq of Big_int.big_int ]
+     | `Bool of _[< `F | `T ]
+     | `Char of
+         _[< `Eq of char
+           | `Ge of char
+           | `Geq of char
+           | `Le of char
+           | `Leq of char
+           | `Neq of char ]
+     | `Float of
+         _[< `Eq of float
+           | `Ge of float
+           | `Geq of float
+           | `Le of float
+           | `Leq of float
+           | `Neq of float ]
+     | `Int of
+         _[< `Eq of int
+           | `Ge of int
+           | `Geq of int
+           | `Le of int
+           | `Leq of int
+           | `Neq of int ]
+     | `Int32 of
+         _[< `Eq of int32
+           | `Ge of int32
+           | `Geq of int32
+           | `Le of int32
+           | `Leq of int32
+           | `Neq of int32 ]
+     | `Int64 of
+         _[< `Eq of int64
+           | `Ge of int64
+           | `Geq of int64
+           | `Le of int64
+           | `Leq of int64
+           | `Neq of int64 ]
+     | `Opaque_id of _[< `Eq of int64 ]
+     | `String of _[< `Contains of string | `Eq of string ] ])
+  list
+)
+ident(
+  int_ref __constraints__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  db:Orm.Sql_backend.state ->
+  ?id:int64 ->
+  ?constraints:(string list *
+                (_[< `Big_int of
+                       _[< `Eq of Big_int.big_int
+                         | `Ge of Big_int.big_int
+                         | `Geq of Big_int.big_int
+                         | `Le of Big_int.big_int
+                         | `Leq of Big_int.big_int
+                         | `Neq of Big_int.big_int ]
+                   | `Bool of _[< `F | `T ]
+                   | `Char of
+                       _[< `Eq of char
+                         | `Ge of char
+                         | `Geq of char
+                         | `Le of char
+                         | `Leq of char
+                         | `Neq of char ]
+                   | `Float of
+                       _[< `Eq of float
+                         | `Ge of float
+                         | `Geq of float
+                         | `Le of float
+                         | `Leq of float
+                         | `Neq of float ]
+                   | `Int of
+                       _[< `Eq of int
+                         | `Ge of int
+                         | `Geq of int
+                         | `Le of int
+                         | `Leq of int
+                         | `Neq of int ]
+                   | `Int32 of
+                       _[< `Eq of int32
+                         | `Ge of int32
+                         | `Geq of int32
+                         | `Le of int32
+                         | `Leq of int32
+                         | `Neq of int32 ]
+                   | `Int64 of
+                       _[< `Eq of int64
+                         | `Ge of int64
+                         | `Geq of int64
+                         | `Le of int64
+                         | `Leq of int64
+                         | `Neq of int64 ]
+                   | `Opaque_id of _[< `Eq of int64 ]
+                   | `String of _[< `Contains of string | `Eq of string ] ]
+                 as 'k))
+               list ->
+  ?custom_fn:(Orm.Sql_get.V.t -> bool) ->
+  Orm.Sql_get.T.t -> (int64 * Orm.Sql_get.V.t) list
+)
+ident(
+  ext_ref Orm.Sql_get.get_values
+)
+type(
+  int64 * Orm.Sql_get.V.t -> Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  unit
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64 -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.add
+)
+type(
+  partial_period
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  int_ref __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period
+)
+type(
+  int64 * Orm.Sql_get.V.t
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  def __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+ident(
+  def __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (int64 * Orm.Sql_get.V.t -> Cache_partial_period.elt) ->
+  (int64 * Orm.Sql_get.V.t) list -> Cache_partial_period.elt list
+)
+ident(
+  ext_ref List.map
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  Orm.Sql_get.V.t -> bool
+)
+type(
+  bool
+)
+type(
+  partial_period
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  int_ref __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period -> bool
+)
+ident(
+  int_ref fn "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t
+)
+ident(
+  def __v__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  (partial_period -> bool) option
+)
+type(
+  partial_period -> bool
+)
+ident(
+  def fn "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period -> bool) option
+)
+type(
+  (partial_period -> bool) option
+)
+ident(
+  int_ref __custom_fn__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Orm.Sql_get.V.t -> bool) option
+)
+type(
+  'l list
+)
+type(
+  'l list
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'h) Orm.Db.t
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, 'h) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, 'h) Orm.Db.t
+)
+ident(
+  def __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period -> bool) option
+)
+ident(
+  def __custom_fn__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Type.t -> bool
+)
+ident(
+  ext_ref Type.is_mutable
+)
+type(
+  ?custom:(partial_period -> bool) ->
+  (partial_period, 'h) Orm.Db.t -> Cache_partial_period.elt list
+)
+ident(
+  def partial_period_get "period.ml" 5 36 41 --
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t ->
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t ->
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  bool -> unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Value.t
+)
+ident(
+  int_ref v "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+ident(
+  int_ref __index__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  index:bool -> db:Orm.Sql_backend.state -> Value.t -> unit
+)
+ident(
+  ext_ref Orm.Sql_save.update_value
+)
+type(
+  Value.t
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+ident(
+  int_ref value_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+ident(
+  def v "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> bool
+)
+ident(
+  ext_ref Orm.Sql_cache.mem
+)
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+type(
+  bool
+)
+ident(
+  def __index__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  def db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t ->
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  Cache_partial_period.elt -> bool -> unit
+)
+type(
+  bool -> unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Value.t
+)
+ident(
+  int_ref v "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+ident(
+  int_ref __index__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env ->
+  index:bool -> db:Orm.Sql_backend.state -> Value.t -> unit
+)
+ident(
+  ext_ref Orm.Sql_save.update_value
+)
+type(
+  Value.t
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+ident(
+  int_ref value_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+type(
+  bool
+)
+ident(
+  def __index__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __n__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Db.to_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  def db "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  bool
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Type.t -> bool
+)
+ident(
+  ext_ref Type.is_mutable
+)
+type(
+  db:(partial_period, [ `RW ]) Orm.Db.t ->
+  Cache_partial_period.elt -> bool -> unit
+)
+ident(
+  def partial_period_save "period.ml" 5 36 41 --
+)
+type(
+  string -> (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RO ]) Orm.Db.t
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state -> (partial_period, [ `RO ]) Orm.Db.t
+)
+ident(
+  ext_ref Orm.Db.of_state
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Type.t -> string list
+)
+ident(
+  ext_ref Type.foreigns
+)
+type(
+  string -> unit
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> string -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.Trigger.create_function
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  _[> `RO | `RW ]
+)
+type(
+  mode:(_[> `RO | `RW ] as 'm) ->
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> Type.t -> unit
+)
+ident(
+  ext_ref Orm.Sql_init.init_tables
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string
+)
+ident(
+  int_ref __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env -> string -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.flush_all
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> bool
+)
+ident(
+  ext_ref Orm.Sql_init.database_exists
+)
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+type(
+  unit
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  string
+)
+ident(
+  int_ref __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Sql_backend.new_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string -> string
+)
+ident(
+  ext_ref Orm.Sql_init.canonical_name
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string -> (partial_period, [ `RO ]) Orm.Db.t
+)
+ident(
+  def partial_period_init_read_only "period.ml" 5 36 41 --
+)
+type(
+  string -> (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  (partial_period, [ `RW ]) Orm.Db.t
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state -> (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  ext_ref Orm.Db.of_state
+)
+type(
+  unit
+)
+type(
+  string list
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Type.t -> string list
+)
+ident(
+  ext_ref Type.foreigns
+)
+type(
+  string -> unit
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> string -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.Trigger.create_function
+)
+type(
+  (string -> unit) -> string list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  Type.t
+)
+ident(
+  int_ref type_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  _[> `RW ]
+)
+type(
+  mode:(_[> `RW ] as 'n) ->
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> Type.t -> unit
+)
+ident(
+  ext_ref Orm.Sql_init.init_tables
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  unit
+)
+type(
+  string
+)
+ident(
+  int_ref __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env -> string -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.flush_all
+)
+type(
+  bool
+)
+type(
+  bool
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref __db__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> bool
+)
+ident(
+  ext_ref Orm.Sql_init.database_exists
+)
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+type(
+  unit
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  string
+)
+ident(
+  int_ref __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string -> Orm.Sql_backend.state
+)
+ident(
+  ext_ref Orm.Sql_backend.new_state
+)
+type(
+  Orm.Sql_backend.state
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  int_ref __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string -> string
+)
+ident(
+  ext_ref Orm.Sql_init.canonical_name
+)
+type(
+  string
+)
+type(
+  string
+)
+ident(
+  def __name__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string -> (partial_period, [ `RW ]) Orm.Db.t
+)
+ident(
+  def partial_period_init "period.ml" 5 36 41 --
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+type(
+  Deps.env
+)
+type(
+  (int64 * partial_period) list
+)
+type(
+  Deps.env -> Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  int_ref partial_period_of_value_aux "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_get.V.t -> partial_period
+)
+ident(
+  def partial_period_of_value "period.ml" 5 36 41 --
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+type(
+  Cache_partial_period.elt -> Value.t
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+ident(
+  int_ref __x__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string * int64
+)
+type(
+  int64
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __x11__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> int64
+)
+ident(
+  int_ref gen_partial_period_id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Value.t
+)
+type(
+  Value.t
+)
+ident(
+  int_ref __x__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string * int64
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Value.t
+)
+type(
+  bool
+)
+type(
+  (string * int64) list
+)
+type(
+  Value.t
+)
+ident(
+  int_ref __x__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Value.t -> (string * int64) list
+)
+ident(
+  ext_ref Value.free_vars
+)
+type(
+  string * int64
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  string * int64 -> (string * int64) list -> bool
+)
+ident(
+  ext_ref List.mem
+)
+type(
+  Value.t
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __x11__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Deps.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state ->
+  Deps.env -> Cache_partial_period.elt -> Value.t
+)
+ident(
+  int_ref value_of_partial_period_aux "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  Value.t
+)
+type(
+  Deps.env
+)
+type(
+  (Cache_partial_period.elt * int64) list
+)
+type(
+  Deps.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt * int64
+)
+type(
+  int64
+)
+ident(
+  int_ref __id__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __x11__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.elt * int64) list
+)
+type(
+  Deps.env
+)
+type(
+  int64
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref __x11__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> int64
+)
+ident(
+  int_ref gen_partial_period_id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  int64
+)
+type(
+  Deps.env
+)
+type(
+  (partial_period * int64) list
+)
+type(
+  Deps.env
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def __x11__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  def id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> int64
+)
+type(
+  Cache_partial_period.elt -> int64
+)
+type(
+  int64
+)
+type(
+  int64
+)
+type(
+  int64
+)
+type(
+  int64
+)
+ident(
+  int_ref id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  unit
+)
+type(
+  int64
+)
+ident(
+  int_ref id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64 -> unit
+)
+ident(
+  ext_ref Orm.Sql_cache.add
+)
+type(
+  int64
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  env:Orm.Sql_backend.env -> db:Orm.Sql_backend.state -> string -> int64
+)
+ident(
+  ext_ref Orm.Sql_save.empty_row
+)
+type(
+  int64
+)
+type(
+  int64
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> int64
+)
+ident(
+  ext_ref Orm.Sql_cache.to_weakid
+)
+type(
+  bool
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  int_ref partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  string
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  int_ref id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  int_ref partial_period_cache "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  int_ref __env__ "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.env ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t ->
+  string -> Cache_partial_period.elt -> bool
+)
+ident(
+  ext_ref Orm.Sql_cache.mem
+)
+type(
+  Cache_partial_period.elt
+)
+ident(
+  def partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  Orm.Sql_backend.state
+)
+ident(
+  def id_seed "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> int64
+)
+ident(
+  def gen_partial_period_id "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  id_seed:Orm.Sql_backend.state -> Cache_partial_period.elt -> Value.t
+)
+ident(
+  def value_of_partial_period "period.ml" 5 36 41 --
+)
+type(
+  Type.t
+)
+type(
+  (string * [ `RO | `RW ] * T.t) list
+)
+type(
+  string * [ `RO | `RW ] * T.t
+)
+type(
+  T.t
+)
+ident(
+  ext_ref Time.type_of_date
+)
+type(
+  T.t
+)
+type(
+  [ `RO | `RW ]
+)
+type(
+  string
+)
+type(
+  (string * [ `RO | `RW ] * T.t) list
+)
+type(
+  string * [ `RO | `RW ] * T.t
+)
+type(
+  T.t
+)
+ident(
+  ext_ref Time.type_of_date
+)
+type(
+  [ `RO | `RW ]
+)
+type(
+  string
+)
+type(
+  (string * [ `RO | `RW ] * T.t) list
+)
+type(
+  T.t
+)
+type(
+  string
+)
+type(
+  Type.t
+)
+type(
+  Type.t
+)
+ident(
+  def type_of_partial_period "period.ml" 5 36 41 --
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+type(
+  string
+)
+type(
+  string ->
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  ext_ref Cache_partial_period.create
+)
+type(
+  (Cache_partial_period.tbl, Cache_partial_period.elt) Orm.Sql_cache.t
+)
+ident(
+  def partial_period_cache "period.ml" 5 36 41 --
+)
+type(
+  partial_period -> int
+)
+ident(
+  int_ref hash_of_partial_period "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period -> int
+)
+ident(
+  def hash "period.ml" 8 115 116 "period.ml" 8 115 116
+)
+type(
+  'o -> 'o -> bool
+)
+ident(
+  ext_ref Pervasives.==
+)
+type(
+  'o -> 'o -> bool
+)
+ident(
+  def equal "period.ml" 5 36 41 "period.ml" 8 115 116
+)
+type(
+  partial_period -> int
+)
+type(
+  partial_period
+)
+ident(
+  def x "period.ml" 5 36 58 "period.ml" 8 115 116
+)
+type(
+  partial_period -> int
+)
+ident(
+  def hash_of_partial_period "period.ml" 5 36 41 --
+)
+type(
+  Orm.Sql_backend.env
+)
+type(
+  Orm.Sql_backend.env
+)
+type(
+  Orm.Sql_backend.env
+)
+ident(
+  def __env__ "period.ml" 5 36 41 --
+)
+"period.ml" 10 127 131 "period.ml" 10 127 148
+type(
+  Time.time -> string
+)
+ident(
+  def pretty_print_time "period.ml" 14 304 304 --
+)
+"period.ml" 10 127 149 "period.ml" 10 127 153
+type(
+  Time.time
+)
+ident(
+  def time "period.ml" 11 156 158 "period.ml" 12 242 302
+)
+"period.ml" 11 156 159 "period.ml" 11 156 180
+type(
+  CalendarLib.Date.year -> int -> int -> CalendarLib.Date.t
+)
+ident(
+  ext_ref CalendarLib.Date.make
+)
+"period.ml" 11 156 181 "period.ml" 11 156 185
+type(
+  Time.time
+)
+ident(
+  int_ref time "period.ml" 10 127 149 "period.ml" 10 127 153
+)
+"period.ml" 11 156 181 "period.ml" 11 156 192
+type(
+  CalendarLib.Date.year
+)
+"period.ml" 11 156 193 "period.ml" 11 156 197
+type(
+  Time.time
+)
+ident(
+  int_ref time "period.ml" 10 127 149 "period.ml" 10 127 153
+)
+"period.ml" 11 156 193 "period.ml" 11 156 204
+type(
+  int
+)
+"period.ml" 11 156 205 "period.ml" 11 156 209
+type(
+  Time.time
+)
+ident(
+  int_ref time "period.ml" 10 127 149 "period.ml" 10 127 153
+)
+"period.ml" 11 156 205 "period.ml" 11 156 216
+type(
+  int
+)
+"period.ml" 11 156 159 "period.ml" 11 156 216
+call(
+  stack
+)
+type(
+  CalendarLib.Date.t
+)
+"period.ml" 11 156 217 "period.ml" 11 156 220
+type(
+  CalendarLib.Date.t -> (CalendarLib.Date.t -> string) -> string
+)
+ident(
+  ext_ref Misc.>>>
+)
+"period.ml" 11 156 221 "period.ml" 11 156 238
+type(
+  CalendarLib.Date.t -> string
+)
+ident(
+  ext_ref Misc.pretty_print_date
+)
+"period.ml" 11 156 159 "period.ml" 11 156 238
+call(
+  stack
+)
+type(
+  string
+)
+"period.ml" 11 156 240 "period.ml" 11 156 241
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.^
+)
+"period.ml" 12 242 246 "period.ml" 12 242 260
+type(
+  (int -> int -> string, unit, string) format -> int -> int -> string
+)
+ident(
+  ext_ref Printf.sprintf
+)
+"period.ml" 12 242 261 "period.ml" 12 242 275
+type(
+  (int -> int -> string, unit, string) format
+)
+"period.ml" 12 242 276 "period.ml" 12 242 280
+type(
+  Time.time
+)
+ident(
+  int_ref time "period.ml" 10 127 149 "period.ml" 10 127 153
+)
+"period.ml" 12 242 276 "period.ml" 12 242 287
+type(
+  int
+)
+"period.ml" 12 242 288 "period.ml" 12 242 292
+type(
+  Time.time
+)
+ident(
+  int_ref time "period.ml" 10 127 149 "period.ml" 10 127 153
+)
+"period.ml" 12 242 288 "period.ml" 12 242 301
+type(
+  int
+)
+"period.ml" 12 242 246 "period.ml" 12 242 301
+call(
+  stack
+)
+type(
+  string
+)
+"period.ml" 11 156 158 "period.ml" 12 242 302
+call(
+  tail
+)
+type(
+  string
+)
+"period.ml" 10 127 149 "period.ml" 12 242 302
+type(
+  Time.time -> string
+)
+"period.ml" 14 304 308 "period.ml" 14 304 322
+type(
+  Time.time -> string
+)
+ident(
+  def time_to_string "period.ml" 16 344 344 --
+)
+"period.ml" 14 304 325 "period.ml" 14 304 342
+type(
+  Time.time -> string
+)
+ident(
+  int_ref pretty_print_time "period.ml" 10 127 131 "period.ml" 10 127 148
+)
+"period.ml" 16 344 348 "period.ml" 16 344 366
+type(
+  partial_period -> string
+)
+ident(
+  def extract_start_date "period.ml" 19 449 449 --
+)
+"period.ml" 16 344 367 "period.ml" 16 344 373
+type(
+  partial_period
+)
+ident(
+  def period "period.ml" 17 376 378 "period.ml" 17 376 447
+)
+"period.ml" 17 376 378 "period.ml" 17 376 409
+type(
+  string -> CalendarLib.Printer.Date.t -> string
+)
+ident(
+  ext_ref CalendarLib.Printer.Date.sprint
+)
+"period.ml" 17 376 410 "period.ml" 17 376 417
+type(
+  string
+)
+"period.ml" 17 376 419 "period.ml" 17 376 425
+type(
+  Time.date -> CalendarLib.Date.t
+)
+ident(
+  ext_ref Time.d2date
+)
+"period.ml" 17 376 426 "period.ml" 17 376 432
+type(
+  partial_period
+)
+ident(
+  int_ref period "period.ml" 16 344 367 "period.ml" 16 344 373
+)
+"period.ml" 17 376 426 "period.ml" 17 376 446
+type(
+  Time.date
+)
+"period.ml" 17 376 419 "period.ml" 17 376 446
+call(
+  stack
+)
+type(
+  CalendarLib.Date.t
+)
+"period.ml" 17 376 378 "period.ml" 17 376 447
+call(
+  tail
+)
+type(
+  string
+)
+"period.ml" 16 344 367 "period.ml" 17 376 447
+type(
+  partial_period -> string
+)
+"period.ml" 19 449 453 "period.ml" 19 449 469
+type(
+  partial_period -> string
+)
+ident(
+  def extract_end_date "period.ml" 24 609 609 --
+)
+"period.ml" 19 449 470 "period.ml" 19 449 476
+type(
+  partial_period
+)
+ident(
+  def period "period.ml" 20 479 481 "period.ml" 22 535 607
+)
+"period.ml" 20 479 487 "period.ml" 20 479 493
+type(
+  partial_period
+)
+ident(
+  int_ref period "period.ml" 19 449 470 "period.ml" 19 449 476
+)
+"period.ml" 20 479 487 "period.ml" 20 479 505
+type(
+  Time.date option
+)
+"period.ml" 21 511 517 "period.ml" 21 511 521
+type(
+  Time.date option
+)
+"period.ml" 21 511 525 "period.ml" 21 511 534
+type(
+  string
+)
+"period.ml" 22 535 546 "period.ml" 22 535 550
+type(
+  Time.date
+)
+ident(
+  def date "period.ml" 22 535 554 "period.ml" 22 535 607
+)
+"period.ml" 22 535 541 "period.ml" 22 535 550
+type(
+  Time.date option
+)
+"period.ml" 22 535 554 "period.ml" 22 535 585
+type(
+  string -> CalendarLib.Printer.Date.t -> string
+)
+ident(
+  ext_ref CalendarLib.Printer.Date.sprint
+)
+"period.ml" 22 535 586 "period.ml" 22 535 593
+type(
+  string
+)
+"period.ml" 22 535 595 "period.ml" 22 535 601
+type(
+  Time.date -> CalendarLib.Date.t
+)
+ident(
+  ext_ref Time.d2date
+)
+"period.ml" 22 535 602 "period.ml" 22 535 606
+type(
+  Time.date
+)
+ident(
+  int_ref date "period.ml" 22 535 546 "period.ml" 22 535 550
+)
+"period.ml" 22 535 595 "period.ml" 22 535 606
+call(
+  stack
+)
+type(
+  CalendarLib.Date.t
+)
+"period.ml" 22 535 554 "period.ml" 22 535 607
+call(
+  tail
+)
+type(
+  string
+)
+"period.ml" 20 479 481 "period.ml" 22 535 607
+type(
+  string
+)
+"period.ml" 19 449 470 "period.ml" 22 535 607
+type(
+  partial_period -> string
+)
+"period.ml" 24 609 613 "period.ml" 24 609 635
+type(
+  partial_period -> Json_type.json_type
+)
+ident(
+  def extract_start_date_int "period.ml" 31 817 817 --
+)
+"period.ml" 24 609 636 "period.ml" 24 609 642
+type(
+  partial_period
+)
+ident(
+  def period "period.ml" 25 645 647 "period.ml" 29 806 815
+)
+"period.ml" 26 656 666 "period.ml" 26 656 672
+type(
+  string
+)
+"period.ml" 26 656 678 "period.ml" 26 656 684
+type(
+  partial_period
+)
+ident(
+  int_ref period "period.ml" 24 609 636 "period.ml" 24 609 642
+)
+"period.ml" 26 656 678 "period.ml" 26 656 698
+type(
+  Time.date
+)
+"period.ml" 26 656 678 "period.ml" 26 656 703
+type(
+  int
+)
+"period.ml" 26 656 674 "period.ml" 26 656 703
+type(
+  Json_type.json_type
+)
+"period.ml" 26 656 666 "period.ml" 26 656 703
+type(
+  string * Json_type.json_type
+)
+"period.ml" 27 706 716 "period.ml" 27 706 723
+type(
+  string
+)
+"period.ml" 27 706 729 "period.ml" 27 706 735
+type(
+  partial_period
+)
+ident(
+  int_ref period "period.ml" 24 609 636 "period.ml" 24 609 642
+)
+"period.ml" 27 706 729 "period.ml" 27 706 749
+type(
+  Time.date
+)
+"period.ml" 27 706 729 "period.ml" 27 706 755
+type(
+  int
+)
+"period.ml" 27 706 725 "period.ml" 27 706 755
+type(
+  Json_type.json_type
+)
+"period.ml" 27 706 716 "period.ml" 27 706 755
+type(
+  string * Json_type.json_type
+)
+"period.ml" 28 758 768 "period.ml" 28 758 773
+type(
+  string
+)
+"period.ml" 28 758 779 "period.ml" 28 758 785
+type(
+  partial_period
+)
+ident(
+  int_ref period "period.ml" 24 609 636 "period.ml" 24 609 642
+)
+"period.ml" 28 758 779 "period.ml" 28 758 799
+type(
+  Time.date
+)
+"period.ml" 28 758 779 "period.ml" 28 758 803
+type(
+  int
+)
+"period.ml" 28 758 775 "period.ml" 28 758 803
+type(
+  Json_type.json_type
+)
+"period.ml" 28 758 768 "period.ml" 28 758 803
+type(
+  string * Json_type.json_type
+)
+"period.ml" 28 758 768 "period.ml" 28 758 805
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 27 706 716 "period.ml" 28 758 805
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 26 656 666 "period.ml" 28 758 805
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 25 645 654 "period.ml" 29 806 815
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 25 645 647 "period.ml" 29 806 815
+type(
+  Json_type.json_type
+)
+"period.ml" 24 609 636 "period.ml" 29 806 815
+type(
+  partial_period -> Json_type.json_type
+)
+"period.ml" 31 817 821 "period.ml" 31 817 841
+type(
+  partial_period -> Json_type.json_type
+)
+ident(
+  def extract_end_date_int "period.ml" 45 1165 1165 --
+)
+"period.ml" 31 817 842 "period.ml" 31 817 848
+type(
+  partial_period
+)
+ident(
+  def period "period.ml" 32 851 853 "period.ml" 42 1157 1162
+)
+"period.ml" 32 851 859 "period.ml" 32 851 865
+type(
+  partial_period
+)
+ident(
+  int_ref period "period.ml" 31 817 842 "period.ml" 31 817 848
+)
+"period.ml" 32 851 859 "period.ml" 32 851 877
+type(
+  Time.date option
+)
+"period.ml" 33 883 889 "period.ml" 33 883 893
+type(
+  Time.date option
+)
+"period.ml" 34 906 928 "period.ml" 34 906 934
+type(
+  string
+)
+"period.ml" 34 906 940 "period.ml" 34 906 941
+type(
+  int
+)
+"period.ml" 34 906 936 "period.ml" 34 906 941
+type(
+  Json_type.json_type
+)
+"period.ml" 34 906 928 "period.ml" 34 906 941
+type(
+  string * Json_type.json_type
+)
+"period.ml" 35 943 965 "period.ml" 35 943 972
+type(
+  string
+)
+"period.ml" 35 943 978 "period.ml" 35 943 979
+type(
+  int
+)
+"period.ml" 35 943 974 "period.ml" 35 943 979
+type(
+  Json_type.json_type
+)
+"period.ml" 35 943 965 "period.ml" 35 943 979
+type(
+  string * Json_type.json_type
+)
+"period.ml" 36 981 1003 "period.ml" 36 981 1008
+type(
+  string
+)
+"period.ml" 36 981 1014 "period.ml" 36 981 1015
+type(
+  int
+)
+"period.ml" 36 981 1010 "period.ml" 36 981 1015
+type(
+  Json_type.json_type
+)
+"period.ml" 36 981 1003 "period.ml" 36 981 1015
+type(
+  string * Json_type.json_type
+)
+"period.ml" 36 981 1003 "period.ml" 36 981 1016
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 35 943 965 "period.ml" 36 981 1016
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 34 906 928 "period.ml" 36 981 1016
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 33 883 904 "period.ml" 37 1017 1038
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 33 883 897 "period.ml" 37 1017 1038
+type(
+  Json_type.json_type
+)
+"period.ml" 38 1039 1050 "period.ml" 38 1039 1054
+type(
+  Time.date
+)
+ident(
+  def date "period.ml" 38 1039 1058 "period.ml" 42 1157 1162
+)
+"period.ml" 38 1039 1045 "period.ml" 38 1039 1054
+type(
+  Time.date option
+)
+"period.ml" 39 1067 1073 "period.ml" 39 1067 1079
+type(
+  string
+)
+"period.ml" 39 1067 1085 "period.ml" 39 1067 1089
+type(
+  Time.date
+)
+ident(
+  int_ref date "period.ml" 38 1039 1050 "period.ml" 38 1039 1054
+)
+"period.ml" 39 1067 1085 "period.ml" 39 1067 1094
+type(
+  int
+)
+"period.ml" 39 1067 1081 "period.ml" 39 1067 1094
+type(
+  Json_type.json_type
+)
+"period.ml" 39 1067 1073 "period.ml" 39 1067 1094
+type(
+  string * Json_type.json_type
+)
+"period.ml" 40 1097 1103 "period.ml" 40 1097 1110
+type(
+  string
+)
+"period.ml" 40 1097 1116 "period.ml" 40 1097 1120
+type(
+  Time.date
+)
+ident(
+  int_ref date "period.ml" 38 1039 1050 "period.ml" 38 1039 1054
+)
+"period.ml" 40 1097 1116 "period.ml" 40 1097 1126
+type(
+  int
+)
+"period.ml" 40 1097 1112 "period.ml" 40 1097 1126
+type(
+  Json_type.json_type
+)
+"period.ml" 40 1097 1103 "period.ml" 40 1097 1126
+type(
+  string * Json_type.json_type
+)
+"period.ml" 41 1129 1135 "period.ml" 41 1129 1140
+type(
+  string
+)
+"period.ml" 41 1129 1146 "period.ml" 41 1129 1150
+type(
+  Time.date
+)
+ident(
+  int_ref date "period.ml" 38 1039 1050 "period.ml" 38 1039 1054
+)
+"period.ml" 41 1129 1146 "period.ml" 41 1129 1154
+type(
+  int
+)
+"period.ml" 41 1129 1142 "period.ml" 41 1129 1154
+type(
+  Json_type.json_type
+)
+"period.ml" 41 1129 1135 "period.ml" 41 1129 1154
+type(
+  string * Json_type.json_type
+)
+"period.ml" 41 1129 1135 "period.ml" 41 1129 1156
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 40 1097 1103 "period.ml" 41 1129 1156
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 39 1067 1073 "period.ml" 41 1129 1156
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 38 1039 1065 "period.ml" 42 1157 1162
+type(
+  (string * Json_type.json_type) list
+)
+"period.ml" 38 1039 1058 "period.ml" 42 1157 1162
+type(
+  Json_type.json_type
+)
+"period.ml" 32 851 853 "period.ml" 42 1157 1162
+type(
+  Json_type.json_type
+)
+"period.ml" 31 817 842 "period.ml" 42 1157 1162
+type(
+  partial_period -> Json_type.json_type
+)
+"period.ml" 45 1165 1169 "period.ml" 45 1165 1180
+type(
+  ?e_year:int ->
+  ?e_month:int -> ?e_day:int -> int -> int -> int -> partial_period
+)
+ident(
+  def make_period "period.ml" 51 1490 1493 --
+)
+"period.ml" 45 1165 1190 "period.ml" 45 1165 1191
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "period.ml" 45 1165 1190 "period.ml" 45 1165 1191
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "period.ml" 45 1165 1190 "period.ml" 45 1165 1191
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "period.ml" 45 1165 1190 "period.ml" 45 1165 1191
+)
+type(
+  int option
+)
+ident(
+  def *opt* "period.ml" 45 1165 1181 "period.ml" 51 1490 1493
+)
+"period.ml" 45 1165 1181 "period.ml" 45 1165 1192
+type(
+  int
+)
+"period.ml" 45 1165 1203 "period.ml" 45 1165 1204
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "period.ml" 45 1165 1203 "period.ml" 45 1165 1204
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "period.ml" 45 1165 1203 "period.ml" 45 1165 1204
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "period.ml" 45 1165 1203 "period.ml" 45 1165 1204
+)
+type(
+  int option
+)
+ident(
+  def *opt* "period.ml" 45 1165 1193 "period.ml" 51 1490 1493
+)
+"period.ml" 45 1165 1193 "period.ml" 45 1165 1205
+type(
+  int
+)
+"period.ml" 45 1165 1214 "period.ml" 45 1165 1215
+type(
+  int
+)
+type(
+  int
+)
+type(
+  int
+)
+ident(
+  int_ref *sth* "period.ml" 45 1165 1214 "period.ml" 45 1165 1215
+)
+type(
+  int option
+)
+type(
+  int option
+)
+type(
+  int
+)
+ident(
+  def *sth* "period.ml" 45 1165 1214 "period.ml" 45 1165 1215
+)
+type(
+  int option
+)
+ident(
+  int_ref *opt* "period.ml" 45 1165 1214 "period.ml" 45 1165 1215
+)
+type(
+  int option
+)
+ident(
+  def *opt* "period.ml" 45 1165 1206 "period.ml" 51 1490 1493
+)
+"period.ml" 45 1165 1206 "period.ml" 45 1165 1216
+type(
+  int
+)
+"period.ml" 45 1165 1217 "period.ml" 45 1165 1223
+type(
+  int
+)
+ident(
+  def s_year "period.ml" 45 1165 1224 "period.ml" 51 1490 1493
+)
+"period.ml" 45 1165 1224 "period.ml" 45 1165 1231
+type(
+  int
+)
+ident(
+  def s_month "period.ml" 45 1165 1232 "period.ml" 51 1490 1493
+)
+"period.ml" 45 1165 1232 "period.ml" 45 1165 1237
+type(
+  int
+)
+ident(
+  def s_day "period.ml" 46 1240 1242 "period.ml" 51 1490 1493
+)
+"period.ml" 47 1244 1273 "period.ml" 47 1244 1279
+type(
+  int
+)
+ident(
+  int_ref s_year "period.ml" 45 1165 1217 "period.ml" 45 1165 1223
+)
+"period.ml" 47 1244 1290 "period.ml" 47 1244 1297
+type(
+  int
+)
+ident(
+  int_ref s_month "period.ml" 45 1165 1224 "period.ml" 45 1165 1231
+)
+"period.ml" 47 1244 1306 "period.ml" 47 1244 1311
+type(
+  int
+)
+ident(
+  int_ref s_day "period.ml" 45 1165 1232 "period.ml" 45 1165 1237
+)
+"period.ml" 47 1244 1264 "period.ml" 47 1244 1315
+type(
+  Time.date
+)
+"period.ml" 48 1318 1339 "period.ml" 48 1318 1345
+type(
+  int
+)
+ident(
+  int_ref e_year "period.ml" 45 1165 1181 "period.ml" 45 1165 1192
+)
+"period.ml" 48 1318 1346 "period.ml" 48 1318 1347
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"period.ml" 48 1318 1348 "period.ml" 48 1318 1349
+type(
+  int
+)
+"period.ml" 48 1318 1339 "period.ml" 48 1318 1349
+type(
+  bool
+)
+"period.ml" 48 1318 1350 "period.ml" 48 1318 1352
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"period.ml" 48 1318 1353 "period.ml" 48 1318 1360
+type(
+  int
+)
+ident(
+  int_ref e_month "period.ml" 45 1165 1193 "period.ml" 45 1165 1205
+)
+"period.ml" 48 1318 1361 "period.ml" 48 1318 1362
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"period.ml" 48 1318 1363 "period.ml" 48 1318 1364
+type(
+  int
+)
+"period.ml" 48 1318 1353 "period.ml" 48 1318 1364
+type(
+  bool
+)
+"period.ml" 48 1318 1365 "period.ml" 48 1318 1367
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.||
+)
+"period.ml" 48 1318 1368 "period.ml" 48 1318 1373
+type(
+  int
+)
+ident(
+  int_ref e_day "period.ml" 45 1165 1206 "period.ml" 45 1165 1216
+)
+"period.ml" 48 1318 1374 "period.ml" 48 1318 1375
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.=
+)
+"period.ml" 48 1318 1376 "period.ml" 48 1318 1377
+type(
+  int
+)
+"period.ml" 48 1318 1368 "period.ml" 48 1318 1377
+type(
+  bool
+)
+"period.ml" 48 1318 1353 "period.ml" 48 1318 1377
+type(
+  bool
+)
+"period.ml" 48 1318 1339 "period.ml" 48 1318 1377
+type(
+  bool
+)
+"period.ml" 49 1378 1403 "period.ml" 49 1378 1407
+type(
+  Time.date option
+)
+"period.ml" 50 1408 1447 "period.ml" 50 1408 1453
+type(
+  int
+)
+ident(
+  int_ref e_year "period.ml" 45 1165 1181 "period.ml" 45 1165 1192
+)
+"period.ml" 50 1408 1464 "period.ml" 50 1408 1471
+type(
+  int
+)
+ident(
+  int_ref e_month "period.ml" 45 1165 1193 "period.ml" 45 1165 1205
+)
+"period.ml" 50 1408 1480 "period.ml" 50 1408 1485
+type(
+  int
+)
+ident(
+  int_ref e_day "period.ml" 45 1165 1206 "period.ml" 45 1165 1216
+)
+"period.ml" 50 1408 1438 "period.ml" 50 1408 1489
+type(
+  Time.date
+)
+"period.ml" 50 1408 1433 "period.ml" 50 1408 1489
+type(
+  Time.date option
+)
+"period.ml" 48 1318 1336 "period.ml" 50 1408 1489
+type(
+  Time.date option
+)
+"period.ml" 46 1240 1242 "period.ml" 51 1490 1493
+type(
+  partial_period
+)
+"period.ml" 45 1165 1232 "period.ml" 51 1490 1493
+type(
+  int -> partial_period
+)
+"period.ml" 45 1165 1224 "period.ml" 51 1490 1493
+type(
+  int -> int -> partial_period
+)
+"period.ml" 45 1165 1217 "period.ml" 51 1490 1493
+type(
+  int -> int -> int -> partial_period
+)
+"period.ml" 45 1165 1206 "period.ml" 51 1490 1493
+type(
+  ?e_day:int -> int -> int -> int -> partial_period
+)
+type(
+  int -> int -> int -> partial_period
+)
+"period.ml" 45 1165 1193 "period.ml" 51 1490 1493
+type(
+  ?e_month:int -> ?e_day:int -> int -> int -> int -> partial_period
+)
+type(
+  ?e_day:int -> int -> int -> int -> partial_period
+)
+"period.ml" 45 1165 1181 "period.ml" 51 1490 1493
+type(
+  ?e_year:int ->
+  ?e_month:int -> ?e_day:int -> int -> int -> int -> partial_period
+)
+type(
+  ?e_month:int -> ?e_day:int -> int -> int -> int -> partial_period
+)

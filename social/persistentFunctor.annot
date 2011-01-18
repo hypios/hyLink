@@ -1,0 +1,822 @@
+"persistentFunctor.ml" 11 97 101 "persistentFunctor.ml" 11 97 107
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  def debug' "persistentFunctor.ml" 15 158 158 --
+)
+"persistentFunctor.ml" 11 97 110 "persistentFunctor.ml" 11 97 123
+type(
+  ('a, out_channel, unit) format -> 'a
+)
+ident(
+  ext_ref Printf.printf
+)
+"persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+type(
+  unit
+)
+ident(
+  def mtx "persistentFunctor.ml" 29 468 468 --
+)
+"persistentFunctor.ml" 15 158 168 "persistentFunctor.ml" 15 158 170
+type(
+  unit
+)
+"persistentFunctor.ml" 29 468 472 "persistentFunctor.ml" 29 468 480
+type(
+  'a -> (unit -> 'b) -> 'b Lwt.t
+)
+ident(
+  def mtx_call "persistentFunctor.ml" 33 540 540 --
+)
+"persistentFunctor.ml" 29 468 481 "persistentFunctor.ml" 29 468 482
+type(
+  'a
+)
+"persistentFunctor.ml" 29 468 483 "persistentFunctor.ml" 29 468 484
+type(
+  unit -> 'b
+)
+ident(
+  def f "persistentFunctor.ml" 30 487 489 "persistentFunctor.ml" 30 487 502
+)
+"persistentFunctor.ml" 30 487 489 "persistentFunctor.ml" 30 487 495
+type(
+  'b -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"persistentFunctor.ml" 30 487 497 "persistentFunctor.ml" 30 487 498
+type(
+  unit -> 'b
+)
+ident(
+  int_ref f "persistentFunctor.ml" 29 468 483 "persistentFunctor.ml" 29 468 484
+)
+"persistentFunctor.ml" 30 487 499 "persistentFunctor.ml" 30 487 501
+type(
+  unit
+)
+"persistentFunctor.ml" 30 487 497 "persistentFunctor.ml" 30 487 501
+call(
+  stack
+)
+type(
+  'b
+)
+"persistentFunctor.ml" 30 487 489 "persistentFunctor.ml" 30 487 502
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"persistentFunctor.ml" 29 468 483 "persistentFunctor.ml" 30 487 502
+type(
+  (unit -> 'b) -> 'b Lwt.t
+)
+"persistentFunctor.ml" 29 468 481 "persistentFunctor.ml" 30 487 502
+type(
+  'a -> (unit -> 'b) -> 'b Lwt.t
+)
+"persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+type(
+  'a -> (unit -> 'b) -> 'b Lwt.t
+)
+ident(
+  def mtx_call "persistentFunctor.ml" 36 655 655 --
+)
+"persistentFunctor.ml" 33 540 553 "persistentFunctor.ml" 33 540 554
+type(
+  'a
+)
+"persistentFunctor.ml" 33 540 555 "persistentFunctor.ml" 33 540 556
+type(
+  unit -> 'b
+)
+ident(
+  def f "persistentFunctor.ml" 34 559 561 "persistentFunctor.ml" 34 559 587
+)
+"persistentFunctor.ml" 34 559 561 "persistentFunctor.ml" 34 559 582
+type(
+  (unit -> 'b) -> unit -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt_preemptive.detach
+)
+"persistentFunctor.ml" 34 559 583 "persistentFunctor.ml" 34 559 584
+type(
+  unit -> 'b
+)
+ident(
+  int_ref f "persistentFunctor.ml" 33 540 555 "persistentFunctor.ml" 33 540 556
+)
+"persistentFunctor.ml" 34 559 585 "persistentFunctor.ml" 34 559 587
+type(
+  unit
+)
+"persistentFunctor.ml" 34 559 561 "persistentFunctor.ml" 34 559 587
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"persistentFunctor.ml" 33 540 555 "persistentFunctor.ml" 34 559 587
+type(
+  (unit -> 'b) -> 'b Lwt.t
+)
+"persistentFunctor.ml" 33 540 553 "persistentFunctor.ml" 34 559 587
+type(
+  'a -> (unit -> 'b) -> 'b Lwt.t
+)
+"persistentFunctor.ml" 98 2280 2294 "persistentFunctor.ml" 98 2280 2300
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref debug' "persistentFunctor.ml" 11 97 101 "persistentFunctor.ml" 11 97 107
+)
+"persistentFunctor.ml" 98 2280 2301 "persistentFunctor.ml" 98 2280 2327
+type(
+  (unit, out_channel, unit) format
+)
+"persistentFunctor.ml" 98 2280 2294 "persistentFunctor.ml" 98 2280 2327
+call(
+  stack
+)
+type(
+  unit
+)
+"persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  def db "persistentFunctor.ml" 100 2367 2373 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 99 2328 2343 "persistentFunctor.ml" 99 2328 2349
+type(
+  string -> (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  ext_ref C.init
+)
+"persistentFunctor.ml" 99 2328 2350 "persistentFunctor.ml" 99 2328 2366
+type(
+  string
+)
+ident(
+  ext_ref Params.sqlite_db
+)
+"persistentFunctor.ml" 99 2328 2343 "persistentFunctor.ml" 99 2328 2366
+call(
+  stack
+)
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+"persistentFunctor.ml" 100 2367 2381 "persistentFunctor.ml" 100 2367 2387
+type(
+  (unit, out_channel, unit) format -> unit
+)
+ident(
+  int_ref debug' "persistentFunctor.ml" 11 97 101 "persistentFunctor.ml" 11 97 107
+)
+"persistentFunctor.ml" 100 2367 2388 "persistentFunctor.ml" 100 2367 2409
+type(
+  (unit, out_channel, unit) format
+)
+"persistentFunctor.ml" 100 2367 2381 "persistentFunctor.ml" 100 2367 2409
+call(
+  stack
+)
+type(
+  unit
+)
+"persistentFunctor.ml" 101 2410 2420 "persistentFunctor.ml" 101 2410 2422
+type(
+  C.t -> int64
+)
+ident(
+  def id "persistentFunctor.ml" 103 2439 2445 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 101 2410 2423 "persistentFunctor.ml" 101 2410 2424
+type(
+  C.t
+)
+ident(
+  def e "persistentFunctor.ml" 101 2410 2427 "persistentFunctor.ml" 101 2410 2437
+)
+"persistentFunctor.ml" 101 2410 2427 "persistentFunctor.ml" 101 2410 2431
+type(
+  db:(C.t, [ `RW ]) Orm.Db.t -> C.t -> int64
+)
+ident(
+  ext_ref C.id
+)
+"persistentFunctor.ml" 101 2410 2432 "persistentFunctor.ml" 101 2410 2435
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 101 2410 2436 "persistentFunctor.ml" 101 2410 2437
+type(
+  C.t
+)
+ident(
+  int_ref e "persistentFunctor.ml" 101 2410 2423 "persistentFunctor.ml" 101 2410 2424
+)
+"persistentFunctor.ml" 101 2410 2427 "persistentFunctor.ml" 101 2410 2437
+call(
+  tail
+)
+type(
+  int64
+)
+"persistentFunctor.ml" 101 2410 2423 "persistentFunctor.ml" 101 2410 2437
+type(
+  C.t -> int64
+)
+"persistentFunctor.ml" 103 2439 2449 "persistentFunctor.ml" 103 2439 2453
+type(
+  int64 -> C.t Lwt.t
+)
+ident(
+  def load "persistentFunctor.ml" 106 2521 2527 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 103 2439 2454 "persistentFunctor.ml" 103 2439 2456
+type(
+  int64
+)
+ident(
+  def id "persistentFunctor.ml" 104 2459 2467 "persistentFunctor.ml" 104 2459 2519
+)
+"persistentFunctor.ml" 104 2459 2467 "persistentFunctor.ml" 104 2459 2475
+type(
+  unit -> (unit -> C.t) -> C.t Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 104 2459 2476 "persistentFunctor.ml" 104 2459 2479
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 104 2459 2485 "persistentFunctor.ml" 104 2459 2487
+type(
+  unit
+)
+"persistentFunctor.ml" 104 2459 2491 "persistentFunctor.ml" 104 2459 2502
+type(
+  id:[ `Eq of int64 ] -> (C.t, [ `RW ]) Orm.Db.t -> C.t
+)
+ident(
+  ext_ref C.get_by_id
+)
+"persistentFunctor.ml" 104 2459 2512 "persistentFunctor.ml" 104 2459 2514
+type(
+  int64
+)
+ident(
+  int_ref id "persistentFunctor.ml" 103 2439 2454 "persistentFunctor.ml" 103 2439 2456
+)
+"persistentFunctor.ml" 104 2459 2508 "persistentFunctor.ml" 104 2459 2514
+type(
+  [ `Eq of int64 ]
+)
+"persistentFunctor.ml" 104 2459 2516 "persistentFunctor.ml" 104 2459 2518
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 104 2459 2491 "persistentFunctor.ml" 104 2459 2518
+call(
+  tail
+)
+type(
+  C.t
+)
+"persistentFunctor.ml" 104 2459 2485 "persistentFunctor.ml" 104 2459 2518
+type(
+  unit -> C.t
+)
+"persistentFunctor.ml" 104 2459 2467 "persistentFunctor.ml" 104 2459 2519
+call(
+  tail
+)
+type(
+  C.t Lwt.t
+)
+"persistentFunctor.ml" 103 2439 2454 "persistentFunctor.ml" 104 2459 2519
+type(
+  int64 -> C.t Lwt.t
+)
+"persistentFunctor.ml" 106 2521 2531 "persistentFunctor.ml" 106 2521 2539
+type(
+  unit -> C.t list Lwt.t
+)
+ident(
+  def load_all "persistentFunctor.ml" 109 2604 2610 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 106 2521 2540 "persistentFunctor.ml" 106 2521 2542
+type(
+  unit
+)
+"persistentFunctor.ml" 107 2545 2553 "persistentFunctor.ml" 107 2545 2561
+type(
+  unit -> (unit -> C.t list) -> C.t list Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 107 2545 2562 "persistentFunctor.ml" 107 2545 2565
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 107 2545 2571 "persistentFunctor.ml" 107 2545 2573
+type(
+  unit
+)
+"persistentFunctor.ml" 107 2545 2577 "persistentFunctor.ml" 107 2545 2582
+type(
+  (C.t -> bool) -> (C.t, [ `RW ]) Orm.Db.t -> C.t list
+)
+ident(
+  ext_ref C.get
+)
+"persistentFunctor.ml" 107 2545 2588 "persistentFunctor.ml" 107 2545 2589
+type(
+  C.t
+)
+"persistentFunctor.ml" 107 2545 2593 "persistentFunctor.ml" 107 2545 2597
+type(
+  bool
+)
+"persistentFunctor.ml" 107 2545 2588 "persistentFunctor.ml" 107 2545 2597
+type(
+  C.t -> bool
+)
+"persistentFunctor.ml" 107 2545 2599 "persistentFunctor.ml" 107 2545 2601
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 107 2545 2577 "persistentFunctor.ml" 107 2545 2601
+call(
+  tail
+)
+type(
+  C.t list
+)
+"persistentFunctor.ml" 107 2545 2571 "persistentFunctor.ml" 107 2545 2601
+type(
+  unit -> C.t list
+)
+"persistentFunctor.ml" 107 2545 2553 "persistentFunctor.ml" 107 2545 2602
+call(
+  tail
+)
+type(
+  C.t list Lwt.t
+)
+"persistentFunctor.ml" 106 2521 2540 "persistentFunctor.ml" 107 2545 2602
+type(
+  unit -> C.t list Lwt.t
+)
+"persistentFunctor.ml" 109 2604 2614 "persistentFunctor.ml" 109 2604 2625
+type(
+  (C.t -> bool) -> C.t list Lwt.t
+)
+ident(
+  def load_custom "persistentFunctor.ml" 112 2685 2691 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 109 2604 2626 "persistentFunctor.ml" 109 2604 2632
+type(
+  C.t -> bool
+)
+ident(
+  def custom "persistentFunctor.ml" 110 2635 2643 "persistentFunctor.ml" 110 2635 2683
+)
+"persistentFunctor.ml" 110 2635 2643 "persistentFunctor.ml" 110 2635 2651
+type(
+  unit -> (unit -> C.t list) -> C.t list Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 110 2635 2652 "persistentFunctor.ml" 110 2635 2655
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 110 2635 2661 "persistentFunctor.ml" 110 2635 2663
+type(
+  unit
+)
+"persistentFunctor.ml" 110 2635 2667 "persistentFunctor.ml" 110 2635 2672
+type(
+  (C.t -> bool) -> (C.t, [ `RW ]) Orm.Db.t -> C.t list
+)
+ident(
+  ext_ref C.get
+)
+"persistentFunctor.ml" 110 2635 2673 "persistentFunctor.ml" 110 2635 2679
+type(
+  C.t -> bool
+)
+ident(
+  int_ref custom "persistentFunctor.ml" 109 2604 2626 "persistentFunctor.ml" 109 2604 2632
+)
+"persistentFunctor.ml" 110 2635 2680 "persistentFunctor.ml" 110 2635 2682
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 110 2635 2667 "persistentFunctor.ml" 110 2635 2682
+call(
+  tail
+)
+type(
+  C.t list
+)
+"persistentFunctor.ml" 110 2635 2661 "persistentFunctor.ml" 110 2635 2682
+type(
+  unit -> C.t list
+)
+"persistentFunctor.ml" 110 2635 2643 "persistentFunctor.ml" 110 2635 2683
+call(
+  tail
+)
+type(
+  C.t list Lwt.t
+)
+"persistentFunctor.ml" 109 2604 2626 "persistentFunctor.ml" 110 2635 2683
+type(
+  (C.t -> bool) -> C.t list Lwt.t
+)
+"persistentFunctor.ml" 112 2685 2695 "persistentFunctor.ml" 112 2685 2699
+type(
+  C.t -> unit Lwt.t
+)
+ident(
+  def save "persistentFunctor.ml" 115 2756 2762 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 112 2685 2700 "persistentFunctor.ml" 112 2685 2701
+type(
+  C.t
+)
+ident(
+  def e "persistentFunctor.ml" 113 2704 2712 "persistentFunctor.ml" 113 2704 2754
+)
+"persistentFunctor.ml" 113 2704 2712 "persistentFunctor.ml" 113 2704 2720
+type(
+  unit -> (unit -> unit) -> unit Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 113 2704 2721 "persistentFunctor.ml" 113 2704 2724
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 113 2704 2730 "persistentFunctor.ml" 113 2704 2732
+type(
+  unit
+)
+"persistentFunctor.ml" 113 2704 2736 "persistentFunctor.ml" 113 2704 2742
+type(
+  db:(C.t, [ `RW ]) Orm.Db.t -> C.t -> bool -> unit
+)
+ident(
+  ext_ref C.save
+)
+"persistentFunctor.ml" 113 2704 2743 "persistentFunctor.ml" 113 2704 2746
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 113 2704 2747 "persistentFunctor.ml" 113 2704 2748
+type(
+  C.t
+)
+ident(
+  int_ref e "persistentFunctor.ml" 112 2685 2700 "persistentFunctor.ml" 112 2685 2701
+)
+"persistentFunctor.ml" 113 2704 2749 "persistentFunctor.ml" 113 2704 2753
+type(
+  bool
+)
+"persistentFunctor.ml" 113 2704 2736 "persistentFunctor.ml" 113 2704 2753
+call(
+  tail
+)
+type(
+  unit
+)
+"persistentFunctor.ml" 113 2704 2730 "persistentFunctor.ml" 113 2704 2753
+type(
+  unit -> unit
+)
+"persistentFunctor.ml" 113 2704 2712 "persistentFunctor.ml" 113 2704 2754
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"persistentFunctor.ml" 112 2685 2700 "persistentFunctor.ml" 113 2704 2754
+type(
+  C.t -> unit Lwt.t
+)
+"persistentFunctor.ml" 115 2756 2766 "persistentFunctor.ml" 115 2756 2772
+type(
+  C.t -> unit Lwt.t
+)
+ident(
+  def delete "persistentFunctor.ml" 118 2826 2832 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 115 2756 2773 "persistentFunctor.ml" 115 2756 2774
+type(
+  C.t
+)
+ident(
+  def e "persistentFunctor.ml" 116 2777 2785 "persistentFunctor.ml" 116 2777 2824
+)
+"persistentFunctor.ml" 116 2777 2785 "persistentFunctor.ml" 116 2777 2793
+type(
+  unit -> (unit -> unit) -> unit Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 116 2777 2794 "persistentFunctor.ml" 116 2777 2797
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 116 2777 2803 "persistentFunctor.ml" 116 2777 2805
+type(
+  unit
+)
+"persistentFunctor.ml" 116 2777 2809 "persistentFunctor.ml" 116 2777 2817
+type(
+  ?recursive:bool -> db:(C.t, [ `RW ]) Orm.Db.t -> C.t -> unit
+)
+ident(
+  ext_ref C.delete
+)
+"persistentFunctor.ml" 116 2777 2818 "persistentFunctor.ml" 116 2777 2821
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 116 2777 2822 "persistentFunctor.ml" 116 2777 2823
+type(
+  C.t
+)
+ident(
+  int_ref e "persistentFunctor.ml" 115 2756 2773 "persistentFunctor.ml" 115 2756 2774
+)
+"persistentFunctor.ml" 116 2777 2809 "persistentFunctor.ml" 116 2777 2823
+call(
+  tail
+)
+type(
+  unit
+)
+"persistentFunctor.ml" 116 2777 2803 "persistentFunctor.ml" 116 2777 2823
+type(
+  unit -> unit
+)
+"persistentFunctor.ml" 116 2777 2785 "persistentFunctor.ml" 116 2777 2824
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"persistentFunctor.ml" 115 2756 2773 "persistentFunctor.ml" 116 2777 2824
+type(
+  C.t -> unit Lwt.t
+)
+"persistentFunctor.ml" 118 2826 2836 "persistentFunctor.ml" 118 2826 2842
+type(
+  string -> string -> int64 list Lwt.t
+)
+ident(
+  def search "persistentFunctor.ml" 135 3095 3101 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 118 2826 2843 "persistentFunctor.ml" 118 2826 2848
+type(
+  string
+)
+ident(
+  def field "persistentFunctor.ml" 118 2826 2849 "persistentFunctor.ml" 119 2857 2907
+)
+"persistentFunctor.ml" 118 2826 2849 "persistentFunctor.ml" 118 2826 2854
+type(
+  string
+)
+ident(
+  def query "persistentFunctor.ml" 119 2857 2858 "persistentFunctor.ml" 119 2857 2907
+)
+"persistentFunctor.ml" 119 2857 2858 "persistentFunctor.ml" 119 2857 2866
+type(
+  unit -> (unit -> int64 list) -> int64 list Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 119 2857 2867 "persistentFunctor.ml" 119 2857 2870
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 119 2857 2876 "persistentFunctor.ml" 119 2857 2878
+type(
+  unit
+)
+"persistentFunctor.ml" 119 2857 2882 "persistentFunctor.ml" 119 2857 2890
+type(
+  db:(C.t, [ `RW ]) Orm.Db.t -> string -> string -> int64 list
+)
+ident(
+  ext_ref C.search
+)
+"persistentFunctor.ml" 119 2857 2891 "persistentFunctor.ml" 119 2857 2894
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 119 2857 2895 "persistentFunctor.ml" 119 2857 2900
+type(
+  string
+)
+ident(
+  int_ref field "persistentFunctor.ml" 118 2826 2843 "persistentFunctor.ml" 118 2826 2848
+)
+"persistentFunctor.ml" 119 2857 2901 "persistentFunctor.ml" 119 2857 2906
+type(
+  string
+)
+ident(
+  int_ref query "persistentFunctor.ml" 118 2826 2849 "persistentFunctor.ml" 118 2826 2854
+)
+"persistentFunctor.ml" 119 2857 2882 "persistentFunctor.ml" 119 2857 2906
+call(
+  tail
+)
+type(
+  int64 list
+)
+"persistentFunctor.ml" 119 2857 2876 "persistentFunctor.ml" 119 2857 2906
+type(
+  unit -> int64 list
+)
+"persistentFunctor.ml" 119 2857 2858 "persistentFunctor.ml" 119 2857 2907
+call(
+  tail
+)
+type(
+  int64 list Lwt.t
+)
+"persistentFunctor.ml" 118 2826 2849 "persistentFunctor.ml" 119 2857 2907
+type(
+  string -> int64 list Lwt.t
+)
+"persistentFunctor.ml" 118 2826 2843 "persistentFunctor.ml" 119 2857 2907
+type(
+  string -> string -> int64 list Lwt.t
+)
+"persistentFunctor.ml" 135 3095 3105 "persistentFunctor.ml" 135 3095 3116
+type(
+  ('a -> C.t -> bool) -> 'a -> C.t list Lwt.t
+)
+ident(
+  def make_custom "persistentFunctor.ml" 140 3209 3217 "persistentFunctor.ml" 141 3218 3225
+)
+"persistentFunctor.ml" 135 3095 3117 "persistentFunctor.ml" 135 3095 3123
+type(
+  'a -> C.t -> bool
+)
+ident(
+  def custom "persistentFunctor.ml" 136 3126 3133 "persistentFunctor.ml" 140 3209 3216
+)
+"persistentFunctor.ml" 136 3126 3133 "persistentFunctor.ml" 136 3126 3135
+type(
+  'a
+)
+ident(
+  def id "persistentFunctor.ml" 137 3139 3145 "persistentFunctor.ml" 140 3209 3216
+)
+"persistentFunctor.ml" 137 3139 3145 "persistentFunctor.ml" 137 3139 3153
+type(
+  unit -> (unit -> C.t list) -> C.t list Lwt.t
+)
+ident(
+  int_ref mtx_call "persistentFunctor.ml" 33 540 544 "persistentFunctor.ml" 33 540 552
+)
+"persistentFunctor.ml" 137 3139 3154 "persistentFunctor.ml" 137 3139 3157
+type(
+  unit
+)
+ident(
+  int_ref mtx "persistentFunctor.ml" 15 158 162 "persistentFunctor.ml" 15 158 165
+)
+"persistentFunctor.ml" 138 3160 3172 "persistentFunctor.ml" 138 3160 3174
+type(
+  unit
+)
+"persistentFunctor.ml" 139 3178 3188 "persistentFunctor.ml" 139 3178 3193
+type(
+  (C.t -> bool) -> (C.t, [ `RW ]) Orm.Db.t -> C.t list
+)
+ident(
+  ext_ref C.get
+)
+"persistentFunctor.ml" 139 3178 3195 "persistentFunctor.ml" 139 3178 3201
+type(
+  'a -> C.t -> bool
+)
+ident(
+  int_ref custom "persistentFunctor.ml" 135 3095 3117 "persistentFunctor.ml" 135 3095 3123
+)
+"persistentFunctor.ml" 139 3178 3202 "persistentFunctor.ml" 139 3178 3204
+type(
+  'a
+)
+ident(
+  int_ref id "persistentFunctor.ml" 136 3126 3133 "persistentFunctor.ml" 136 3126 3135
+)
+"persistentFunctor.ml" 139 3178 3195 "persistentFunctor.ml" 139 3178 3204
+call(
+  stack
+)
+type(
+  C.t -> bool
+)
+"persistentFunctor.ml" 139 3178 3206 "persistentFunctor.ml" 139 3178 3208
+type(
+  (C.t, [ `RW ]) Orm.Db.t
+)
+ident(
+  int_ref db "persistentFunctor.ml" 99 2328 2338 "persistentFunctor.ml" 99 2328 2340
+)
+"persistentFunctor.ml" 139 3178 3188 "persistentFunctor.ml" 139 3178 3208
+call(
+  tail
+)
+type(
+  C.t list
+)
+"persistentFunctor.ml" 138 3160 3172 "persistentFunctor.ml" 139 3178 3208
+type(
+  unit -> C.t list
+)
+"persistentFunctor.ml" 137 3139 3145 "persistentFunctor.ml" 140 3209 3216
+call(
+  tail
+)
+type(
+  C.t list Lwt.t
+)
+"persistentFunctor.ml" 136 3126 3133 "persistentFunctor.ml" 140 3209 3216
+type(
+  'a -> C.t list Lwt.t
+)
+"persistentFunctor.ml" 135 3095 3117 "persistentFunctor.ml" 140 3209 3217
+type(
+  ('a -> C.t -> bool) -> 'a -> C.t list Lwt.t
+)

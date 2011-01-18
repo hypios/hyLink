@@ -5,11 +5,11 @@ FOR_PACK= -for-pack Shared
 INCLUDES = -I ../misc
 
 # cryptokit added for Security
-include ../../../Makefile.config
+include ../../Makefile.config
 include Makefile.files
 
 CMO=$(SOCIAL_CMO)
 ML=$(SOCIAL_SRC)
 all: byte
 
-include ../../../Makefile.rules
+include ../../Makefile.rules

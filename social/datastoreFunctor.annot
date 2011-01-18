@@ -1,0 +1,4147 @@
+"datastoreFunctor.ml" 80 1878 1888 "datastoreFunctor.ml" 80 1878 1898
+type(
+  t -> string list
+)
+ident(
+  def to_strings "datastoreFunctor.ml" 80 1878 1911 "datastoreFunctor.ml" 82 1913 1920
+)
+"datastoreFunctor.ml" 80 1878 1899 "datastoreFunctor.ml" 80 1878 1900
+type(
+  t
+)
+ident(
+  def t "datastoreFunctor.ml" 80 1878 1903 "datastoreFunctor.ml" 80 1878 1911
+)
+"datastoreFunctor.ml" 80 1878 1903 "datastoreFunctor.ml" 80 1878 1904
+type(
+  t
+)
+ident(
+  int_ref t "datastoreFunctor.ml" 80 1878 1899 "datastoreFunctor.ml" 80 1878 1900
+)
+"datastoreFunctor.ml" 80 1878 1903 "datastoreFunctor.ml" 80 1878 1911
+type(
+  string list
+)
+"datastoreFunctor.ml" 80 1878 1899 "datastoreFunctor.ml" 80 1878 1911
+type(
+  t -> string list
+)
+"datastoreFunctor.ml" 86 2085 2102 "datastoreFunctor.ml" 86 2085 2138
+call(
+  stack
+)
+"datastoreFunctor.ml" 90 2217 2221 "datastoreFunctor.ml" 94 2294 2305
+call(
+  stack
+)
+"datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+type(
+  Lwt_mutex.t
+)
+ident(
+  def mtx "datastoreFunctor.ml" 100 2419 2421 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 97 2347 2359 "datastoreFunctor.ml" 97 2347 2375
+type(
+  unit -> Lwt_mutex.t
+)
+ident(
+  ext_ref Lwt_mutex.create
+)
+"datastoreFunctor.ml" 97 2347 2376 "datastoreFunctor.ml" 97 2347 2378
+type(
+  unit
+)
+"datastoreFunctor.ml" 97 2347 2359 "datastoreFunctor.ml" 97 2347 2378
+call(
+  stack
+)
+type(
+  Lwt_mutex.t
+)
+"datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+type(
+  Ptree.t ref
+)
+ident(
+  def ptree "datastoreFunctor.ml" 103 2544 2546 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 100 2419 2433 "datastoreFunctor.ml" 100 2419 2436
+type(
+  Ptree.t -> Ptree.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"datastoreFunctor.ml" 100 2419 2438 "datastoreFunctor.ml" 100 2419 2449
+type(
+  Ptree.t
+)
+ident(
+  ext_ref Ptree.empty
+)
+"datastoreFunctor.ml" 100 2419 2433 "datastoreFunctor.ml" 100 2419 2450
+type(
+  Ptree.t ref
+)
+"datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  def callbacks "datastoreFunctor.ml" 106 2636 2638 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 103 2544 2562 "datastoreFunctor.ml" 103 2544 2565
+type(
+  (unit -> unit Lwt.t) list -> (unit -> unit Lwt.t) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"datastoreFunctor.ml" 103 2544 2567 "datastoreFunctor.ml" 103 2544 2569
+type(
+  (unit -> unit Lwt.t) list
+)
+"datastoreFunctor.ml" 103 2544 2562 "datastoreFunctor.ml" 103 2544 2570
+type(
+  (unit -> unit Lwt.t) list ref
+)
+"datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+type(
+  OcsigenCache.cache
+)
+ident(
+  def cache "datastoreFunctor.ml" 113 2961 2963 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 106 2636 2650 "datastoreFunctor.ml" 106 2636 2672
+type(
+  (int64 -> Data.t Lwt.t) -> int -> OcsigenCache.cache
+)
+"datastoreFunctor.ml" 106 2636 2673 "datastoreFunctor.ml" 106 2636 2682
+type(
+  int64 -> Data.t Lwt.t
+)
+ident(
+  ext_ref Data.load
+)
+"datastoreFunctor.ml" 106 2636 2683 "datastoreFunctor.ml" 106 2636 2704
+type(
+  int
+)
+ident(
+  ext_ref Params.std_cache_size
+)
+"datastoreFunctor.ml" 106 2636 2650 "datastoreFunctor.ml" 106 2636 2704
+call(
+  stack
+)
+type(
+  OcsigenCache.cache
+)
+"datastoreFunctor.ml" 113 2961 2967 "datastoreFunctor.ml" 113 2961 2970
+type(
+  int64 -> Data.t Lwt.t
+)
+ident(
+  def get "datastoreFunctor.ml" 123 3386 3388 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 113 2961 2971 "datastoreFunctor.ml" 113 2961 2973
+type(
+  int64
+)
+ident(
+  def id "datastoreFunctor.ml" 114 2976 2980 "datastoreFunctor.ml" 121 3307 3384
+)
+"datastoreFunctor.ml" 115 2984 2990 "datastoreFunctor.ml" 115 2984 2996
+type(
+  Data.t -> Data.t Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 115 2984 2998 "datastoreFunctor.ml" 115 2984 3003
+type(
+  OcsigenCache.cache
+)
+ident(
+  int_ref cache "datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+)
+"datastoreFunctor.ml" 115 2984 2998 "datastoreFunctor.ml" 115 2984 3017
+type(
+  int64 -> Data.t
+)
+"datastoreFunctor.ml" 115 2984 3018 "datastoreFunctor.ml" 115 2984 3020
+type(
+  int64
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 113 2961 2971 "datastoreFunctor.ml" 113 2961 2973
+)
+"datastoreFunctor.ml" 115 2984 2998 "datastoreFunctor.ml" 115 2984 3020
+type(
+  Data.t
+)
+"datastoreFunctor.ml" 115 2984 2990 "datastoreFunctor.ml" 115 2984 3021
+call(
+  stack
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 116 3022 3031 "datastoreFunctor.ml" 116 3022 3040
+type(
+  exn
+)
+"datastoreFunctor.ml" 117 3044 3050 "datastoreFunctor.ml" 117 3044 3059
+type(
+  int64 -> Data.t Lwt.t
+)
+ident(
+  ext_ref Data.load
+)
+"datastoreFunctor.ml" 117 3044 3060 "datastoreFunctor.ml" 117 3044 3062
+type(
+  int64
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 113 2961 2971 "datastoreFunctor.ml" 113 2961 2973
+)
+"datastoreFunctor.ml" 117 3044 3050 "datastoreFunctor.ml" 117 3044 3062
+call(
+  stack
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 118 3063 3069 "datastoreFunctor.ml" 118 3063 3072
+type(
+  Data.t Lwt.t -> (Data.t -> Data.t Lwt.t) -> Data.t Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 118 3063 3077 "datastoreFunctor.ml" 118 3063 3082
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 121 3307 3351 "datastoreFunctor.ml" 121 3307 3384
+)
+"datastoreFunctor.ml" 121 3307 3351 "datastoreFunctor.ml" 121 3307 3356
+type(
+  OcsigenCache.cache
+)
+ident(
+  int_ref cache "datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+)
+"datastoreFunctor.ml" 121 3307 3351 "datastoreFunctor.ml" 121 3307 3360
+type(
+  int64 -> Data.t -> unit
+)
+"datastoreFunctor.ml" 121 3307 3361 "datastoreFunctor.ml" 121 3307 3363
+type(
+  int64
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 113 2961 2971 "datastoreFunctor.ml" 113 2961 2973
+)
+"datastoreFunctor.ml" 121 3307 3364 "datastoreFunctor.ml" 121 3307 3369
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 118 3063 3077 "datastoreFunctor.ml" 118 3063 3082
+)
+"datastoreFunctor.ml" 121 3307 3351 "datastoreFunctor.ml" 121 3307 3369
+type(
+  unit
+)
+"datastoreFunctor.ml" 121 3307 3372 "datastoreFunctor.ml" 121 3307 3378
+type(
+  Data.t -> Data.t Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 121 3307 3379 "datastoreFunctor.ml" 121 3307 3384
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 118 3063 3077 "datastoreFunctor.ml" 118 3063 3082
+)
+"datastoreFunctor.ml" 121 3307 3372 "datastoreFunctor.ml" 121 3307 3384
+call(
+  tail
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 121 3307 3351 "datastoreFunctor.ml" 121 3307 3384
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 118 3063 3077 "datastoreFunctor.ml" 121 3307 3384
+type(
+  Data.t -> Data.t Lwt.t
+)
+"datastoreFunctor.ml" 117 3044 3050 "datastoreFunctor.ml" 121 3307 3384
+call(
+  tail
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 114 2976 2980 "datastoreFunctor.ml" 121 3307 3384
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 113 2961 2971 "datastoreFunctor.ml" 121 3307 3384
+type(
+  int64 -> Data.t Lwt.t
+)
+"datastoreFunctor.ml" 123 3386 3392 "datastoreFunctor.ml" 123 3386 3398
+type(
+  Data.t -> unit Lwt.t
+)
+ident(
+  def insert "datastoreFunctor.ml" 130 3789 3791 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 123 3386 3399 "datastoreFunctor.ml" 123 3386 3404
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 124 3407 3411 "datastoreFunctor.ml" 127 3629 3727
+)
+"datastoreFunctor.ml" 124 3407 3411 "datastoreFunctor.ml" 124 3407 3425
+type(
+  Lwt_mutex.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.lock
+)
+"datastoreFunctor.ml" 124 3407 3426 "datastoreFunctor.ml" 124 3407 3429
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 124 3407 3411 "datastoreFunctor.ml" 124 3407 3429
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 125 3430 3436 "datastoreFunctor.ml" 125 3430 3439
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 125 3430 3444 "datastoreFunctor.ml" 125 3430 3445
+type(
+  unit
+)
+"datastoreFunctor.ml" 125 3430 3449 "datastoreFunctor.ml" 125 3430 3454
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 125 3430 3458 "datastoreFunctor.ml" 125 3430 3470
+type(
+  ?replace:bool -> Ptree.e -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.insert
+)
+"datastoreFunctor.ml" 125 3430 3480 "datastoreFunctor.ml" 125 3430 3484
+type(
+  bool
+)
+"datastoreFunctor.ml" 125 3430 3498 "datastoreFunctor.ml" 125 3430 3505
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 125 3430 3506 "datastoreFunctor.ml" 125 3430 3511
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 123 3386 3399 "datastoreFunctor.ml" 123 3386 3404
+)
+"datastoreFunctor.ml" 125 3430 3498 "datastoreFunctor.ml" 125 3430 3511
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 125 3430 3529 "datastoreFunctor.ml" 125 3430 3544
+type(
+  Data.t -> string list
+)
+ident(
+  ext_ref Data.to_strings
+)
+"datastoreFunctor.ml" 125 3430 3545 "datastoreFunctor.ml" 125 3430 3550
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 123 3386 3399 "datastoreFunctor.ml" 123 3386 3404
+)
+"datastoreFunctor.ml" 125 3430 3529 "datastoreFunctor.ml" 125 3430 3550
+call(
+  stack
+)
+type(
+  string list
+)
+"datastoreFunctor.ml" 125 3430 3485 "datastoreFunctor.ml" 125 3430 3552
+type(
+  Ptree.e
+)
+"datastoreFunctor.ml" 125 3430 3554 "datastoreFunctor.ml" 125 3430 3559
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 125 3430 3553 "datastoreFunctor.ml" 125 3430 3559
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 125 3430 3458 "datastoreFunctor.ml" 125 3430 3559
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 125 3430 3449 "datastoreFunctor.ml" 125 3430 3559
+type(
+  unit
+)
+type(
+  Ptree.t ref -> Ptree.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 126 3562 3581 "datastoreFunctor.ml" 126 3562 3596
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 126 3562 3607 "datastoreFunctor.ml" 126 3562 3608
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 126 3562 3612 "datastoreFunctor.ml" 126 3562 3616
+)
+"datastoreFunctor.ml" 126 3562 3612 "datastoreFunctor.ml" 126 3562 3613
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 126 3562 3607 "datastoreFunctor.ml" 126 3562 3608
+)
+"datastoreFunctor.ml" 126 3562 3614 "datastoreFunctor.ml" 126 3562 3616
+type(
+  unit
+)
+"datastoreFunctor.ml" 126 3562 3612 "datastoreFunctor.ml" 126 3562 3616
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 126 3562 3598 "datastoreFunctor.ml" 126 3562 3616
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"datastoreFunctor.ml" 126 3562 3619 "datastoreFunctor.ml" 126 3562 3628
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 126 3562 3618 "datastoreFunctor.ml" 126 3562 3628
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 126 3562 3581 "datastoreFunctor.ml" 126 3562 3628
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 127 3629 3648 "datastoreFunctor.ml" 127 3629 3651
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 127 3629 3656 "datastoreFunctor.ml" 127 3629 3657
+type(
+  unit
+)
+"datastoreFunctor.ml" 127 3629 3661 "datastoreFunctor.ml" 127 3629 3677
+type(
+  Lwt_mutex.t -> unit
+)
+ident(
+  ext_ref Lwt_mutex.unlock
+)
+"datastoreFunctor.ml" 127 3629 3678 "datastoreFunctor.ml" 127 3629 3681
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 127 3629 3661 "datastoreFunctor.ml" 127 3629 3681
+call(
+  stack
+)
+type(
+  unit
+)
+"datastoreFunctor.ml" 127 3629 3684 "datastoreFunctor.ml" 127 3629 3689
+type(
+  OcsigenCache.cache
+)
+ident(
+  int_ref cache "datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+)
+"datastoreFunctor.ml" 127 3629 3684 "datastoreFunctor.ml" 127 3629 3693
+type(
+  int64 -> Data.t -> unit
+)
+"datastoreFunctor.ml" 127 3629 3695 "datastoreFunctor.ml" 127 3629 3702
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 127 3629 3703 "datastoreFunctor.ml" 127 3629 3708
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 123 3386 3399 "datastoreFunctor.ml" 123 3386 3404
+)
+"datastoreFunctor.ml" 127 3629 3695 "datastoreFunctor.ml" 127 3629 3708
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 127 3629 3710 "datastoreFunctor.ml" 127 3629 3715
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 123 3386 3399 "datastoreFunctor.ml" 123 3386 3404
+)
+"datastoreFunctor.ml" 127 3629 3684 "datastoreFunctor.ml" 127 3629 3715
+type(
+  unit
+)
+"datastoreFunctor.ml" 127 3629 3718 "datastoreFunctor.ml" 127 3629 3724
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 127 3629 3725 "datastoreFunctor.ml" 127 3629 3727
+type(
+  unit
+)
+"datastoreFunctor.ml" 127 3629 3718 "datastoreFunctor.ml" 127 3629 3727
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 127 3629 3684 "datastoreFunctor.ml" 127 3629 3727
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 127 3629 3661 "datastoreFunctor.ml" 127 3629 3727
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 127 3629 3656 "datastoreFunctor.ml" 127 3629 3727
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 126 3562 3581 "datastoreFunctor.ml" 127 3629 3727
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 125 3430 3449 "datastoreFunctor.ml" 127 3629 3727
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 125 3430 3444 "datastoreFunctor.ml" 127 3629 3727
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 124 3407 3411 "datastoreFunctor.ml" 127 3629 3727
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 123 3386 3399 "datastoreFunctor.ml" 127 3629 3727
+type(
+  Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 130 3789 3795 "datastoreFunctor.ml" 130 3789 3812
+type(
+  'a -> int64 -> unit
+)
+ident(
+  def remove_from_cache "datastoreFunctor.ml" 132 3832 3834 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 130 3789 3813 "datastoreFunctor.ml" 130 3789 3815
+type(
+  'a
+)
+ident(
+  def id "datastoreFunctor.ml" 130 3789 3818 "datastoreFunctor.ml" 130 3789 3830
+)
+"datastoreFunctor.ml" 130 3789 3818 "datastoreFunctor.ml" 130 3789 3823
+type(
+  OcsigenCache.cache
+)
+ident(
+  int_ref cache "datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+)
+"datastoreFunctor.ml" 130 3789 3818 "datastoreFunctor.ml" 130 3789 3830
+type(
+  int64 -> unit
+)
+"datastoreFunctor.ml" 130 3789 3813 "datastoreFunctor.ml" 130 3789 3830
+type(
+  'a -> int64 -> unit
+)
+"datastoreFunctor.ml" 132 3832 3838 "datastoreFunctor.ml" 132 3832 3855
+type(
+  Ptree.e -> unit Lwt.t
+)
+ident(
+  def remove_from_ptree "datastoreFunctor.ml" 138 4048 4050 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 132 3832 3856 "datastoreFunctor.ml" 132 3832 3857
+type(
+  Ptree.e
+)
+ident(
+  def e "datastoreFunctor.ml" 133 3860 3864 "datastoreFunctor.ml" 136 3998 4046
+)
+"datastoreFunctor.ml" 133 3860 3864 "datastoreFunctor.ml" 133 3860 3878
+type(
+  Lwt_mutex.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.lock
+)
+"datastoreFunctor.ml" 133 3860 3879 "datastoreFunctor.ml" 133 3860 3882
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 133 3860 3864 "datastoreFunctor.ml" 133 3860 3882
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 134 3883 3887 "datastoreFunctor.ml" 134 3883 3890
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 134 3883 3895 "datastoreFunctor.ml" 134 3883 3896
+type(
+  unit
+)
+"datastoreFunctor.ml" 134 3883 3900 "datastoreFunctor.ml" 134 3883 3905
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 134 3883 3909 "datastoreFunctor.ml" 134 3883 3921
+type(
+  Ptree.e -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.remove
+)
+"datastoreFunctor.ml" 134 3883 3922 "datastoreFunctor.ml" 134 3883 3923
+type(
+  Ptree.e
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 132 3832 3856 "datastoreFunctor.ml" 132 3832 3857
+)
+"datastoreFunctor.ml" 134 3883 3925 "datastoreFunctor.ml" 134 3883 3930
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 134 3883 3924 "datastoreFunctor.ml" 134 3883 3930
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 134 3883 3909 "datastoreFunctor.ml" 134 3883 3930
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 134 3883 3900 "datastoreFunctor.ml" 134 3883 3930
+type(
+  unit
+)
+type(
+  Ptree.t ref -> Ptree.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 135 3933 3950 "datastoreFunctor.ml" 135 3933 3965
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 135 3933 3976 "datastoreFunctor.ml" 135 3933 3977
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 135 3933 3981 "datastoreFunctor.ml" 135 3933 3985
+)
+"datastoreFunctor.ml" 135 3933 3981 "datastoreFunctor.ml" 135 3933 3982
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 135 3933 3976 "datastoreFunctor.ml" 135 3933 3977
+)
+"datastoreFunctor.ml" 135 3933 3983 "datastoreFunctor.ml" 135 3933 3985
+type(
+  unit
+)
+"datastoreFunctor.ml" 135 3933 3981 "datastoreFunctor.ml" 135 3933 3985
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 135 3933 3967 "datastoreFunctor.ml" 135 3933 3985
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"datastoreFunctor.ml" 135 3933 3988 "datastoreFunctor.ml" 135 3933 3997
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 135 3933 3987 "datastoreFunctor.ml" 135 3933 3997
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 135 3933 3950 "datastoreFunctor.ml" 135 3933 3997
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 136 3998 4001 "datastoreFunctor.ml" 136 3998 4004
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 136 3998 4009 "datastoreFunctor.ml" 136 3998 4010
+type(
+  unit
+)
+"datastoreFunctor.ml" 136 3998 4014 "datastoreFunctor.ml" 136 3998 4030
+type(
+  Lwt_mutex.t -> unit
+)
+ident(
+  ext_ref Lwt_mutex.unlock
+)
+"datastoreFunctor.ml" 136 3998 4031 "datastoreFunctor.ml" 136 3998 4034
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 136 3998 4014 "datastoreFunctor.ml" 136 3998 4034
+call(
+  stack
+)
+type(
+  unit
+)
+"datastoreFunctor.ml" 136 3998 4037 "datastoreFunctor.ml" 136 3998 4043
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 136 3998 4044 "datastoreFunctor.ml" 136 3998 4046
+type(
+  unit
+)
+"datastoreFunctor.ml" 136 3998 4037 "datastoreFunctor.ml" 136 3998 4046
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 136 3998 4014 "datastoreFunctor.ml" 136 3998 4046
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 136 3998 4009 "datastoreFunctor.ml" 136 3998 4046
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 135 3933 3950 "datastoreFunctor.ml" 136 3998 4046
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 134 3883 3900 "datastoreFunctor.ml" 136 3998 4046
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 134 3883 3895 "datastoreFunctor.ml" 136 3998 4046
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 133 3860 3864 "datastoreFunctor.ml" 136 3998 4046
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 132 3832 3856 "datastoreFunctor.ml" 136 3998 4046
+type(
+  Ptree.e -> unit Lwt.t
+)
+"datastoreFunctor.ml" 138 4048 4054 "datastoreFunctor.ml" 138 4048 4060
+type(
+  Data.t -> unit Lwt.t
+)
+ident(
+  def remove "datastoreFunctor.ml" 164 5056 5058 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 138 4048 4061 "datastoreFunctor.ml" 138 4048 4066
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 139 4069 4073 "datastoreFunctor.ml" 143 4273 4331
+)
+"datastoreFunctor.ml" 139 4069 4073 "datastoreFunctor.ml" 139 4069 4087
+type(
+  Lwt_mutex.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.lock
+)
+"datastoreFunctor.ml" 139 4069 4088 "datastoreFunctor.ml" 139 4069 4091
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 139 4069 4073 "datastoreFunctor.ml" 139 4069 4091
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 140 4092 4096 "datastoreFunctor.ml" 140 4092 4099
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 140 4092 4104 "datastoreFunctor.ml" 140 4092 4105
+type(
+  unit
+)
+"datastoreFunctor.ml" 141 4109 4113 "datastoreFunctor.ml" 141 4109 4118
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 141 4109 4122 "datastoreFunctor.ml" 141 4109 4134
+type(
+  Ptree.e -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.remove
+)
+"datastoreFunctor.ml" 141 4109 4148 "datastoreFunctor.ml" 141 4109 4155
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 141 4109 4156 "datastoreFunctor.ml" 141 4109 4161
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 138 4048 4061 "datastoreFunctor.ml" 138 4048 4066
+)
+"datastoreFunctor.ml" 141 4109 4148 "datastoreFunctor.ml" 141 4109 4161
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 141 4109 4179 "datastoreFunctor.ml" 141 4109 4194
+type(
+  Data.t -> string list
+)
+ident(
+  ext_ref Data.to_strings
+)
+"datastoreFunctor.ml" 141 4109 4195 "datastoreFunctor.ml" 141 4109 4200
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 138 4048 4061 "datastoreFunctor.ml" 138 4048 4066
+)
+"datastoreFunctor.ml" 141 4109 4179 "datastoreFunctor.ml" 141 4109 4200
+call(
+  stack
+)
+type(
+  string list
+)
+"datastoreFunctor.ml" 141 4109 4135 "datastoreFunctor.ml" 141 4109 4202
+type(
+  Ptree.e
+)
+"datastoreFunctor.ml" 141 4109 4204 "datastoreFunctor.ml" 141 4109 4209
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 141 4109 4203 "datastoreFunctor.ml" 141 4109 4209
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 141 4109 4122 "datastoreFunctor.ml" 141 4109 4209
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 141 4109 4113 "datastoreFunctor.ml" 141 4109 4209
+type(
+  unit
+)
+type(
+  Ptree.t ref -> Ptree.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 142 4212 4225 "datastoreFunctor.ml" 142 4212 4240
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 142 4212 4251 "datastoreFunctor.ml" 142 4212 4252
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 142 4212 4256 "datastoreFunctor.ml" 142 4212 4260
+)
+"datastoreFunctor.ml" 142 4212 4256 "datastoreFunctor.ml" 142 4212 4257
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 142 4212 4251 "datastoreFunctor.ml" 142 4212 4252
+)
+"datastoreFunctor.ml" 142 4212 4258 "datastoreFunctor.ml" 142 4212 4260
+type(
+  unit
+)
+"datastoreFunctor.ml" 142 4212 4256 "datastoreFunctor.ml" 142 4212 4260
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 142 4212 4242 "datastoreFunctor.ml" 142 4212 4260
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"datastoreFunctor.ml" 142 4212 4263 "datastoreFunctor.ml" 142 4212 4272
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 142 4212 4262 "datastoreFunctor.ml" 142 4212 4272
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 142 4212 4225 "datastoreFunctor.ml" 142 4212 4272
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 143 4273 4286 "datastoreFunctor.ml" 143 4273 4289
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 143 4273 4294 "datastoreFunctor.ml" 143 4273 4295
+type(
+  unit
+)
+"datastoreFunctor.ml" 143 4273 4299 "datastoreFunctor.ml" 143 4273 4315
+type(
+  Lwt_mutex.t -> unit
+)
+ident(
+  ext_ref Lwt_mutex.unlock
+)
+"datastoreFunctor.ml" 143 4273 4316 "datastoreFunctor.ml" 143 4273 4319
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 143 4273 4299 "datastoreFunctor.ml" 143 4273 4319
+call(
+  stack
+)
+type(
+  unit
+)
+"datastoreFunctor.ml" 143 4273 4322 "datastoreFunctor.ml" 143 4273 4328
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 143 4273 4329 "datastoreFunctor.ml" 143 4273 4331
+type(
+  unit
+)
+"datastoreFunctor.ml" 143 4273 4322 "datastoreFunctor.ml" 143 4273 4331
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 143 4273 4299 "datastoreFunctor.ml" 143 4273 4331
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 143 4273 4294 "datastoreFunctor.ml" 143 4273 4331
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 142 4212 4225 "datastoreFunctor.ml" 143 4273 4331
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 141 4109 4113 "datastoreFunctor.ml" 143 4273 4331
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 140 4092 4104 "datastoreFunctor.ml" 143 4273 4331
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 139 4069 4073 "datastoreFunctor.ml" 143 4273 4331
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 138 4048 4061 "datastoreFunctor.ml" 143 4273 4331
+type(
+  Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 164 5056 5062 "datastoreFunctor.ml" 164 5056 5066
+type(
+  string -> ('b -> Data.t -> 'b Lwt.t) -> 'b -> 'b Lwt.t
+)
+ident(
+  def fold "datastoreFunctor.ml" 169 5285 5287 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 164 5056 5067 "datastoreFunctor.ml" 164 5056 5073
+type(
+  string
+)
+ident(
+  def filter "datastoreFunctor.ml" 164 5056 5074 "datastoreFunctor.ml" 167 5197 5283
+)
+"datastoreFunctor.ml" 164 5056 5074 "datastoreFunctor.ml" 164 5056 5075
+type(
+  'b -> Data.t -> 'b Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 164 5056 5076 "datastoreFunctor.ml" 167 5197 5283
+)
+"datastoreFunctor.ml" 164 5056 5076 "datastoreFunctor.ml" 164 5056 5080
+type(
+  'b
+)
+ident(
+  def init "datastoreFunctor.ml" 165 5083 5087 "datastoreFunctor.ml" 167 5197 5283
+)
+"datastoreFunctor.ml" 165 5083 5091 "datastoreFunctor.ml" 165 5083 5098
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 165 5083 5101 "datastoreFunctor.ml" 165 5083 5113
+type(
+  string -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.search
+)
+"datastoreFunctor.ml" 165 5083 5114 "datastoreFunctor.ml" 165 5083 5120
+type(
+  string
+)
+ident(
+  int_ref filter "datastoreFunctor.ml" 164 5056 5067 "datastoreFunctor.ml" 164 5056 5073
+)
+"datastoreFunctor.ml" 165 5083 5122 "datastoreFunctor.ml" 165 5083 5127
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 165 5083 5121 "datastoreFunctor.ml" 165 5083 5127
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 165 5083 5101 "datastoreFunctor.ml" 165 5083 5127
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 166 5131 5139 "datastoreFunctor.ml" 166 5131 5144
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 166 5131 5147 "datastoreFunctor.ml" 166 5131 5157
+type(
+  (Ptree.e list -> Ptree.e -> Ptree.e list) ->
+  Ptree.e list -> Ptree.t -> Ptree.e list
+)
+ident(
+  ext_ref Ptree.fold
+)
+"datastoreFunctor.ml" 166 5131 5163 "datastoreFunctor.ml" 166 5131 5166
+type(
+  Ptree.e list
+)
+ident(
+  def acc "datastoreFunctor.ml" 166 5131 5167 "datastoreFunctor.ml" 166 5131 5181
+)
+"datastoreFunctor.ml" 166 5131 5167 "datastoreFunctor.ml" 166 5131 5168
+type(
+  Ptree.e
+)
+ident(
+  def e "datastoreFunctor.ml" 166 5131 5173 "datastoreFunctor.ml" 166 5131 5181
+)
+"datastoreFunctor.ml" 166 5131 5173 "datastoreFunctor.ml" 166 5131 5174
+type(
+  Ptree.e
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 166 5131 5167 "datastoreFunctor.ml" 166 5131 5168
+)
+"datastoreFunctor.ml" 166 5131 5178 "datastoreFunctor.ml" 166 5131 5181
+type(
+  Ptree.e list
+)
+ident(
+  int_ref acc "datastoreFunctor.ml" 166 5131 5163 "datastoreFunctor.ml" 166 5131 5166
+)
+"datastoreFunctor.ml" 166 5131 5173 "datastoreFunctor.ml" 166 5131 5181
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 166 5131 5167 "datastoreFunctor.ml" 166 5131 5181
+type(
+  Ptree.e -> Ptree.e list
+)
+"datastoreFunctor.ml" 166 5131 5163 "datastoreFunctor.ml" 166 5131 5181
+type(
+  Ptree.e list -> Ptree.e -> Ptree.e list
+)
+"datastoreFunctor.ml" 166 5131 5183 "datastoreFunctor.ml" 166 5131 5185
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 166 5131 5186 "datastoreFunctor.ml" 166 5131 5193
+type(
+  Ptree.t
+)
+ident(
+  int_ref subtree "datastoreFunctor.ml" 165 5083 5091 "datastoreFunctor.ml" 165 5083 5098
+)
+"datastoreFunctor.ml" 166 5131 5147 "datastoreFunctor.ml" 166 5131 5193
+call(
+  stack
+)
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 167 5197 5201 "datastoreFunctor.ml" 167 5197 5221
+type(
+  ('b -> Ptree.e -> 'b Lwt.t) -> 'b -> Ptree.e list -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt_list.fold_left_s
+)
+"datastoreFunctor.ml" 167 5197 5227 "datastoreFunctor.ml" 167 5197 5230
+type(
+  'b
+)
+ident(
+  def acc "datastoreFunctor.ml" 167 5197 5231 "datastoreFunctor.ml" 167 5197 5271
+)
+"datastoreFunctor.ml" 167 5197 5231 "datastoreFunctor.ml" 167 5197 5232
+type(
+  Ptree.e
+)
+ident(
+  def l "datastoreFunctor.ml" 167 5197 5236 "datastoreFunctor.ml" 167 5197 5271
+)
+"datastoreFunctor.ml" 167 5197 5236 "datastoreFunctor.ml" 167 5197 5239
+type(
+  int64 -> Data.t Lwt.t
+)
+ident(
+  int_ref get "datastoreFunctor.ml" 113 2961 2967 "datastoreFunctor.ml" 113 2961 2970
+)
+"datastoreFunctor.ml" 167 5197 5240 "datastoreFunctor.ml" 167 5197 5241
+type(
+  Ptree.e
+)
+ident(
+  int_ref l "datastoreFunctor.ml" 167 5197 5231 "datastoreFunctor.ml" 167 5197 5232
+)
+"datastoreFunctor.ml" 167 5197 5240 "datastoreFunctor.ml" 167 5197 5250
+type(
+  int64
+)
+"datastoreFunctor.ml" 167 5197 5236 "datastoreFunctor.ml" 167 5197 5250
+call(
+  stack
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 167 5197 5251 "datastoreFunctor.ml" 167 5197 5254
+type(
+  Data.t Lwt.t -> (Data.t -> 'b Lwt.t) -> 'b Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 167 5197 5259 "datastoreFunctor.ml" 167 5197 5260
+type(
+  Data.t
+)
+ident(
+  def e "datastoreFunctor.ml" 167 5197 5264 "datastoreFunctor.ml" 167 5197 5271
+)
+"datastoreFunctor.ml" 167 5197 5264 "datastoreFunctor.ml" 167 5197 5265
+type(
+  'b -> Data.t -> 'b Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 164 5056 5074 "datastoreFunctor.ml" 164 5056 5075
+)
+"datastoreFunctor.ml" 167 5197 5266 "datastoreFunctor.ml" 167 5197 5269
+type(
+  'b
+)
+ident(
+  int_ref acc "datastoreFunctor.ml" 167 5197 5227 "datastoreFunctor.ml" 167 5197 5230
+)
+"datastoreFunctor.ml" 167 5197 5270 "datastoreFunctor.ml" 167 5197 5271
+type(
+  Data.t
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 167 5197 5259 "datastoreFunctor.ml" 167 5197 5260
+)
+"datastoreFunctor.ml" 167 5197 5264 "datastoreFunctor.ml" 167 5197 5271
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"datastoreFunctor.ml" 167 5197 5259 "datastoreFunctor.ml" 167 5197 5271
+type(
+  Data.t -> 'b Lwt.t
+)
+"datastoreFunctor.ml" 167 5197 5236 "datastoreFunctor.ml" 167 5197 5271
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"datastoreFunctor.ml" 167 5197 5231 "datastoreFunctor.ml" 167 5197 5271
+type(
+  Ptree.e -> 'b Lwt.t
+)
+"datastoreFunctor.ml" 167 5197 5227 "datastoreFunctor.ml" 167 5197 5271
+type(
+  'b -> Ptree.e -> 'b Lwt.t
+)
+"datastoreFunctor.ml" 167 5197 5273 "datastoreFunctor.ml" 167 5197 5277
+type(
+  'b
+)
+ident(
+  int_ref init "datastoreFunctor.ml" 164 5056 5076 "datastoreFunctor.ml" 164 5056 5080
+)
+"datastoreFunctor.ml" 167 5197 5278 "datastoreFunctor.ml" 167 5197 5283
+type(
+  Ptree.e list
+)
+ident(
+  int_ref elist "datastoreFunctor.ml" 166 5131 5139 "datastoreFunctor.ml" 166 5131 5144
+)
+"datastoreFunctor.ml" 167 5197 5201 "datastoreFunctor.ml" 167 5197 5283
+call(
+  tail
+)
+type(
+  'b Lwt.t
+)
+"datastoreFunctor.ml" 166 5131 5135 "datastoreFunctor.ml" 167 5197 5283
+type(
+  'b Lwt.t
+)
+"datastoreFunctor.ml" 165 5083 5087 "datastoreFunctor.ml" 167 5197 5283
+type(
+  'b Lwt.t
+)
+"datastoreFunctor.ml" 164 5056 5076 "datastoreFunctor.ml" 167 5197 5283
+type(
+  'b -> 'b Lwt.t
+)
+"datastoreFunctor.ml" 164 5056 5074 "datastoreFunctor.ml" 167 5197 5283
+type(
+  ('b -> Data.t -> 'b Lwt.t) -> 'b -> 'b Lwt.t
+)
+"datastoreFunctor.ml" 164 5056 5067 "datastoreFunctor.ml" 167 5197 5283
+type(
+  string -> ('b -> Data.t -> 'b Lwt.t) -> 'b -> 'b Lwt.t
+)
+"datastoreFunctor.ml" 169 5285 5291 "datastoreFunctor.ml" 169 5285 5303
+type(
+  string -> ('c -> int64 -> 'c Lwt.t) -> 'c -> 'c Lwt.t
+)
+ident(
+  def fold_indices "datastoreFunctor.ml" 175 5562 5564 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 169 5285 5304 "datastoreFunctor.ml" 169 5285 5310
+type(
+  string
+)
+ident(
+  def filter "datastoreFunctor.ml" 169 5285 5311 "datastoreFunctor.ml" 172 5434 5501
+)
+"datastoreFunctor.ml" 169 5285 5311 "datastoreFunctor.ml" 169 5285 5312
+type(
+  'c -> int64 -> 'c Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 169 5285 5313 "datastoreFunctor.ml" 172 5434 5501
+)
+"datastoreFunctor.ml" 169 5285 5313 "datastoreFunctor.ml" 169 5285 5317
+type(
+  'c
+)
+ident(
+  def init "datastoreFunctor.ml" 170 5320 5324 "datastoreFunctor.ml" 172 5434 5501
+)
+"datastoreFunctor.ml" 170 5320 5328 "datastoreFunctor.ml" 170 5320 5335
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 170 5320 5338 "datastoreFunctor.ml" 170 5320 5350
+type(
+  string -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.search
+)
+"datastoreFunctor.ml" 170 5320 5351 "datastoreFunctor.ml" 170 5320 5357
+type(
+  string
+)
+ident(
+  int_ref filter "datastoreFunctor.ml" 169 5285 5304 "datastoreFunctor.ml" 169 5285 5310
+)
+"datastoreFunctor.ml" 170 5320 5359 "datastoreFunctor.ml" 170 5320 5364
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 170 5320 5358 "datastoreFunctor.ml" 170 5320 5364
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 170 5320 5338 "datastoreFunctor.ml" 170 5320 5364
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 171 5368 5376 "datastoreFunctor.ml" 171 5368 5381
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 171 5368 5384 "datastoreFunctor.ml" 171 5368 5394
+type(
+  (Ptree.e list -> Ptree.e -> Ptree.e list) ->
+  Ptree.e list -> Ptree.t -> Ptree.e list
+)
+ident(
+  ext_ref Ptree.fold
+)
+"datastoreFunctor.ml" 171 5368 5400 "datastoreFunctor.ml" 171 5368 5403
+type(
+  Ptree.e list
+)
+ident(
+  def acc "datastoreFunctor.ml" 171 5368 5404 "datastoreFunctor.ml" 171 5368 5418
+)
+"datastoreFunctor.ml" 171 5368 5404 "datastoreFunctor.ml" 171 5368 5405
+type(
+  Ptree.e
+)
+ident(
+  def e "datastoreFunctor.ml" 171 5368 5410 "datastoreFunctor.ml" 171 5368 5418
+)
+"datastoreFunctor.ml" 171 5368 5410 "datastoreFunctor.ml" 171 5368 5411
+type(
+  Ptree.e
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 171 5368 5404 "datastoreFunctor.ml" 171 5368 5405
+)
+"datastoreFunctor.ml" 171 5368 5415 "datastoreFunctor.ml" 171 5368 5418
+type(
+  Ptree.e list
+)
+ident(
+  int_ref acc "datastoreFunctor.ml" 171 5368 5400 "datastoreFunctor.ml" 171 5368 5403
+)
+"datastoreFunctor.ml" 171 5368 5410 "datastoreFunctor.ml" 171 5368 5418
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 171 5368 5404 "datastoreFunctor.ml" 171 5368 5418
+type(
+  Ptree.e -> Ptree.e list
+)
+"datastoreFunctor.ml" 171 5368 5400 "datastoreFunctor.ml" 171 5368 5418
+type(
+  Ptree.e list -> Ptree.e -> Ptree.e list
+)
+"datastoreFunctor.ml" 171 5368 5420 "datastoreFunctor.ml" 171 5368 5422
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 171 5368 5423 "datastoreFunctor.ml" 171 5368 5430
+type(
+  Ptree.t
+)
+ident(
+  int_ref subtree "datastoreFunctor.ml" 170 5320 5328 "datastoreFunctor.ml" 170 5320 5335
+)
+"datastoreFunctor.ml" 171 5368 5384 "datastoreFunctor.ml" 171 5368 5430
+call(
+  stack
+)
+type(
+  Ptree.e list
+)
+"datastoreFunctor.ml" 172 5434 5438 "datastoreFunctor.ml" 172 5434 5458
+type(
+  ('c -> Ptree.e -> 'c Lwt.t) -> 'c -> Ptree.e list -> 'c Lwt.t
+)
+ident(
+  ext_ref Lwt_list.fold_left_s
+)
+"datastoreFunctor.ml" 172 5434 5464 "datastoreFunctor.ml" 172 5434 5467
+type(
+  'c
+)
+ident(
+  def acc "datastoreFunctor.ml" 172 5434 5468 "datastoreFunctor.ml" 172 5434 5489
+)
+"datastoreFunctor.ml" 172 5434 5468 "datastoreFunctor.ml" 172 5434 5469
+type(
+  Ptree.e
+)
+ident(
+  def l "datastoreFunctor.ml" 172 5434 5473 "datastoreFunctor.ml" 172 5434 5489
+)
+"datastoreFunctor.ml" 172 5434 5473 "datastoreFunctor.ml" 172 5434 5474
+type(
+  'c -> int64 -> 'c Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 169 5285 5311 "datastoreFunctor.ml" 169 5285 5312
+)
+"datastoreFunctor.ml" 172 5434 5475 "datastoreFunctor.ml" 172 5434 5478
+type(
+  'c
+)
+ident(
+  int_ref acc "datastoreFunctor.ml" 172 5434 5464 "datastoreFunctor.ml" 172 5434 5467
+)
+"datastoreFunctor.ml" 172 5434 5479 "datastoreFunctor.ml" 172 5434 5480
+type(
+  Ptree.e
+)
+ident(
+  int_ref l "datastoreFunctor.ml" 172 5434 5468 "datastoreFunctor.ml" 172 5434 5469
+)
+"datastoreFunctor.ml" 172 5434 5479 "datastoreFunctor.ml" 172 5434 5489
+type(
+  int64
+)
+"datastoreFunctor.ml" 172 5434 5473 "datastoreFunctor.ml" 172 5434 5489
+call(
+  tail
+)
+type(
+  'c Lwt.t
+)
+"datastoreFunctor.ml" 172 5434 5468 "datastoreFunctor.ml" 172 5434 5489
+type(
+  Ptree.e -> 'c Lwt.t
+)
+"datastoreFunctor.ml" 172 5434 5464 "datastoreFunctor.ml" 172 5434 5489
+type(
+  'c -> Ptree.e -> 'c Lwt.t
+)
+"datastoreFunctor.ml" 172 5434 5491 "datastoreFunctor.ml" 172 5434 5495
+type(
+  'c
+)
+ident(
+  int_ref init "datastoreFunctor.ml" 169 5285 5313 "datastoreFunctor.ml" 169 5285 5317
+)
+"datastoreFunctor.ml" 172 5434 5496 "datastoreFunctor.ml" 172 5434 5501
+type(
+  Ptree.e list
+)
+ident(
+  int_ref elist "datastoreFunctor.ml" 171 5368 5376 "datastoreFunctor.ml" 171 5368 5381
+)
+"datastoreFunctor.ml" 172 5434 5438 "datastoreFunctor.ml" 172 5434 5501
+call(
+  tail
+)
+type(
+  'c Lwt.t
+)
+"datastoreFunctor.ml" 171 5368 5372 "datastoreFunctor.ml" 172 5434 5501
+type(
+  'c Lwt.t
+)
+"datastoreFunctor.ml" 170 5320 5324 "datastoreFunctor.ml" 172 5434 5501
+type(
+  'c Lwt.t
+)
+"datastoreFunctor.ml" 169 5285 5313 "datastoreFunctor.ml" 172 5434 5501
+type(
+  'c -> 'c Lwt.t
+)
+"datastoreFunctor.ml" 169 5285 5311 "datastoreFunctor.ml" 172 5434 5501
+type(
+  ('c -> int64 -> 'c Lwt.t) -> 'c -> 'c Lwt.t
+)
+"datastoreFunctor.ml" 169 5285 5304 "datastoreFunctor.ml" 172 5434 5501
+type(
+  string -> ('c -> int64 -> 'c Lwt.t) -> 'c -> 'c Lwt.t
+)
+"datastoreFunctor.ml" 175 5562 5568 "datastoreFunctor.ml" 175 5562 5576
+type(
+  'd -> 'e
+)
+ident(
+  def fold_lwt "datastoreFunctor.ml" 182 5780 5782 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 175 5562 5577 "datastoreFunctor.ml" 175 5562 5578
+type(
+  'd
+)
+"datastoreFunctor.ml" 175 5562 5581 "datastoreFunctor.ml" 175 5562 5593
+type(
+  'e
+)
+"datastoreFunctor.ml" 175 5562 5577 "datastoreFunctor.ml" 175 5562 5593
+type(
+  'd -> 'e
+)
+"datastoreFunctor.ml" 182 5780 5786 "datastoreFunctor.ml" 182 5780 5790
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def init "datastoreFunctor.ml" 191 6034 6036 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 182 5780 5791 "datastoreFunctor.ml" 182 5780 5793
+type(
+  unit
+)
+"datastoreFunctor.ml" 183 5796 5800 "datastoreFunctor.ml" 183 5796 5813
+type(
+  unit -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Data.load_all
+)
+"datastoreFunctor.ml" 183 5796 5814 "datastoreFunctor.ml" 183 5796 5816
+type(
+  unit
+)
+"datastoreFunctor.ml" 183 5796 5800 "datastoreFunctor.ml" 183 5796 5816
+call(
+  stack
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 184 5817 5821 "datastoreFunctor.ml" 184 5817 5824
+type(
+  Data.t list Lwt.t -> (Data.t list -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 184 5817 5825 "datastoreFunctor.ml" 184 5817 5840
+type(
+  (Data.t -> unit Lwt.t) -> Data.t list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 184 5817 5841 "datastoreFunctor.ml" 184 5817 5847
+type(
+  Data.t -> unit Lwt.t
+)
+ident(
+  int_ref insert "datastoreFunctor.ml" 123 3386 3392 "datastoreFunctor.ml" 123 3386 3398
+)
+"datastoreFunctor.ml" 184 5817 5825 "datastoreFunctor.ml" 184 5817 5847
+call(
+  stack
+)
+type(
+  Data.t list -> unit Lwt.t
+)
+"datastoreFunctor.ml" 183 5796 5800 "datastoreFunctor.ml" 184 5817 5847
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 182 5780 5791 "datastoreFunctor.ml" 184 5817 5847
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 191 6034 6040 "datastoreFunctor.ml" 191 6034 6056
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref
+)
+ident(
+  def custom_accessors "datastoreFunctor.ml" 193 6067 6069 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 191 6034 6059 "datastoreFunctor.ml" 191 6034 6062
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ->
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"datastoreFunctor.ml" 191 6034 6063 "datastoreFunctor.ml" 191 6034 6065
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list
+)
+"datastoreFunctor.ml" 191 6034 6059 "datastoreFunctor.ml" 191 6034 6065
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref
+)
+"datastoreFunctor.ml" 193 6067 6073 "datastoreFunctor.ml" 193 6067 6093
+type(
+  (Int64Map.key -> Data.t -> bool) -> Data.t custom_accessor
+)
+ident(
+  def make_custom_accessor "datastoreFunctor.ml" 264 8762 8764 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 193 6067 6094 "datastoreFunctor.ml" 193 6067 6107
+type(
+  Int64Map.key -> Data.t -> bool
+)
+ident(
+  def custom_filter "datastoreFunctor.ml" 194 6110 6114 "datastoreFunctor.ml" 248 8335 8392
+)
+"datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+type(
+  Int64Set.t Int64Map.t ref
+)
+"datastoreFunctor.ml" 194 6110 6133 "datastoreFunctor.ml" 194 6110 6136
+type(
+  Int64Set.t Int64Map.t -> Int64Set.t Int64Map.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"datastoreFunctor.ml" 194 6110 6137 "datastoreFunctor.ml" 194 6110 6151
+type(
+  Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Int64Map.empty
+)
+"datastoreFunctor.ml" 194 6110 6133 "datastoreFunctor.ml" 194 6110 6151
+type(
+  Int64Set.t Int64Map.t ref
+)
+"datastoreFunctor.ml" 195 6155 6161 "datastoreFunctor.ml" 195 6155 6177
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref
+)
+ident(
+  int_ref custom_accessors "datastoreFunctor.ml" 191 6034 6040 "datastoreFunctor.ml" 191 6034 6056
+)
+"datastoreFunctor.ml" 195 6155 6182 "datastoreFunctor.ml" 195 6155 6195
+type(
+  Int64Map.key -> Data.t -> bool
+)
+ident(
+  int_ref custom_filter "datastoreFunctor.ml" 193 6067 6094 "datastoreFunctor.ml" 193 6067 6107
+)
+"datastoreFunctor.ml" 195 6155 6197 "datastoreFunctor.ml" 195 6155 6209
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 195 6155 6182 "datastoreFunctor.ml" 195 6155 6209
+type(
+  (Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref
+)
+"datastoreFunctor.ml" 195 6155 6215 "datastoreFunctor.ml" 195 6155 6231
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref
+)
+ident(
+  int_ref custom_accessors "datastoreFunctor.ml" 191 6034 6040 "datastoreFunctor.ml" 191 6034 6056
+)
+"datastoreFunctor.ml" 195 6155 6214 "datastoreFunctor.ml" 195 6155 6231
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list
+)
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref ->
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 195 6155 6181 "datastoreFunctor.ml" 195 6155 6231
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list
+)
+"datastoreFunctor.ml" 195 6155 6161 "datastoreFunctor.ml" 195 6155 6231
+type(
+  unit
+)
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref ->
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 196 6233 6241 "datastoreFunctor.ml" 196 6233 6247
+type(
+  Int64Map.key -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 196 6233 6248 "datastoreFunctor.ml" 196 6233 6250
+type(
+  Int64Map.key
+)
+ident(
+  def id "datastoreFunctor.ml" 197 6253 6259 "datastoreFunctor.ml" 217 7198 7216
+)
+"datastoreFunctor.ml" 197 6253 6259 "datastoreFunctor.ml" 197 6253 6273
+type(
+  out_channel ->
+  (Int64Map.key -> unit, out_channel, unit) format -> Int64Map.key -> unit
+)
+ident(
+  ext_ref Printf.fprintf
+)
+"datastoreFunctor.ml" 197 6253 6274 "datastoreFunctor.ml" 197 6253 6280
+type(
+  out_channel
+)
+ident(
+  ext_ref Pervasives.stderr
+)
+"datastoreFunctor.ml" 197 6253 6281 "datastoreFunctor.ml" 197 6253 6297
+type(
+  (Int64Map.key -> unit, out_channel, unit) format
+)
+"datastoreFunctor.ml" 197 6253 6298 "datastoreFunctor.ml" 197 6253 6300
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 196 6233 6248 "datastoreFunctor.ml" 196 6233 6250
+)
+"datastoreFunctor.ml" 197 6253 6259 "datastoreFunctor.ml" 197 6253 6300
+call(
+  stack
+)
+type(
+  unit
+)
+"datastoreFunctor.ml" 198 6302 6312 "datastoreFunctor.ml" 198 6302 6323
+type(
+  Int64Set.t -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 198 6302 6324 "datastoreFunctor.ml" 198 6302 6327
+type(
+  Int64Set.t
+)
+ident(
+  def set "datastoreFunctor.ml" 199 6330 6331 "datastoreFunctor.ml" 199 6330 6446
+)
+"datastoreFunctor.ml" 199 6330 6331 "datastoreFunctor.ml" 199 6330 6348
+type(
+  Int64Set.t -> Int64Set.elt list
+)
+ident(
+  ext_ref Int64Set.elements
+)
+"datastoreFunctor.ml" 199 6330 6349 "datastoreFunctor.ml" 199 6330 6352
+type(
+  Int64Set.t
+)
+ident(
+  int_ref set "datastoreFunctor.ml" 198 6302 6324 "datastoreFunctor.ml" 198 6302 6327
+)
+"datastoreFunctor.ml" 199 6330 6331 "datastoreFunctor.ml" 199 6330 6352
+call(
+  stack
+)
+type(
+  Int64Set.elt list
+)
+"datastoreFunctor.ml" 199 6330 6353 "datastoreFunctor.ml" 199 6330 6356
+type(
+  Int64Set.elt list ->
+  (Int64Set.elt list -> Data.t list Lwt.t) -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Misc.>>>
+)
+"datastoreFunctor.ml" 199 6330 6357 "datastoreFunctor.ml" 199 6330 6377
+type(
+  (Data.t list -> Int64Set.elt -> Data.t list Lwt.t) ->
+  Data.t list -> Int64Set.elt list -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Lwt_list.fold_left_s
+)
+"datastoreFunctor.ml" 199 6330 6384 "datastoreFunctor.ml" 199 6330 6387
+type(
+  Data.t list
+)
+ident(
+  def acc "datastoreFunctor.ml" 199 6330 6388 "datastoreFunctor.ml" 199 6330 6441
+)
+"datastoreFunctor.ml" 199 6330 6388 "datastoreFunctor.ml" 199 6330 6390
+type(
+  Int64Set.elt
+)
+ident(
+  def id "datastoreFunctor.ml" 199 6330 6394 "datastoreFunctor.ml" 199 6330 6441
+)
+"datastoreFunctor.ml" 199 6330 6394 "datastoreFunctor.ml" 199 6330 6397
+type(
+  Int64Set.elt -> Data.t Lwt.t
+)
+ident(
+  int_ref get "datastoreFunctor.ml" 113 2961 2967 "datastoreFunctor.ml" 113 2961 2970
+)
+"datastoreFunctor.ml" 199 6330 6398 "datastoreFunctor.ml" 199 6330 6400
+type(
+  Int64Set.elt
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 199 6330 6388 "datastoreFunctor.ml" 199 6330 6390
+)
+"datastoreFunctor.ml" 199 6330 6394 "datastoreFunctor.ml" 199 6330 6400
+call(
+  stack
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6401 "datastoreFunctor.ml" 199 6330 6404
+type(
+  Data.t Lwt.t -> (Data.t -> Data.t list Lwt.t) -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 199 6330 6409 "datastoreFunctor.ml" 199 6330 6414
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 199 6330 6418 "datastoreFunctor.ml" 199 6330 6441
+)
+"datastoreFunctor.ml" 199 6330 6418 "datastoreFunctor.ml" 199 6330 6423
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 199 6330 6409 "datastoreFunctor.ml" 199 6330 6414
+)
+"datastoreFunctor.ml" 199 6330 6427 "datastoreFunctor.ml" 199 6330 6430
+type(
+  Data.t list
+)
+ident(
+  int_ref acc "datastoreFunctor.ml" 199 6330 6384 "datastoreFunctor.ml" 199 6330 6387
+)
+"datastoreFunctor.ml" 199 6330 6418 "datastoreFunctor.ml" 199 6330 6430
+type(
+  Data.t list
+)
+"datastoreFunctor.ml" 199 6330 6431 "datastoreFunctor.ml" 199 6330 6434
+type(
+  Data.t list -> (Data.t list -> Data.t list Lwt.t) -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Misc.>>>
+)
+"datastoreFunctor.ml" 199 6330 6435 "datastoreFunctor.ml" 199 6330 6441
+type(
+  Data.t list -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 199 6330 6418 "datastoreFunctor.ml" 199 6330 6441
+call(
+  tail
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6409 "datastoreFunctor.ml" 199 6330 6441
+type(
+  Data.t -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6394 "datastoreFunctor.ml" 199 6330 6441
+call(
+  tail
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6388 "datastoreFunctor.ml" 199 6330 6441
+type(
+  Int64Set.elt -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6384 "datastoreFunctor.ml" 199 6330 6441
+type(
+  Data.t list -> Int64Set.elt -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6444 "datastoreFunctor.ml" 199 6330 6446
+type(
+  Data.t list
+)
+"datastoreFunctor.ml" 199 6330 6357 "datastoreFunctor.ml" 199 6330 6446
+call(
+  stack
+)
+type(
+  Int64Set.elt list -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 199 6330 6331 "datastoreFunctor.ml" 199 6330 6446
+call(
+  tail
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 198 6302 6324 "datastoreFunctor.ml" 199 6330 6446
+type(
+  Int64Set.t -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 202 6463 6468 "datastoreFunctor.ml" 202 6463 6479
+type(
+  Int64Set.t -> Data.t list Lwt.t
+)
+ident(
+  int_ref list_of_set "datastoreFunctor.ml" 198 6302 6312 "datastoreFunctor.ml" 198 6302 6323
+)
+"datastoreFunctor.ml" 202 6463 6481 "datastoreFunctor.ml" 202 6463 6494
+type(
+  Int64Map.key -> Int64Set.t Int64Map.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Map.find
+)
+"datastoreFunctor.ml" 202 6463 6495 "datastoreFunctor.ml" 202 6463 6497
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 196 6233 6248 "datastoreFunctor.ml" 196 6233 6250
+)
+"datastoreFunctor.ml" 202 6463 6499 "datastoreFunctor.ml" 202 6463 6511
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 202 6463 6498 "datastoreFunctor.ml" 202 6463 6511
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 202 6463 6481 "datastoreFunctor.ml" 202 6463 6511
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 202 6463 6468 "datastoreFunctor.ml" 202 6463 6512
+call(
+  stack
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 203 6513 6521 "datastoreFunctor.ml" 203 6513 6530
+type(
+  exn
+)
+"datastoreFunctor.ml" 209 6785 6794 "datastoreFunctor.ml" 209 6785 6799
+type(
+  int64 list
+)
+"datastoreFunctor.ml" 209 6785 6802 "datastoreFunctor.ml" 209 6785 6812
+type(
+  (int64 list -> Ptree.e -> int64 list) ->
+  int64 list -> Ptree.t -> int64 list
+)
+ident(
+  ext_ref Ptree.fold
+)
+"datastoreFunctor.ml" 209 6785 6818 "datastoreFunctor.ml" 209 6785 6821
+type(
+  int64 list
+)
+ident(
+  def acc "datastoreFunctor.ml" 209 6785 6822 "datastoreFunctor.ml" 209 6785 6844
+)
+"datastoreFunctor.ml" 209 6785 6822 "datastoreFunctor.ml" 209 6785 6823
+type(
+  Ptree.e
+)
+ident(
+  def e "datastoreFunctor.ml" 209 6785 6827 "datastoreFunctor.ml" 209 6785 6844
+)
+"datastoreFunctor.ml" 209 6785 6827 "datastoreFunctor.ml" 209 6785 6828
+type(
+  Ptree.e
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 209 6785 6822 "datastoreFunctor.ml" 209 6785 6823
+)
+"datastoreFunctor.ml" 209 6785 6827 "datastoreFunctor.ml" 209 6785 6837
+type(
+  int64
+)
+"datastoreFunctor.ml" 209 6785 6841 "datastoreFunctor.ml" 209 6785 6844
+type(
+  int64 list
+)
+ident(
+  int_ref acc "datastoreFunctor.ml" 209 6785 6818 "datastoreFunctor.ml" 209 6785 6821
+)
+"datastoreFunctor.ml" 209 6785 6827 "datastoreFunctor.ml" 209 6785 6844
+type(
+  int64 list
+)
+"datastoreFunctor.ml" 209 6785 6822 "datastoreFunctor.ml" 209 6785 6844
+type(
+  Ptree.e -> int64 list
+)
+"datastoreFunctor.ml" 209 6785 6818 "datastoreFunctor.ml" 209 6785 6844
+type(
+  int64 list -> Ptree.e -> int64 list
+)
+"datastoreFunctor.ml" 209 6785 6846 "datastoreFunctor.ml" 209 6785 6848
+type(
+  int64 list
+)
+"datastoreFunctor.ml" 209 6785 6850 "datastoreFunctor.ml" 209 6785 6855
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 209 6785 6849 "datastoreFunctor.ml" 209 6785 6855
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 209 6785 6802 "datastoreFunctor.ml" 209 6785 6855
+call(
+  stack
+)
+type(
+  int64 list
+)
+"datastoreFunctor.ml" 210 6859 6866 "datastoreFunctor.ml" 210 6859 6886
+type(
+  (Data.t list * Int64Set.t -> int64 -> (Data.t list * Int64Set.t) Lwt.t) ->
+  Data.t list * Int64Set.t -> int64 list -> (Data.t list * Int64Set.t) Lwt.t
+)
+ident(
+  ext_ref Lwt_list.fold_left_s
+)
+"datastoreFunctor.ml" 210 6859 6893 "datastoreFunctor.ml" 210 6859 6898
+type(
+  Data.t list
+)
+ident(
+  def vlist "datastoreFunctor.ml" 210 6859 6906 "datastoreFunctor.ml" 214 7045 7083
+)
+"datastoreFunctor.ml" 210 6859 6900 "datastoreFunctor.ml" 210 6859 6904
+type(
+  Int64Set.t
+)
+ident(
+  def cset "datastoreFunctor.ml" 210 6859 6906 "datastoreFunctor.ml" 214 7045 7083
+)
+"datastoreFunctor.ml" 210 6859 6893 "datastoreFunctor.ml" 210 6859 6904
+type(
+  Data.t list * Int64Set.t
+)
+"datastoreFunctor.ml" 210 6859 6906 "datastoreFunctor.ml" 210 6859 6907
+type(
+  int64
+)
+ident(
+  def e "datastoreFunctor.ml" 211 6911 6921 "datastoreFunctor.ml" 214 7045 7083
+)
+"datastoreFunctor.ml" 211 6911 6921 "datastoreFunctor.ml" 211 6911 6924
+type(
+  int64 -> Data.t Lwt.t
+)
+ident(
+  int_ref get "datastoreFunctor.ml" 113 2961 2967 "datastoreFunctor.ml" 113 2961 2970
+)
+"datastoreFunctor.ml" 211 6911 6925 "datastoreFunctor.ml" 211 6911 6926
+type(
+  int64
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 210 6859 6906 "datastoreFunctor.ml" 210 6859 6907
+)
+"datastoreFunctor.ml" 211 6911 6921 "datastoreFunctor.ml" 211 6911 6926
+call(
+  stack
+)
+type(
+  Data.t Lwt.t
+)
+"datastoreFunctor.ml" 211 6911 6927 "datastoreFunctor.ml" 211 6911 6930
+type(
+  Data.t Lwt.t ->
+  (Data.t -> (Data.t list * Int64Set.t) Lwt.t) ->
+  (Data.t list * Int64Set.t) Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 211 6911 6935 "datastoreFunctor.ml" 211 6911 6936
+type(
+  Data.t
+)
+ident(
+  def e "datastoreFunctor.ml" 212 6940 6945 "datastoreFunctor.ml" 214 7045 7083
+)
+"datastoreFunctor.ml" 212 6940 6951 "datastoreFunctor.ml" 212 6940 6964
+type(
+  Int64Map.key -> Data.t -> bool
+)
+ident(
+  int_ref custom_filter "datastoreFunctor.ml" 193 6067 6094 "datastoreFunctor.ml" 193 6067 6107
+)
+"datastoreFunctor.ml" 212 6940 6965 "datastoreFunctor.ml" 212 6940 6967
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 196 6233 6248 "datastoreFunctor.ml" 196 6233 6250
+)
+"datastoreFunctor.ml" 212 6940 6968 "datastoreFunctor.ml" 212 6940 6969
+type(
+  Data.t
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 211 6911 6935 "datastoreFunctor.ml" 211 6911 6936
+)
+"datastoreFunctor.ml" 212 6940 6951 "datastoreFunctor.ml" 212 6940 6969
+call(
+  stack
+)
+type(
+  bool
+)
+"datastoreFunctor.ml" 213 6975 6984 "datastoreFunctor.ml" 213 6975 6988
+type(
+  bool
+)
+"datastoreFunctor.ml" 213 6975 6992 "datastoreFunctor.ml" 213 6975 6998
+type(
+  Data.t list * Int64Set.t -> (Data.t list * Int64Set.t) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 213 6975 7001 "datastoreFunctor.ml" 213 6975 7002
+type(
+  Data.t
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 211 6911 6935 "datastoreFunctor.ml" 211 6911 6936
+)
+"datastoreFunctor.ml" 213 6975 7004 "datastoreFunctor.ml" 213 6975 7009
+type(
+  Data.t list
+)
+ident(
+  int_ref vlist "datastoreFunctor.ml" 210 6859 6893 "datastoreFunctor.ml" 210 6859 6898
+)
+"datastoreFunctor.ml" 213 6975 7001 "datastoreFunctor.ml" 213 6975 7009
+type(
+  Data.t list
+)
+"datastoreFunctor.ml" 213 6975 7013 "datastoreFunctor.ml" 213 6975 7025
+type(
+  Int64Set.elt -> Int64Set.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Set.add
+)
+"datastoreFunctor.ml" 213 6975 7027 "datastoreFunctor.ml" 213 6975 7034
+type(
+  Data.t -> Int64Set.elt
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 213 6975 7035 "datastoreFunctor.ml" 213 6975 7036
+type(
+  Data.t
+)
+ident(
+  int_ref e "datastoreFunctor.ml" 211 6911 6935 "datastoreFunctor.ml" 211 6911 6936
+)
+"datastoreFunctor.ml" 213 6975 7027 "datastoreFunctor.ml" 213 6975 7036
+call(
+  stack
+)
+type(
+  Int64Set.elt
+)
+"datastoreFunctor.ml" 213 6975 7038 "datastoreFunctor.ml" 213 6975 7042
+type(
+  Int64Set.t
+)
+ident(
+  int_ref cset "datastoreFunctor.ml" 210 6859 6900 "datastoreFunctor.ml" 210 6859 6904
+)
+"datastoreFunctor.ml" 213 6975 7013 "datastoreFunctor.ml" 213 6975 7042
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 213 6975 7000 "datastoreFunctor.ml" 213 6975 7043
+type(
+  Data.t list * Int64Set.t
+)
+"datastoreFunctor.ml" 213 6975 6992 "datastoreFunctor.ml" 213 6975 7044
+call(
+  tail
+)
+type(
+  (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 214 7045 7054 "datastoreFunctor.ml" 214 7045 7059
+type(
+  bool
+)
+"datastoreFunctor.ml" 214 7045 7063 "datastoreFunctor.ml" 214 7045 7069
+type(
+  Data.t list * Int64Set.t -> (Data.t list * Int64Set.t) Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 214 7045 7071 "datastoreFunctor.ml" 214 7045 7076
+type(
+  Data.t list
+)
+ident(
+  int_ref vlist "datastoreFunctor.ml" 210 6859 6893 "datastoreFunctor.ml" 210 6859 6898
+)
+"datastoreFunctor.ml" 214 7045 7078 "datastoreFunctor.ml" 214 7045 7082
+type(
+  Int64Set.t
+)
+ident(
+  int_ref cset "datastoreFunctor.ml" 210 6859 6900 "datastoreFunctor.ml" 210 6859 6904
+)
+"datastoreFunctor.ml" 214 7045 7071 "datastoreFunctor.ml" 214 7045 7082
+type(
+  Data.t list * Int64Set.t
+)
+"datastoreFunctor.ml" 214 7045 7063 "datastoreFunctor.ml" 214 7045 7083
+call(
+  tail
+)
+type(
+  (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 212 6940 6945 "datastoreFunctor.ml" 214 7045 7083
+type(
+  (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 211 6911 6935 "datastoreFunctor.ml" 214 7045 7083
+type(
+  Data.t -> (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 211 6911 6921 "datastoreFunctor.ml" 214 7045 7083
+call(
+  tail
+)
+type(
+  (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 210 6859 6906 "datastoreFunctor.ml" 214 7045 7083
+type(
+  int64 -> (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 210 6859 6892 "datastoreFunctor.ml" 214 7045 7083
+type(
+  Data.t list * Int64Set.t -> int64 -> (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 214 7045 7086 "datastoreFunctor.ml" 214 7045 7088
+type(
+  Data.t list
+)
+"datastoreFunctor.ml" 214 7045 7090 "datastoreFunctor.ml" 214 7045 7104
+type(
+  Int64Set.t
+)
+ident(
+  ext_ref Int64Set.empty
+)
+"datastoreFunctor.ml" 214 7045 7086 "datastoreFunctor.ml" 214 7045 7104
+type(
+  Data.t list * Int64Set.t
+)
+"datastoreFunctor.ml" 214 7045 7106 "datastoreFunctor.ml" 214 7045 7111
+type(
+  int64 list
+)
+ident(
+  int_ref vlist "datastoreFunctor.ml" 209 6785 6794 "datastoreFunctor.ml" 209 6785 6799
+)
+"datastoreFunctor.ml" 210 6859 6866 "datastoreFunctor.ml" 214 7045 7111
+call(
+  stack
+)
+type(
+  (Data.t list * Int64Set.t) Lwt.t
+)
+"datastoreFunctor.ml" 215 7112 7119 "datastoreFunctor.ml" 215 7112 7122
+type(
+  (Data.t list * Int64Set.t) Lwt.t ->
+  (Data.t list * Int64Set.t -> Data.t list Lwt.t) -> Data.t list Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 215 7112 7128 "datastoreFunctor.ml" 215 7112 7133
+type(
+  Data.t list
+)
+ident(
+  def vlist "datastoreFunctor.ml" 216 7144 7146 "datastoreFunctor.ml" 217 7198 7216
+)
+"datastoreFunctor.ml" 215 7112 7135 "datastoreFunctor.ml" 215 7112 7139
+type(
+  Int64Set.t
+)
+ident(
+  def cset "datastoreFunctor.ml" 216 7144 7146 "datastoreFunctor.ml" 217 7198 7216
+)
+"datastoreFunctor.ml" 215 7112 7128 "datastoreFunctor.ml" 215 7112 7139
+type(
+  Data.t list * Int64Set.t
+)
+"datastoreFunctor.ml" 216 7144 7146 "datastoreFunctor.ml" 216 7144 7158
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 216 7144 7162 "datastoreFunctor.ml" 216 7144 7174
+type(
+  Int64Map.key ->
+  Int64Set.t -> Int64Set.t Int64Map.t -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Int64Map.add
+)
+"datastoreFunctor.ml" 216 7144 7175 "datastoreFunctor.ml" 216 7144 7177
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 196 6233 6248 "datastoreFunctor.ml" 196 6233 6250
+)
+"datastoreFunctor.ml" 216 7144 7178 "datastoreFunctor.ml" 216 7144 7182
+type(
+  Int64Set.t
+)
+ident(
+  int_ref cset "datastoreFunctor.ml" 215 7112 7135 "datastoreFunctor.ml" 215 7112 7139
+)
+"datastoreFunctor.ml" 216 7144 7184 "datastoreFunctor.ml" 216 7144 7196
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 216 7144 7183 "datastoreFunctor.ml" 216 7144 7196
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 216 7144 7162 "datastoreFunctor.ml" 216 7144 7196
+call(
+  stack
+)
+type(
+  Int64Set.t Int64Map.t
+)
+"datastoreFunctor.ml" 216 7144 7146 "datastoreFunctor.ml" 216 7144 7196
+type(
+  unit
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 217 7198 7200 "datastoreFunctor.ml" 217 7198 7211
+type(
+  Int64Set.t -> Data.t list Lwt.t
+)
+ident(
+  int_ref list_of_set "datastoreFunctor.ml" 198 6302 6312 "datastoreFunctor.ml" 198 6302 6323
+)
+"datastoreFunctor.ml" 217 7198 7212 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Int64Set.t
+)
+ident(
+  int_ref cset "datastoreFunctor.ml" 215 7112 7135 "datastoreFunctor.ml" 215 7112 7139
+)
+"datastoreFunctor.ml" 217 7198 7200 "datastoreFunctor.ml" 217 7198 7216
+call(
+  tail
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 216 7144 7146 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 215 7112 7127 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Data.t list * Int64Set.t -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 210 6859 6866 "datastoreFunctor.ml" 217 7198 7216
+call(
+  tail
+)
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 209 6785 6790 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 201 6456 6459 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 198 6302 6308 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 197 6253 6259 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 196 6233 6248 "datastoreFunctor.ml" 217 7198 7216
+type(
+  Int64Map.key -> Data.t list Lwt.t
+)
+"datastoreFunctor.ml" 220 7227 7235 "datastoreFunctor.ml" 220 7227 7243
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 220 7227 7244 "datastoreFunctor.ml" 220 7227 7246
+type(
+  Int64Map.key
+)
+ident(
+  def id "datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 229 7646 7696
+)
+"datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 220 7227 7252
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 221 7255 7262 "datastoreFunctor.ml" 229 7646 7696
+)
+"datastoreFunctor.ml" 221 7255 7266 "datastoreFunctor.ml" 221 7255 7274
+type(
+  int64
+)
+"datastoreFunctor.ml" 221 7255 7277 "datastoreFunctor.ml" 221 7255 7284
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 221 7255 7285 "datastoreFunctor.ml" 221 7255 7290
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 220 7227 7252
+)
+"datastoreFunctor.ml" 221 7255 7277 "datastoreFunctor.ml" 221 7255 7290
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 222 7294 7301 "datastoreFunctor.ml" 222 7294 7306
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 222 7294 7310 "datastoreFunctor.ml" 222 7294 7322
+type(
+  ?replace:bool -> Ptree.e -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.insert
+)
+"datastoreFunctor.ml" 222 7294 7332 "datastoreFunctor.ml" 222 7294 7336
+type(
+  bool
+)
+"datastoreFunctor.ml" 222 7294 7350 "datastoreFunctor.ml" 222 7294 7358
+type(
+  int64
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 221 7255 7266 "datastoreFunctor.ml" 221 7255 7274
+)
+"datastoreFunctor.ml" 222 7294 7376 "datastoreFunctor.ml" 222 7294 7391
+type(
+  Data.t -> string list
+)
+ident(
+  ext_ref Data.to_strings
+)
+"datastoreFunctor.ml" 222 7294 7392 "datastoreFunctor.ml" 222 7294 7397
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 220 7227 7252
+)
+"datastoreFunctor.ml" 222 7294 7376 "datastoreFunctor.ml" 222 7294 7397
+call(
+  stack
+)
+type(
+  string list
+)
+"datastoreFunctor.ml" 222 7294 7337 "datastoreFunctor.ml" 222 7294 7399
+type(
+  Ptree.e
+)
+"datastoreFunctor.ml" 222 7294 7401 "datastoreFunctor.ml" 222 7294 7406
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 222 7294 7400 "datastoreFunctor.ml" 222 7294 7406
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 222 7294 7310 "datastoreFunctor.ml" 222 7294 7406
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 222 7294 7301 "datastoreFunctor.ml" 222 7294 7406
+type(
+  unit
+)
+type(
+  Ptree.t ref -> Ptree.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 223 7409 7416 "datastoreFunctor.ml" 223 7409 7431
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 223 7409 7442 "datastoreFunctor.ml" 223 7409 7443
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 223 7409 7447 "datastoreFunctor.ml" 223 7409 7451
+)
+"datastoreFunctor.ml" 223 7409 7447 "datastoreFunctor.ml" 223 7409 7448
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 223 7409 7442 "datastoreFunctor.ml" 223 7409 7443
+)
+"datastoreFunctor.ml" 223 7409 7449 "datastoreFunctor.ml" 223 7409 7451
+type(
+  unit
+)
+"datastoreFunctor.ml" 223 7409 7447 "datastoreFunctor.ml" 223 7409 7451
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 223 7409 7433 "datastoreFunctor.ml" 223 7409 7451
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"datastoreFunctor.ml" 223 7409 7454 "datastoreFunctor.ml" 223 7409 7463
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 223 7409 7453 "datastoreFunctor.ml" 223 7409 7463
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 223 7409 7416 "datastoreFunctor.ml" 223 7409 7463
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 224 7464 7471 "datastoreFunctor.ml" 224 7464 7474
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 224 7464 7479 "datastoreFunctor.ml" 224 7464 7480
+type(
+  unit
+)
+"datastoreFunctor.ml" 225 7484 7491 "datastoreFunctor.ml" 225 7484 7503
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 225 7484 7507 "datastoreFunctor.ml" 225 7484 7519
+type(
+  Int64Map.key ->
+  Int64Set.t -> Int64Set.t Int64Map.t -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Int64Map.add
+)
+"datastoreFunctor.ml" 225 7484 7520 "datastoreFunctor.ml" 225 7484 7522
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 220 7227 7244 "datastoreFunctor.ml" 220 7227 7246
+)
+"datastoreFunctor.ml" 226 7523 7526 "datastoreFunctor.ml" 226 7523 7538
+type(
+  Int64Set.elt -> Int64Set.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Set.add
+)
+"datastoreFunctor.ml" 226 7523 7539 "datastoreFunctor.ml" 226 7523 7547
+type(
+  Int64Set.elt
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 221 7255 7266 "datastoreFunctor.ml" 221 7255 7274
+)
+"datastoreFunctor.ml" 227 7548 7558 "datastoreFunctor.ml" 227 7548 7571
+type(
+  Int64Map.key -> Int64Set.t Int64Map.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Map.find
+)
+"datastoreFunctor.ml" 227 7548 7572 "datastoreFunctor.ml" 227 7548 7574
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 220 7227 7244 "datastoreFunctor.ml" 220 7227 7246
+)
+"datastoreFunctor.ml" 227 7548 7576 "datastoreFunctor.ml" 227 7548 7588
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 227 7548 7575 "datastoreFunctor.ml" 227 7548 7588
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 227 7548 7558 "datastoreFunctor.ml" 227 7548 7588
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 228 7589 7600 "datastoreFunctor.ml" 228 7589 7609
+type(
+  exn
+)
+"datastoreFunctor.ml" 228 7589 7613 "datastoreFunctor.ml" 228 7589 7627
+type(
+  Int64Set.t
+)
+ident(
+  ext_ref Int64Set.empty
+)
+"datastoreFunctor.ml" 227 7548 7554 "datastoreFunctor.ml" 228 7589 7627
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 226 7523 7526 "datastoreFunctor.ml" 228 7589 7628
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 228 7589 7631 "datastoreFunctor.ml" 228 7589 7643
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 228 7589 7630 "datastoreFunctor.ml" 228 7589 7643
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 225 7484 7507 "datastoreFunctor.ml" 228 7589 7643
+call(
+  stack
+)
+type(
+  Int64Set.t Int64Map.t
+)
+"datastoreFunctor.ml" 225 7484 7491 "datastoreFunctor.ml" 228 7589 7643
+type(
+  unit
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 229 7646 7653 "datastoreFunctor.ml" 229 7646 7658
+type(
+  OcsigenCache.cache
+)
+ident(
+  int_ref cache "datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+)
+"datastoreFunctor.ml" 229 7646 7653 "datastoreFunctor.ml" 229 7646 7662
+type(
+  int64 -> Data.t -> unit
+)
+"datastoreFunctor.ml" 229 7646 7664 "datastoreFunctor.ml" 229 7646 7671
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 229 7646 7672 "datastoreFunctor.ml" 229 7646 7677
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 220 7227 7252
+)
+"datastoreFunctor.ml" 229 7646 7664 "datastoreFunctor.ml" 229 7646 7677
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 229 7646 7679 "datastoreFunctor.ml" 229 7646 7684
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 220 7227 7252
+)
+"datastoreFunctor.ml" 229 7646 7653 "datastoreFunctor.ml" 229 7646 7684
+type(
+  unit
+)
+"datastoreFunctor.ml" 229 7646 7687 "datastoreFunctor.ml" 229 7646 7693
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 229 7646 7694 "datastoreFunctor.ml" 229 7646 7696
+type(
+  unit
+)
+"datastoreFunctor.ml" 229 7646 7687 "datastoreFunctor.ml" 229 7646 7696
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 229 7646 7653 "datastoreFunctor.ml" 229 7646 7696
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 225 7484 7491 "datastoreFunctor.ml" 229 7646 7696
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 224 7464 7479 "datastoreFunctor.ml" 229 7646 7696
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 223 7409 7416 "datastoreFunctor.ml" 229 7646 7696
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 222 7294 7301 "datastoreFunctor.ml" 229 7646 7696
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 221 7255 7262 "datastoreFunctor.ml" 229 7646 7696
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 220 7227 7247 "datastoreFunctor.ml" 229 7646 7696
+type(
+  Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 220 7227 7244 "datastoreFunctor.ml" 229 7646 7696
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 232 7702 7710 "datastoreFunctor.ml" 232 7702 7717
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 232 7702 7718 "datastoreFunctor.ml" 232 7702 7720
+type(
+  Int64Map.key
+)
+ident(
+  def id "datastoreFunctor.ml" 232 7702 7721 "datastoreFunctor.ml" 245 8269 8324
+)
+"datastoreFunctor.ml" 232 7702 7721 "datastoreFunctor.ml" 232 7702 7726
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 233 7729 7737 "datastoreFunctor.ml" 245 8269 8324
+)
+"datastoreFunctor.ml" 233 7729 7741 "datastoreFunctor.ml" 233 7729 7749
+type(
+  int64
+)
+"datastoreFunctor.ml" 233 7729 7752 "datastoreFunctor.ml" 233 7729 7759
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 233 7729 7760 "datastoreFunctor.ml" 233 7729 7765
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 232 7702 7721 "datastoreFunctor.ml" 232 7702 7726
+)
+"datastoreFunctor.ml" 233 7729 7752 "datastoreFunctor.ml" 233 7729 7765
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 241 8101 8109 "datastoreFunctor.ml" 241 8101 8121
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 241 8101 8125 "datastoreFunctor.ml" 241 8101 8137
+type(
+  Int64Map.key ->
+  Int64Set.t -> Int64Set.t Int64Map.t -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Int64Map.add
+)
+"datastoreFunctor.ml" 241 8101 8138 "datastoreFunctor.ml" 241 8101 8140
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 232 7702 7718 "datastoreFunctor.ml" 232 7702 7720
+)
+"datastoreFunctor.ml" 242 8141 8145 "datastoreFunctor.ml" 242 8141 8160
+type(
+  Int64Set.elt -> Int64Set.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Set.remove
+)
+"datastoreFunctor.ml" 242 8141 8161 "datastoreFunctor.ml" 242 8141 8169
+type(
+  Int64Set.elt
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 233 7729 7741 "datastoreFunctor.ml" 233 7729 7749
+)
+"datastoreFunctor.ml" 243 8170 8181 "datastoreFunctor.ml" 243 8170 8194
+type(
+  Int64Map.key -> Int64Set.t Int64Map.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Map.find
+)
+"datastoreFunctor.ml" 243 8170 8195 "datastoreFunctor.ml" 243 8170 8197
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 232 7702 7718 "datastoreFunctor.ml" 232 7702 7720
+)
+"datastoreFunctor.ml" 243 8170 8199 "datastoreFunctor.ml" 243 8170 8211
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 243 8170 8198 "datastoreFunctor.ml" 243 8170 8211
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 243 8170 8181 "datastoreFunctor.ml" 243 8170 8211
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 244 8212 8224 "datastoreFunctor.ml" 244 8212 8233
+type(
+  exn
+)
+"datastoreFunctor.ml" 244 8212 8237 "datastoreFunctor.ml" 244 8212 8251
+type(
+  Int64Set.t
+)
+ident(
+  ext_ref Int64Set.empty
+)
+"datastoreFunctor.ml" 243 8170 8177 "datastoreFunctor.ml" 244 8212 8251
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 242 8141 8145 "datastoreFunctor.ml" 244 8212 8252
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 244 8212 8255 "datastoreFunctor.ml" 244 8212 8267
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 194 6110 6118 "datastoreFunctor.ml" 194 6110 6130
+)
+"datastoreFunctor.ml" 244 8212 8254 "datastoreFunctor.ml" 244 8212 8267
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 241 8101 8125 "datastoreFunctor.ml" 244 8212 8267
+call(
+  stack
+)
+type(
+  Int64Set.t Int64Map.t
+)
+"datastoreFunctor.ml" 241 8101 8109 "datastoreFunctor.ml" 244 8212 8267
+type(
+  unit
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 245 8269 8277 "datastoreFunctor.ml" 245 8269 8292
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 245 8269 8303 "datastoreFunctor.ml" 245 8269 8304
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 245 8269 8308 "datastoreFunctor.ml" 245 8269 8312
+)
+"datastoreFunctor.ml" 245 8269 8308 "datastoreFunctor.ml" 245 8269 8309
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 245 8269 8303 "datastoreFunctor.ml" 245 8269 8304
+)
+"datastoreFunctor.ml" 245 8269 8310 "datastoreFunctor.ml" 245 8269 8312
+type(
+  unit
+)
+"datastoreFunctor.ml" 245 8269 8308 "datastoreFunctor.ml" 245 8269 8312
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 245 8269 8294 "datastoreFunctor.ml" 245 8269 8312
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"datastoreFunctor.ml" 245 8269 8315 "datastoreFunctor.ml" 245 8269 8324
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 245 8269 8314 "datastoreFunctor.ml" 245 8269 8324
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 245 8269 8277 "datastoreFunctor.ml" 245 8269 8324
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 241 8101 8109 "datastoreFunctor.ml" 245 8269 8324
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 233 7729 7737 "datastoreFunctor.ml" 245 8269 8324
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 232 7702 7721 "datastoreFunctor.ml" 245 8269 8324
+type(
+  Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 232 7702 7718 "datastoreFunctor.ml" 245 8269 8324
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 248 8335 8347 "datastoreFunctor.ml" 248 8335 8353
+type(
+  Int64Map.key -> Data.t list Lwt.t
+)
+ident(
+  int_ref getter "datastoreFunctor.ml" 196 6233 6241 "datastoreFunctor.ml" 196 6233 6247
+)
+"datastoreFunctor.ml" 248 8335 8364 "datastoreFunctor.ml" 248 8335 8372
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+ident(
+  int_ref inserter "datastoreFunctor.ml" 220 7227 7235 "datastoreFunctor.ml" 220 7227 7243
+)
+"datastoreFunctor.ml" 248 8335 8383 "datastoreFunctor.ml" 248 8335 8390
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+ident(
+  int_ref remover "datastoreFunctor.ml" 232 7702 7710 "datastoreFunctor.ml" 232 7702 7717
+)
+"datastoreFunctor.ml" 248 8335 8339 "datastoreFunctor.ml" 248 8335 8392
+type(
+  Data.t custom_accessor
+)
+"datastoreFunctor.ml" 232 7702 7706 "datastoreFunctor.ml" 248 8335 8392
+type(
+  Data.t custom_accessor
+)
+"datastoreFunctor.ml" 220 7227 7231 "datastoreFunctor.ml" 248 8335 8392
+type(
+  Data.t custom_accessor
+)
+"datastoreFunctor.ml" 196 6233 6237 "datastoreFunctor.ml" 248 8335 8392
+type(
+  Data.t custom_accessor
+)
+"datastoreFunctor.ml" 195 6155 6161 "datastoreFunctor.ml" 248 8335 8392
+type(
+  Data.t custom_accessor
+)
+"datastoreFunctor.ml" 194 6110 6114 "datastoreFunctor.ml" 248 8335 8392
+type(
+  Data.t custom_accessor
+)
+"datastoreFunctor.ml" 193 6067 6094 "datastoreFunctor.ml" 248 8335 8392
+type(
+  (Int64Map.key -> Data.t -> bool) -> Data.t custom_accessor
+)
+"datastoreFunctor.ml" 264 8762 8768 "datastoreFunctor.ml" 264 8762 8781
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+ident(
+  def custom_insert "datastoreFunctor.ml" 297 9689 9691 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 264 8762 8782 "datastoreFunctor.ml" 264 8762 8784
+type(
+  Int64Map.key
+)
+ident(
+  def id "datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 288 9454 9500
+)
+"datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 264 8762 8790
+type(
+  Data.t
+)
+ident(
+  def value "datastoreFunctor.ml" 265 8793 8797 "datastoreFunctor.ml" 288 9454 9500
+)
+"datastoreFunctor.ml" 265 8793 8797 "datastoreFunctor.ml" 265 8793 8811
+type(
+  Lwt_mutex.t -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_mutex.lock
+)
+"datastoreFunctor.ml" 265 8793 8812 "datastoreFunctor.ml" 265 8793 8815
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 265 8793 8797 "datastoreFunctor.ml" 265 8793 8815
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 266 8816 8820 "datastoreFunctor.ml" 266 8816 8823
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 266 8816 8828 "datastoreFunctor.ml" 266 8816 8829
+type(
+  unit
+)
+"datastoreFunctor.ml" 266 8816 8837 "datastoreFunctor.ml" 266 8816 8845
+type(
+  int64
+)
+"datastoreFunctor.ml" 266 8816 8848 "datastoreFunctor.ml" 266 8816 8855
+type(
+  Data.t -> int64
+)
+ident(
+  ext_ref Data.id
+)
+"datastoreFunctor.ml" 266 8816 8856 "datastoreFunctor.ml" 266 8816 8861
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 264 8762 8790
+)
+"datastoreFunctor.ml" 266 8816 8848 "datastoreFunctor.ml" 266 8816 8861
+call(
+  stack
+)
+type(
+  int64
+)
+"datastoreFunctor.ml" 267 8865 8871 "datastoreFunctor.ml" 267 8865 8876
+type(
+  OcsigenCache.cache
+)
+ident(
+  int_ref cache "datastoreFunctor.ml" 106 2636 2642 "datastoreFunctor.ml" 106 2636 2647
+)
+"datastoreFunctor.ml" 267 8865 8871 "datastoreFunctor.ml" 267 8865 8880
+type(
+  int64 -> Data.t -> unit
+)
+"datastoreFunctor.ml" 267 8865 8881 "datastoreFunctor.ml" 267 8865 8889
+type(
+  int64
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 266 8816 8837 "datastoreFunctor.ml" 266 8816 8845
+)
+"datastoreFunctor.ml" 267 8865 8890 "datastoreFunctor.ml" 267 8865 8895
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 264 8762 8790
+)
+"datastoreFunctor.ml" 267 8865 8871 "datastoreFunctor.ml" 267 8865 8895
+type(
+  unit
+)
+"datastoreFunctor.ml" 268 8898 8904 "datastoreFunctor.ml" 268 8898 8909
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 268 8898 8913 "datastoreFunctor.ml" 268 8898 8925
+type(
+  ?replace:bool -> Ptree.e -> Ptree.t -> Ptree.t
+)
+ident(
+  ext_ref Ptree.insert
+)
+"datastoreFunctor.ml" 268 8898 8935 "datastoreFunctor.ml" 268 8898 8939
+type(
+  bool
+)
+"datastoreFunctor.ml" 269 8940 8954 "datastoreFunctor.ml" 269 8940 8962
+type(
+  int64
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 266 8816 8837 "datastoreFunctor.ml" 266 8816 8845
+)
+"datastoreFunctor.ml" 270 8965 8983 "datastoreFunctor.ml" 270 8965 8998
+type(
+  Data.t -> string list
+)
+ident(
+  ext_ref Data.to_strings
+)
+"datastoreFunctor.ml" 270 8965 8999 "datastoreFunctor.ml" 270 8965 9004
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 264 8762 8790
+)
+"datastoreFunctor.ml" 270 8965 8983 "datastoreFunctor.ml" 270 8965 9004
+call(
+  stack
+)
+type(
+  string list
+)
+"datastoreFunctor.ml" 269 8940 8941 "datastoreFunctor.ml" 270 8965 9006
+type(
+  Ptree.e
+)
+"datastoreFunctor.ml" 270 8965 9008 "datastoreFunctor.ml" 270 8965 9013
+type(
+  Ptree.t ref
+)
+ident(
+  int_ref ptree "datastoreFunctor.ml" 100 2419 2425 "datastoreFunctor.ml" 100 2419 2430
+)
+"datastoreFunctor.ml" 270 8965 9007 "datastoreFunctor.ml" 270 8965 9013
+type(
+  Ptree.t
+)
+type(
+  Ptree.t ref -> Ptree.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 268 8898 8913 "datastoreFunctor.ml" 270 8965 9013
+call(
+  stack
+)
+type(
+  Ptree.t
+)
+"datastoreFunctor.ml" 268 8898 8904 "datastoreFunctor.ml" 270 8965 9013
+type(
+  unit
+)
+type(
+  Ptree.t ref -> Ptree.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 272 9017 9023 "datastoreFunctor.ml" 272 9017 9038
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref -> unit Lwt.t) ->
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ->
+  unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 273 9039 9046 "datastoreFunctor.ml" 273 9039 9059
+type(
+  Int64Map.key -> Data.t -> bool
+)
+ident(
+  def custom_filter "datastoreFunctor.ml" 274 9078 9082 "datastoreFunctor.ml" 284 9349 9364
+)
+"datastoreFunctor.ml" 273 9039 9061 "datastoreFunctor.ml" 273 9039 9073
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  def custom_cache "datastoreFunctor.ml" 274 9078 9082 "datastoreFunctor.ml" 284 9349 9364
+)
+"datastoreFunctor.ml" 273 9039 9046 "datastoreFunctor.ml" 273 9039 9073
+type(
+  (Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref
+)
+"datastoreFunctor.ml" 274 9078 9086 "datastoreFunctor.ml" 274 9078 9089
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 275 9096 9102 "datastoreFunctor.ml" 275 9096 9115
+type(
+  Int64Map.key -> Int64Set.t Int64Map.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Map.find
+)
+"datastoreFunctor.ml" 275 9096 9116 "datastoreFunctor.ml" 275 9096 9118
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 264 8762 8782 "datastoreFunctor.ml" 264 8762 8784
+)
+"datastoreFunctor.ml" 275 9096 9120 "datastoreFunctor.ml" 275 9096 9132
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 273 9039 9061 "datastoreFunctor.ml" 273 9039 9073
+)
+"datastoreFunctor.ml" 275 9096 9119 "datastoreFunctor.ml" 275 9096 9132
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 275 9096 9102 "datastoreFunctor.ml" 275 9096 9132
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 276 9133 9142 "datastoreFunctor.ml" 276 9133 9151
+type(
+  exn
+)
+"datastoreFunctor.ml" 276 9133 9155 "datastoreFunctor.ml" 276 9133 9169
+type(
+  Int64Set.t
+)
+ident(
+  ext_ref Int64Set.empty
+)
+"datastoreFunctor.ml" 274 9078 9092 "datastoreFunctor.ml" 276 9133 9169
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 278 9177 9183 "datastoreFunctor.ml" 278 9177 9195
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 273 9039 9061 "datastoreFunctor.ml" 273 9039 9073
+)
+"datastoreFunctor.ml" 278 9177 9199 "datastoreFunctor.ml" 278 9177 9211
+type(
+  Int64Map.key ->
+  Int64Set.t -> Int64Set.t Int64Map.t -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Int64Map.add
+)
+"datastoreFunctor.ml" 278 9177 9212 "datastoreFunctor.ml" 278 9177 9214
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 264 8762 8782 "datastoreFunctor.ml" 264 8762 8784
+)
+"datastoreFunctor.ml" 279 9215 9227 "datastoreFunctor.ml" 279 9215 9240
+type(
+  Int64Map.key -> Data.t -> bool
+)
+ident(
+  int_ref custom_filter "datastoreFunctor.ml" 273 9039 9046 "datastoreFunctor.ml" 273 9039 9059
+)
+"datastoreFunctor.ml" 279 9215 9241 "datastoreFunctor.ml" 279 9215 9243
+type(
+  Int64Map.key
+)
+ident(
+  int_ref id "datastoreFunctor.ml" 264 8762 8782 "datastoreFunctor.ml" 264 8762 8784
+)
+"datastoreFunctor.ml" 279 9215 9244 "datastoreFunctor.ml" 279 9215 9249
+type(
+  Data.t
+)
+ident(
+  int_ref value "datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 264 8762 8790
+)
+"datastoreFunctor.ml" 279 9215 9227 "datastoreFunctor.ml" 279 9215 9249
+call(
+  stack
+)
+type(
+  bool
+)
+"datastoreFunctor.ml" 280 9255 9259 "datastoreFunctor.ml" 280 9255 9271
+type(
+  Int64Set.elt -> Int64Set.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Set.add
+)
+"datastoreFunctor.ml" 280 9255 9272 "datastoreFunctor.ml" 280 9255 9280
+type(
+  Int64Set.elt
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 266 8816 8837 "datastoreFunctor.ml" 266 8816 8845
+)
+"datastoreFunctor.ml" 280 9255 9281 "datastoreFunctor.ml" 280 9255 9284
+type(
+  Int64Set.t
+)
+ident(
+  int_ref set "datastoreFunctor.ml" 274 9078 9086 "datastoreFunctor.ml" 274 9078 9089
+)
+"datastoreFunctor.ml" 280 9255 9259 "datastoreFunctor.ml" 280 9255 9284
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 282 9292 9296 "datastoreFunctor.ml" 282 9292 9311
+type(
+  Int64Set.elt -> Int64Set.t -> Int64Set.t
+)
+ident(
+  ext_ref Int64Set.remove
+)
+"datastoreFunctor.ml" 282 9292 9312 "datastoreFunctor.ml" 282 9292 9320
+type(
+  Int64Set.elt
+)
+ident(
+  int_ref value_id "datastoreFunctor.ml" 266 8816 8837 "datastoreFunctor.ml" 266 8816 8845
+)
+"datastoreFunctor.ml" 282 9292 9321 "datastoreFunctor.ml" 282 9292 9324
+type(
+  Int64Set.t
+)
+ident(
+  int_ref set "datastoreFunctor.ml" 274 9078 9086 "datastoreFunctor.ml" 274 9078 9089
+)
+"datastoreFunctor.ml" 282 9292 9296 "datastoreFunctor.ml" 282 9292 9324
+call(
+  stack
+)
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 279 9215 9224 "datastoreFunctor.ml" 282 9292 9324
+type(
+  Int64Set.t
+)
+"datastoreFunctor.ml" 283 9326 9335 "datastoreFunctor.ml" 283 9326 9347
+type(
+  Int64Set.t Int64Map.t ref
+)
+ident(
+  int_ref custom_cache "datastoreFunctor.ml" 273 9039 9061 "datastoreFunctor.ml" 273 9039 9073
+)
+"datastoreFunctor.ml" 283 9326 9334 "datastoreFunctor.ml" 283 9326 9347
+type(
+  Int64Set.t Int64Map.t
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 278 9177 9199 "datastoreFunctor.ml" 283 9326 9347
+call(
+  stack
+)
+type(
+  Int64Set.t Int64Map.t
+)
+"datastoreFunctor.ml" 278 9177 9183 "datastoreFunctor.ml" 283 9326 9347
+type(
+  unit
+)
+type(
+  Int64Set.t Int64Map.t ref -> Int64Set.t Int64Map.t -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 284 9349 9355 "datastoreFunctor.ml" 284 9349 9361
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 284 9349 9362 "datastoreFunctor.ml" 284 9349 9364
+type(
+  unit
+)
+"datastoreFunctor.ml" 284 9349 9355 "datastoreFunctor.ml" 284 9349 9364
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 278 9177 9183 "datastoreFunctor.ml" 284 9349 9364
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 274 9078 9082 "datastoreFunctor.ml" 284 9349 9364
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 273 9039 9045 "datastoreFunctor.ml" 284 9349 9364
+type(
+  (Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref -> unit Lwt.t
+)
+"datastoreFunctor.ml" 285 9365 9369 "datastoreFunctor.ml" 285 9365 9385
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref
+)
+ident(
+  int_ref custom_accessors "datastoreFunctor.ml" 191 6034 6040 "datastoreFunctor.ml" 191 6034 6056
+)
+"datastoreFunctor.ml" 285 9365 9368 "datastoreFunctor.ml" 285 9365 9385
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list
+)
+type(
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list ref ->
+  ((Int64Map.key -> Data.t -> bool) * Int64Set.t Int64Map.t ref) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 272 9017 9023 "datastoreFunctor.ml" 285 9365 9385
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 286 9386 9392 "datastoreFunctor.ml" 286 9386 9395
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 286 9386 9400 "datastoreFunctor.ml" 286 9386 9401
+type(
+  unit
+)
+"datastoreFunctor.ml" 286 9386 9405 "datastoreFunctor.ml" 286 9386 9420
+type(
+  ((unit -> unit Lwt.t) -> unit Lwt.t) ->
+  (unit -> unit Lwt.t) list -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt_list.iter_s
+)
+"datastoreFunctor.ml" 286 9386 9431 "datastoreFunctor.ml" 286 9386 9432
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 286 9386 9436 "datastoreFunctor.ml" 286 9386 9440
+)
+"datastoreFunctor.ml" 286 9386 9436 "datastoreFunctor.ml" 286 9386 9437
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 286 9386 9431 "datastoreFunctor.ml" 286 9386 9432
+)
+"datastoreFunctor.ml" 286 9386 9438 "datastoreFunctor.ml" 286 9386 9440
+type(
+  unit
+)
+"datastoreFunctor.ml" 286 9386 9436 "datastoreFunctor.ml" 286 9386 9440
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 286 9386 9422 "datastoreFunctor.ml" 286 9386 9440
+type(
+  (unit -> unit Lwt.t) -> unit Lwt.t
+)
+"datastoreFunctor.ml" 286 9386 9443 "datastoreFunctor.ml" 286 9386 9452
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 286 9386 9442 "datastoreFunctor.ml" 286 9386 9452
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 286 9386 9405 "datastoreFunctor.ml" 286 9386 9452
+call(
+  stack
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 288 9454 9455 "datastoreFunctor.ml" 288 9454 9458
+type(
+  unit Lwt.t -> (unit -> unit Lwt.t) -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.>>=
+)
+"datastoreFunctor.ml" 288 9454 9463 "datastoreFunctor.ml" 288 9454 9464
+type(
+  unit
+)
+"datastoreFunctor.ml" 288 9454 9468 "datastoreFunctor.ml" 288 9454 9484
+type(
+  Lwt_mutex.t -> unit
+)
+ident(
+  ext_ref Lwt_mutex.unlock
+)
+"datastoreFunctor.ml" 288 9454 9485 "datastoreFunctor.ml" 288 9454 9488
+type(
+  Lwt_mutex.t
+)
+ident(
+  int_ref mtx "datastoreFunctor.ml" 97 2347 2353 "datastoreFunctor.ml" 97 2347 2356
+)
+"datastoreFunctor.ml" 288 9454 9468 "datastoreFunctor.ml" 288 9454 9488
+call(
+  stack
+)
+type(
+  unit
+)
+"datastoreFunctor.ml" 288 9454 9491 "datastoreFunctor.ml" 288 9454 9497
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  ext_ref Lwt.return
+)
+"datastoreFunctor.ml" 288 9454 9498 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit
+)
+"datastoreFunctor.ml" 288 9454 9491 "datastoreFunctor.ml" 288 9454 9500
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 288 9454 9468 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 288 9454 9463 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 286 9386 9405 "datastoreFunctor.ml" 288 9454 9500
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 286 9386 9400 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 272 9017 9023 "datastoreFunctor.ml" 288 9454 9500
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 268 8898 8904 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 267 8865 8871 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 266 8816 8833 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 266 8816 8828 "datastoreFunctor.ml" 288 9454 9500
+type(
+  unit -> unit Lwt.t
+)
+"datastoreFunctor.ml" 265 8793 8797 "datastoreFunctor.ml" 288 9454 9500
+call(
+  tail
+)
+type(
+  unit Lwt.t
+)
+"datastoreFunctor.ml" 264 8762 8785 "datastoreFunctor.ml" 288 9454 9500
+type(
+  Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 264 8762 8782 "datastoreFunctor.ml" 288 9454 9500
+type(
+  Int64Map.key -> Data.t -> unit Lwt.t
+)
+"datastoreFunctor.ml" 297 9689 9695 "datastoreFunctor.ml" 297 9689 9712
+type(
+  (unit -> unit Lwt.t) -> unit
+)
+ident(
+  def register_callback "datastoreFunctor.ml" 298 9717 9749 "datastoreFunctor.ml" 299 9750 9753
+)
+"datastoreFunctor.ml" 297 9689 9713 "datastoreFunctor.ml" 297 9689 9714
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  def f "datastoreFunctor.ml" 298 9717 9721 "datastoreFunctor.ml" 298 9717 9749
+)
+"datastoreFunctor.ml" 298 9717 9721 "datastoreFunctor.ml" 298 9717 9730
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 298 9717 9734 "datastoreFunctor.ml" 298 9717 9735
+type(
+  unit -> unit Lwt.t
+)
+ident(
+  int_ref f "datastoreFunctor.ml" 297 9689 9713 "datastoreFunctor.ml" 297 9689 9714
+)
+"datastoreFunctor.ml" 298 9717 9740 "datastoreFunctor.ml" 298 9717 9749
+type(
+  (unit -> unit Lwt.t) list ref
+)
+ident(
+  int_ref callbacks "datastoreFunctor.ml" 103 2544 2550 "datastoreFunctor.ml" 103 2544 2559
+)
+"datastoreFunctor.ml" 298 9717 9739 "datastoreFunctor.ml" 298 9717 9749
+type(
+  (unit -> unit Lwt.t) list
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list
+)
+ident(
+  ext_ref Pervasives.!
+)
+"datastoreFunctor.ml" 298 9717 9734 "datastoreFunctor.ml" 298 9717 9749
+type(
+  (unit -> unit Lwt.t) list
+)
+"datastoreFunctor.ml" 298 9717 9721 "datastoreFunctor.ml" 298 9717 9749
+type(
+  unit
+)
+type(
+  (unit -> unit Lwt.t) list ref -> (unit -> unit Lwt.t) list -> unit
+)
+ident(
+  ext_ref Pervasives.:=
+)
+"datastoreFunctor.ml" 297 9689 9713 "datastoreFunctor.ml" 298 9717 9749
+type(
+  (unit -> unit Lwt.t) -> unit
+)
