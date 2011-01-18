@@ -1,0 +1,6 @@
+MISC_SRC= int64Set.ml int64Map.ml misc.ml hqueue.ml dList.ml memcache.ml stringMap.ml
+
+PACKAGES = cryptokit, ocsigen_xhtml.syntax, ocsigen, calendar, hygears_ptree, mysql, json-wheel, orm
+
+MISC_CMO=$(patsubst %.ml,%.cmo, $(MISC_SRC))
+MISC_CMX=$(patsubst %.ml,%.cmx, $(MISC_SRC))
