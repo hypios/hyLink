@@ -11,7 +11,7 @@ module IMPLEMENTATION = struct
  *
  * crop.ml - croping uploaded images
  *
- * William Le Ferrand william@myrilion.com
+ * William Le Ferrand william@hypios.com
  *
  *)
 

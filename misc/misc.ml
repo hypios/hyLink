@@ -4,7 +4,7 @@
  *
  * misc.ml - miscanellous utils for fpgg
  *
- * William Le Ferrand william@myrilion.com
+ * William Le Ferrand william@hypios.com
  *
  *)
 

@@ -1,7 +1,7 @@
 (*
  * database.ml - fpgg home
  *
- * William Le Ferrand william@myrilion.com
+ * William Le Ferrand william@hypios.com
  *
  *
  *)

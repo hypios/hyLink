@@ -19,7 +19,7 @@ module IMPLEMENTATION =  struct
  *
  * storage.ml - converters to amazon S3 uris, basically
  *
- * William Le Ferrand william@myrilion.com
+ * William Le Ferrand william@hypios.com
  *
  *)
 
